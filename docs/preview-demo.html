@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#6e1a22">
+<title>Vacancy board — Railway PSUs &amp; Metros</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+Condensed:wght@600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#e6eaed; --card:#fff; --ink:#171b1f; --muted:#5c6670;
+  --rule:#ccd3d8; --brand:#6e1a22; --brand-ink:#f3e7e4;
+  --danger:#c0272d; --caution:#c07c00; --clear:#157f4c; --off:#8b959c;
+  --shadow:0 1px 0 rgba(23,27,31,.06), 0 6px 22px -14px rgba(23,27,31,.5);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font:15px/1.5 "IBM Plex Sans",-apple-system,Segoe UI,Roboto,sans-serif;}
+a{color:inherit}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.wrap{max-width:900px;margin:0 auto;padding:0 18px 72px}
+
+/* masthead */
+.mast{background:var(--brand);color:var(--brand-ink);
+  border-bottom:3px solid #4a1016}
+.mast .wrap{padding-top:24px;padding-bottom:22px}
+.mast h1{margin:0;font-family:"IBM Plex Sans Condensed",sans-serif;
+  font-weight:600;font-size:clamp(26px,5vw,40px);letter-spacing:.055em;
+  text-transform:uppercase;line-height:1.05}
+.mast p{margin:8px 0 0;font-size:13.5px;opacity:.82;max-width:52ch}
+.stamp{margin-top:14px;font-family:"IBM Plex Mono",monospace;font-size:11.5px;
+  letter-spacing:.09em;text-transform:uppercase;opacity:.72}
+
+/* counters */
+.counts{display:flex;gap:8px;flex-wrap:wrap;margin:-20px 0 26px}
+.count{flex:1 1 150px;background:var(--card);border:1px solid var(--rule);
+  border-radius:2px;border-top:3px solid var(--off);padding:12px 14px;
+  text-align:left;cursor:pointer;font:inherit;box-shadow:var(--shadow);
+  transition:transform .12s ease, border-color .12s ease}
+.count:hover{transform:translateY(-2px)}
+.count[aria-pressed="true"]{outline:2px solid var(--ink);outline-offset:-2px}
+.count.danger{border-top-color:var(--danger)}
+.count.caution{border-top-color:var(--caution)}
+.count.clear{border-top-color:var(--clear)}
+.count.fresh{border-top-color:var(--brand)}
+.count-n{display:block;font-family:"IBM Plex Mono",monospace;font-size:26px;
+  font-weight:600;line-height:1}
+.count-l{display:block;margin-top:5px;font-size:11px;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--muted)}
+
+.tools{display:flex;gap:10px;align-items:center;margin:0 0 22px}
+.tools input{flex:1;padding:11px 13px;border:1px solid var(--rule);
+  border-radius:2px;background:var(--card);font:inherit}
+.tools input:focus-visible{outline:2px solid var(--brand);outline-offset:-1px}
+
+/* sections */
+.block{margin:0 0 34px}
+.block-h{display:grid;grid-template-columns:auto auto 1fr;align-items:baseline;
+  gap:10px;padding-bottom:9px;border-bottom:1px solid var(--rule);margin-bottom:2px}
+.block-h h2{margin:0;font-family:"IBM Plex Sans Condensed",sans-serif;
+  font-size:15px;letter-spacing:.13em;text-transform:uppercase;font-weight:600}
+.block-n{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted)}
+.block-note{grid-column:1/-1;margin:2px 0 0;font-size:12.5px;color:var(--muted)}
+
+/* the rail */
+.rail{list-style:none;margin:0;padding:0}
+.row{display:grid;grid-template-columns:66px 1fr;background:var(--card);
+  border:1px solid var(--rule);border-top:none;position:relative}
+.rail .row:first-child{border-top:1px solid var(--rule)}
+.gutter{position:relative;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;padding:15px 4px;
+  border-right:1px solid var(--rule);background:#f4f6f7}
+/* the track: a continuous line the lamps sit on */
+.gutter::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:2px;
+  margin-left:-1px;background:repeating-linear-gradient(to bottom,
+    var(--rule) 0 6px, transparent 6px 10px)}
+.lamp{position:relative;z-index:1;width:11px;height:11px;border-radius:50%;
+  background:var(--off);box-shadow:0 0 0 4px #f4f6f7;margin-bottom:7px}
+.row.danger .lamp{background:var(--danger);
+  box-shadow:0 0 0 4px #f4f6f7, 0 0 0 7px rgba(192,39,45,.22)}
+.row.caution .lamp{background:var(--caution);box-shadow:0 0 0 4px #f4f6f7}
+.row.clear .lamp{background:var(--clear);box-shadow:0 0 0 4px #f4f6f7}
+.g-n{position:relative;z-index:1;font-family:"IBM Plex Mono",monospace;
+  font-size:21px;font-weight:600;line-height:1;background:#f4f6f7;padding:1px 3px}
+.g-l{position:relative;z-index:1;font-size:9.5px;letter-spacing:.09em;
+  text-transform:uppercase;color:var(--muted);background:#f4f6f7;padding:0 3px}
+.row.danger .g-n{color:var(--danger)}
+
+.body{padding:14px 16px 15px;min-width:0}
+.org{margin:0;font-size:11px;letter-spacing:.11em;text-transform:uppercase;
+  color:var(--muted);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.tag-new{background:var(--brand);color:#fff;border-radius:2px;
+  padding:1px 6px;font-size:9.5px;letter-spacing:.1em}
+.post{margin:5px 0 6px;font-size:17px;font-weight:600;line-height:1.28}
+.post a{text-decoration:none;background-image:linear-gradient(var(--rule),var(--rule));
+  background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
+  padding-bottom:1px}
+.post a:hover{background-image:linear-gradient(var(--brand),var(--brand))}
+.meta{margin:0;font-family:"IBM Plex Mono",monospace;font-size:11.5px;
+  color:var(--muted);line-height:1.65}
+.meta i{font-style:normal;opacity:.45;padding:0 2px}
+
+.empty{background:var(--card);border:1px dashed var(--rule);padding:26px;
+  text-align:center;color:var(--muted);font-size:14px}
+.foot{margin-top:40px;padding-top:16px;border-top:1px solid var(--rule);
+  font-size:12px;color:var(--muted);line-height:1.7}
+.foot code{font-family:"IBM Plex Mono",monospace;background:#dde3e6;padding:1px 5px}
+.fail{color:var(--danger)}
+.demo{background:#3a0d11;color:#ffd9d9;padding:11px 18px;font-size:13px;
+  text-align:center;font-weight:600;letter-spacing:.01em}
+
+@media (max-width:560px){
+  .row{grid-template-columns:52px 1fr}
+  .g-n{font-size:18px}
+  .post{font-size:15.5px}
+  .count{flex:1 1 calc(50% - 8px)}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head><body>
+
+<div class="demo">Sample data — these rows are invented to demonstrate the layout. No vacancy shown here is real. The first live run replaces this page.</div>
+<div class="mast"><div class="wrap">
+  <h1>Vacancy Board</h1>
+  <p>Board-level and senior posts across Railway public sector undertakings,
+     metro rail corporations and the Railway Board.</p>
+  <p class="stamp">Checked 30 Jul 2026, 22:45 IST</p>
+</div></div>
+
+<div class="wrap">
+  <div class="counts"><button class="count danger" data-filter="danger"><span class="count-n">1</span><span class="count-l">Closing soon</span></button><button class="count caution" data-filter="caution"><span class="count-n">2</span><span class="count-l">Open</span></button><button class="count clear" data-filter="clear"><span class="count-n">2</span><span class="count-l">Upcoming</span></button><button class="count fresh" data-filter="fresh"><span class="count-n">1</span><span class="count-l">New today</span></button></div>
+  <div class="tools">
+    <input id="q" type="search" placeholder="Filter by organisation or post"
+           aria-label="Filter by organisation or post">
+  </div>
+  
+    <section class="block">
+      <header class="block-h">
+        <h2>Closing soon</h2><span class="block-n">1</span>
+        <p class="block-note">Deadline within 7 days.</p>
+      </header>
+      <ul class="rail">
+      <li class="row danger" data-search="ircon international limited director (works) pesb - advertised vacancies board level (pesb)" data-aspect="danger" data-new="0">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">4</span>
+          <span class="g-l">days</span>
+        </div>
+        <div class="body">
+          <p class="org">IRCON International Limited</p>
+          <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1234" target="_blank"
+             rel="noopener">Director (Works)</a></h3>
+          <p class="meta">Apply by 03 Aug 2026 · 3:00PM <i>·</i> Vacant from 27 Nov 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
+        </div>
+        <span class="sr">Closing</span>
+      </li></ul>
+    </section>
+    <section class="block">
+      <header class="block-h">
+        <h2>Open</h2><span class="block-n">2</span>
+        <p class="block-note">Applications still being received.</p>
+      </header>
+      <ul class="rail">
+      <li class="row caution" data-search="rail vikas nigam limited chairman &amp; managing director pesb - advertised vacancies board level (pesb)" data-aspect="caution" data-new="0">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">22</span>
+          <span class="g-l">days</span>
+        </div>
+        <div class="body">
+          <p class="org">Rail Vikas Nigam Limited</p>
+          <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1235" target="_blank"
+             rel="noopener">Chairman &amp; Managing Director</a></h3>
+          <p class="meta">Apply by 21 Aug 2026 · 3:00PM <i>·</i> Vacant from 15 Feb 2027 <i>·</i> Schedule A <i>·</i> Rs. 200000 - 370000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
+        </div>
+        <span class="sr">Open</span>
+      </li>
+      <li class="row caution" data-search="konkan railway corporation limited director (way &amp; works) pesb - advertised vacancies board level (pesb)" data-aspect="caution" data-new="0">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">26</span>
+          <span class="g-l">days</span>
+        </div>
+        <div class="body">
+          <p class="org">Konkan Railway Corporation Limited</p>
+          <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1236" target="_blank"
+             rel="noopener">Director (Way &amp; Works)</a></h3>
+          <p class="meta">Apply by 25 Aug 2026 · 3:00PM <i>·</i> Vacant from 28 Oct 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
+        </div>
+        <span class="sr">Open</span>
+      </li></ul>
+    </section>
+    <section class="block">
+      <header class="block-h">
+        <h2>Upcoming vacancies</h2><span class="block-n">2</span>
+        <p class="block-note">Posts falling vacant. Not yet advertised — this is the early warning list.</p>
+      </header>
+      <ul class="rail">
+      <li class="row clear" data-search="rites limited director (projects) pesb - upcoming vacancies board level (pesb)" data-aspect="clear" data-new="0">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">150</span>
+          <span class="g-l">days to</span>
+        </div>
+        <div class="body">
+          <p class="org">RITES Limited</p>
+          <h3 class="post"><a href="https://pesb.gov.in/Advertisement/UpcomingVacancyDetailsForAll" target="_blank"
+             rel="noopener">Director (Projects)</a></h3>
+          <p class="meta">Falls vacant 27 Dec 2026 <i>·</i> Schedule A <i>·</i> PESB - Upcoming Vacancies</p>
+        </div>
+        <span class="sr">Open</span>
+      </li>
+      <li class="row clear" data-search="container corporation of india limited chairman &amp; managing director pesb - upcoming vacancies board level (pesb)" data-aspect="clear" data-new="0">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">240</span>
+          <span class="g-l">days to</span>
+        </div>
+        <div class="body">
+          <p class="org">Container Corporation of India Limited</p>
+          <h3 class="post"><a href="https://pesb.gov.in/Advertisement/UpcomingVacancyDetailsForAll" target="_blank"
+             rel="noopener">Chairman &amp; Managing Director</a></h3>
+          <p class="meta">Falls vacant 27 Mar 2027 <i>·</i> Schedule A <i>·</i> PESB - Upcoming Vacancies</p>
+        </div>
+        <span class="sr">Open</span>
+      </li></ul>
+    </section>
+    <section class="block">
+      <header class="block-h">
+        <h2>Recent notices</h2><span class="block-n">1</span>
+        <p class="block-note">New documents found on watched career pages. Deadline not machine-readable — open to check.</p>
+      </header>
+      <ul class="rail">
+      <li class="row caution" data-search="dmrc engagement of executive director (civil) on deputation basis — 15.08.2026 dmrc metro" data-aspect="caution" data-new="1">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">16</span>
+          <span class="g-l">days</span>
+        </div>
+        <div class="body">
+          <p class="org">DMRC<span class="tag-new">New</span></p>
+          <h3 class="post"><a href="https://www.delhimetrorail.com/docs/ed-civil.pdf" target="_blank"
+             rel="noopener">Engagement of Executive Director (Civil) on deputation basis — 15.08.2026</a></h3>
+          <p class="meta">Apply by 15 Aug 2026 · date read from the notice title <i>·</i> DMRC</p>
+        </div>
+        <span class="sr">Open</span>
+      </li></ul>
+    </section>
+  <div class="foot">
+    <p style="margin:18px 0 6px"><strong>Sources unreachable (26)</strong></p><div class="fail">Railway Board — simulated network failure</div><div class="fail">IRCON International — simulated network failure</div><div class="fail">RITES — simulated network failure</div><div class="fail">RVNL — simulated network failure</div><div class="fail">RailTel — simulated network failure</div><div class="fail">CONCOR — simulated network failure</div><div class="fail">IRFC — simulated network failure</div><div class="fail">IRCTC — simulated network failure</div><div class="fail">DFCCIL — simulated network failure</div><div class="fail">Konkan Railway — simulated network failure</div><div class="fail">MRVC — simulated network failure</div><div class="fail">NHSRCL — simulated network failure</div><div class="fail">CRIS — simulated network failure</div><div class="fail">Braithwaite Burn &amp; Jessop — simulated network failure</div><div class="fail">NCRTC (RRTS) — simulated network failure</div><div class="fail">MMRC (Mumbai Metro 3) — simulated network failure</div><div class="fail">MahaMetro — simulated network failure</div><div class="fail">BMRCL (Bengaluru) — simulated network failure</div><div class="fail">CMRL (Chennai) — simulated network failure</div><div class="fail">KMRL (Kochi) — simulated network failure</div><div class="fail">UPMRC (Lucknow, Kanpur, Agra) — simulated network failure</div><div class="fail">MPMRCL (Bhopal, Indore) — simulated network failure</div><div class="fail">GMRC (Ahmedabad, Surat) — simulated network failure</div><div class="fail">NMRC (Noida) — simulated network failure</div><div class="fail">KMRCL (Kolkata) — simulated network failure</div><div class="fail">PSU Connect - Jobs — simulated network failure</div><p>Correct the address in <code>config/sources.yaml</code> and the next run will pick it up.</p>
+    <p>Rebuilt automatically each morning. Deadlines are shown as published by
+       the source — confirm on the source page before acting on one.</p>
+  </div>
+</div>
+<script>
+const rows=[...document.querySelectorAll('.row')];
+const q=document.getElementById('q');
+let aspect=null;
+function apply(){
+  const t=(q.value||'').trim().toLowerCase();
+  rows.forEach(r=>{
+    const okT=!t||r.dataset.search.includes(t);
+    const okA=!aspect||(aspect==='fresh'?r.dataset.new==='1'
+                        :r.dataset.aspect===aspect);
+    r.style.display=(okT&&okA)?'':'none';
+  });
+  document.querySelectorAll('.block').forEach(b=>{
+    const any=[...b.querySelectorAll('.row')].some(r=>r.style.display!=='none');
+    b.style.display=any?'':'none';
+  });
+}
+q.addEventListener('input',apply);
+document.querySelectorAll('.count').forEach(c=>c.addEventListener('click',()=>{
+  const f=c.dataset.filter;
+  aspect=(aspect===f)?null:f;
+  document.querySelectorAll('.count').forEach(x=>
+    x.setAttribute('aria-pressed', x.dataset.filter===aspect));
+  apply();
+}));
+</script>
+</body></html>

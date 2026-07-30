@@ -1,0 +1,53 @@
+name: Daily vacancy check
+
+on:
+  schedule:
+    # 01:30 UTC = 07:00 IST, every day
+    - cron: "30 1 * * *"
+  workflow_dispatch:        # lets you run it on demand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: vacancy-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Run the check
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+          SMTP_HOST:          ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:          ${{ secrets.SMTP_PORT }}
+          SMTP_USER:          ${{ secrets.SMTP_USER }}
+          SMTP_PASSWORD:      ${{ secrets.SMTP_PASSWORD }}
+          EMAIL_TO:           ${{ secrets.EMAIL_TO }}
+          EMAIL_FROM:         ${{ secrets.EMAIL_FROM }}
+          WHATSAPP_PHONE:     ${{ secrets.WHATSAPP_PHONE }}
+          CALLMEBOT_APIKEY:   ${{ secrets.CALLMEBOT_APIKEY }}
+          WHATSAPP_TOKEN:           ${{ secrets.WHATSAPP_TOKEN }}
+          WHATSAPP_PHONE_NUMBER_ID: ${{ secrets.WHATSAPP_PHONE_NUMBER_ID }}
+          DASHBOARD_URL:      ${{ vars.DASHBOARD_URL }}
+          ALWAYS_NOTIFY:      ${{ vars.ALWAYS_NOTIFY }}
+        run: python -m src.main
+
+      - name: Save what was seen
+        run: |
+          git config user.name  "vacancy-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/state.json docs/
+          git diff --staged --quiet || git commit -m "Board update $(date -u +%Y-%m-%d)"
+          git push

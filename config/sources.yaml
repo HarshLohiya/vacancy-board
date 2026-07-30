@@ -1,0 +1,239 @@
+# ---------------------------------------------------------------------------
+# Vacancy Tracker - source configuration
+# Edit this file to add, remove or correct any source. Nothing else needs
+# changing. Run `python -m src.main --check-urls` after editing.
+# ---------------------------------------------------------------------------
+
+settings:
+  # Alert when a deadline is this many days away or less.
+  closing_soon_days: 7
+  # Keep an item on the dashboard this many days after its deadline passes.
+  keep_expired_days: 3
+  # Timezone used for "days left" arithmetic and the timestamp on the board.
+  timezone: "Asia/Kolkata"
+  # If true, PESB rows are filtered to railway-sector CPSEs only (below).
+  # Set to false to receive every board-level CPSE vacancy PESB advertises.
+  railway_cpse_only: true
+
+# Posts you care about. Matching is case-insensitive on the post title.
+# Word-boundary matched, so "MD" will not fire on "AMD" or "Comdt".
+post_keywords:
+  - "chairman"
+  - "managing director"
+  - "CMD"
+  - "MD"
+  - "director"
+  - "executive director"
+  - "ED"
+  - "project director"
+  - "PD"
+  - "general manager"
+  - "GM"
+  - "CGM"
+  - "chief general manager"
+  - "group general manager"
+  - "chief project manager"
+  - "CPM"
+  - "chief engineer"
+  - "principal chief"
+
+# Organisations treated as railway sector for the PESB filter.
+railway_cpse_match:
+  - "rail"
+  - "ircon"
+  - "rites"
+  - "concor"
+  - "container corporation"
+  - "irctc"
+  - "irfc"
+  - "dfccil"
+  - "dedicated freight"
+  - "konkan"
+  - "braithwaite"
+  - "burn standard"
+  - "bharat wagon"
+  - "wagon"
+  - "metro"
+
+# ---------------------------------------------------------------------------
+# STRUCTURED SOURCES - parsed into named posts with real deadline dates.
+# ---------------------------------------------------------------------------
+structured:
+  - id: pesb_advertised
+    name: "PESB - Advertised Vacancies"
+    url: "https://pesb.gov.in/Home/AdvertisVacancy"
+    parser: pesb_table
+    kind: advertised
+
+  - id: pesb_upcoming
+    name: "PESB - Upcoming Vacancies"
+    url: "https://pesb.gov.in/Advertisement/UpcomingVacancyDetailsForAll"
+    parser: pesb_table
+    kind: upcoming
+
+# ---------------------------------------------------------------------------
+# WATCHED PAGES - no usable structure, so these are monitored for change.
+# New PDF/document links are reported individually; other edits are reported
+# as "page changed".
+#
+# verify: true  ->  URL is a best guess, confirm it on first run.
+# ---------------------------------------------------------------------------
+watched:
+
+  # --- Railway Board -------------------------------------------------------
+  - id: rb_home
+    name: "Railway Board"
+    url: "https://indianrailways.gov.in/railwayboard/"
+    group: "Railway Board"
+    verify: true
+
+  # --- Railway PSUs --------------------------------------------------------
+  - id: ircon
+    name: "IRCON International"
+    url: "https://ircon.org/hr-career"
+    group: "Railway PSU"
+
+  - id: rites
+    name: "RITES"
+    url: "https://rites.com/Careers"
+    group: "Railway PSU"
+    verify: true
+
+  - id: rvnl
+    name: "RVNL"
+    url: "https://rvnl.org/career"
+    group: "Railway PSU"
+    verify: true
+
+  - id: railtel
+    name: "RailTel"
+    url: "https://www.railtel.in/en/careers"
+    group: "Railway PSU"
+    verify: true
+
+  - id: concor
+    name: "CONCOR"
+    url: "https://www.concorindia.co.in/career.aspx"
+    group: "Railway PSU"
+    verify: true
+
+  - id: irfc
+    name: "IRFC"
+    url: "https://irfc.co.in/careers"
+    group: "Railway PSU"
+    verify: true
+
+  - id: irctc
+    name: "IRCTC"
+    url: "https://www.irctc.com/recruitment.php"
+    group: "Railway PSU"
+
+  - id: dfccil
+    name: "DFCCIL"
+    url: "https://dfccil.com/Home/Recruitment"
+    group: "Railway PSU"
+    verify: true
+
+  - id: krcl
+    name: "Konkan Railway"
+    url: "https://konkanrailway.com/vacancy"
+    group: "Railway PSU"
+
+  - id: mrvc
+    name: "MRVC"
+    url: "https://mrvc.indianrailways.gov.in/"
+    group: "Railway PSU"
+    verify: true
+
+  - id: nhsrcl
+    name: "NHSRCL"
+    url: "https://nhsrcl.in/en/career/vacancy-notice"
+    group: "Railway PSU"
+
+  - id: cris
+    name: "CRIS"
+    url: "https://cris.org.in/loadpage?page=indexcareer"
+    group: "Railway PSU"
+
+  - id: bbj
+    name: "Braithwaite Burn & Jessop"
+    url: "http://www.bbjconst.com/"
+    group: "Railway PSU"
+    verify: true
+
+  # --- Metro and RRTS corporations -----------------------------------------
+  - id: dmrc
+    name: "DMRC"
+    url: "https://www.delhimetrorail.com/career"
+    group: "Metro"
+    verify: true
+
+  - id: ncrtc
+    name: "NCRTC (RRTS)"
+    # NCRTC's own "Career" nav points at this Elementor slug. It currently
+    # lists empanelment EoIs rather than posts; recheck if the slug moves.
+    url: "https://ncrtc.in/elementor-39298/"
+    group: "Metro"
+    verify: true
+
+  - id: mmrc
+    name: "MMRC (Mumbai Metro 3)"
+    url: "https://www.mmrcl.com/en/career"
+    group: "Metro"
+    verify: true
+
+  - id: mahametro
+    name: "MahaMetro"
+    url: "https://www.mahametro.org/Career.aspx"
+    group: "Metro"
+
+  - id: bmrcl
+    name: "BMRCL (Bengaluru)"
+    url: "https://english.bmrc.co.in/career/"
+    group: "Metro"
+
+  - id: cmrl
+    name: "CMRL (Chennai)"
+    url: "https://chennaimetrorail.org/job-notifications/"
+    group: "Metro"
+
+  - id: kmrl
+    name: "KMRL (Kochi)"
+    url: "https://kochimetro.org/careers/"
+    group: "Metro"
+    verify: true
+
+  - id: upmrc
+    name: "UPMRC (Lucknow, Kanpur, Agra)"
+    url: "https://www.upmrc.com/careers"
+    group: "Metro"
+    verify: true
+
+  - id: mpmrcl
+    name: "MPMRCL (Bhopal, Indore)"
+    url: "https://www.mpmetrorail.com/career"
+    group: "Metro"
+    verify: true
+
+  - id: gmrc
+    name: "GMRC (Ahmedabad, Surat)"
+    url: "https://www.gujaratmetrorail.com/careers/"
+    group: "Metro"
+
+  - id: nmrc
+    name: "NMRC (Noida)"
+    url: "https://www.nmrcnoida.com/career"
+    group: "Metro"
+    verify: true
+
+  - id: kmrcl
+    name: "KMRCL (Kolkata)"
+    url: "https://kmrc.in/career.php"
+    group: "Metro"
+
+  # --- Cross-check -----------------------------------------------------
+  - id: psuconnect
+    name: "PSU Connect - Jobs"
+    url: "https://www.psuconnect.in/Jobs"
+    group: "Cross-check"
+    verify: true
