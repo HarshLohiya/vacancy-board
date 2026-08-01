@@ -39,6 +39,30 @@ def load_config() -> dict:
     return yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
 
 
+def use_utf8_output() -> None:
+    """Windows consoles default to cp1252, which cannot encode the signal
+    aspects, so printing the board would abort the run on the first emoji."""
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, ValueError):
+            pass
+
+
+def load_dotenv(path: Path = Path(".env")) -> None:
+    """Read credentials from .env for local runs. Real environment variables
+    win, so the workflow's secrets are never overridden. Deliberately
+    dependency-free to keep requirements.txt unchanged."""
+    if not path.exists():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        os.environ.setdefault(key.strip(), value.strip().strip("\"'"))
+
+
 def keyword_filter(post: str, keywords: list[str]) -> bool:
     text = post.lower()
     for kw in keywords:
@@ -85,6 +109,9 @@ def write_csv(items: list[Item], today) -> None:
 
 
 def main() -> int:
+    use_utf8_output()
+    load_dotenv()
+
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--check-urls", action="store_true")

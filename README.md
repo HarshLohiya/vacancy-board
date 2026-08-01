@@ -177,18 +177,48 @@ To change the time, edit the `cron` line in
 `.github/workflows/daily.yml`. It is in UTC: `30 1 * * *` is 07:00 IST.
 GitHub sometimes runs scheduled jobs five to twenty minutes late.
 
-## Running it on your own machine
+## Running it from this machine
 
-```bash
+The scheduled cloud run keeps working on its own — this is in addition to it,
+for when you want the complete picture.
+
+**Why you would.** GitHub's runners sit outside India and nine of the
+twenty-nine sources refuse them, including *both PESB feeds* — the only
+sources that yield properly parsed posts with deadlines. `indianrailways.gov.in`
+and MRVC refuse the connection outright; PESB, RVNL, NHSRCL and MPMRCL time
+out; Konkan fails TLS; PSU Connect returns 403. A run from an Indian
+connection reaches all twenty-nine. This is not fixable in the config — the
+same code and URLs work from here and fail there.
+
+Once, to set up:
+
+```powershell
 pip install -r requirements.txt
-python -m src.main --check-urls    # test every address in the config
-python -m src.main --dry-run       # full run, prints the message, sends nothing
-python -m src.main                 # full run
+copy .env.example .env      # then put your two Telegram values in it
 ```
 
-`python -m tests.offline_test` exercises the whole pipeline against fixture
-data with no network at all — useful for checking a config change before you
-commit it.
+Then:
+
+```powershell
+.\run.ps1                # full run: fetch, notify, push the board
+.\run.ps1 -DryRun        # print the message, send nothing, change nothing
+.\run.ps1 -CheckUrls     # just test every address in the config
+.\run.ps1 -NoPush        # run and notify, but leave git alone
+```
+
+`run.ps1` pulls before it runs, so it does not collide with the state the
+scheduled run commits, and pushes after, so the dashboard reflects what your
+machine saw. `-DryRun` restores `data/state.json` and the board files
+afterwards, so it genuinely changes nothing.
+
+The underlying commands still work if you prefer them
+(`python -m src.main --dry-run` and so on), with one caveat: **state is saved
+even on a dry run**, so a bare `--dry-run` consumes the "new" flags and the
+next real run reports nothing. `run.ps1 -DryRun` exists to work around that.
+
+> `python -m tests.offline_test` runs the pipeline against fixture data with
+> no network. Be aware it **writes those fixtures into `data/state.json`** —
+> reset the file afterwards, or run it on a scratch copy.
 
 ## If it stops finding things
 
