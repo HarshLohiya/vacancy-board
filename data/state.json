@@ -1,6 +1,71 @@
 {
- "items": {},
- "last_run": "2026-07-31",
+ "items": {
+  "3b5a107c0e645e6b": {
+   "deadline_note": "",
+   "first_seen": "2026-08-01",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "organisation": "KMRCL (Kolkata)",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "kmrcl",
+   "source_name": "KMRCL (Kolkata)",
+   "url": "https://kmrc.in/career.php",
+   "vacancy_date": null
+  },
+  "70452b7d0f190f4b": {
+   "deadline_note": "",
+   "first_seen": "2026-08-01",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "organisation": "NMRC (Noida)",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "nmrc",
+   "source_name": "NMRC (Noida)",
+   "url": "https://www.nmrcnoida.com/career",
+   "vacancy_date": null
+  },
+  "9f2b7c70caedc474": {
+   "deadline_note": "",
+   "first_seen": "2026-08-01",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "RailTel",
+   "post": "List of Provisionally suitable candidates-Contractual Engagement-KSWAN Project",
+   "scale": "",
+   "schedule": "",
+   "source_id": "railtel",
+   "source_name": "RailTel",
+   "url": "https://www.railtel.in/images/careers/List of Provisionally suitable candidates-Contractual Engagement-KSWAN Project.pdf",
+   "vacancy_date": null
+  },
+  "d86cc5cb663bd675": {
+   "deadline_note": "",
+   "first_seen": "2026-08-01",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u0915\u0947 \u0915\u0949\u0928\u094d\u092b\u093f\u0921\u0947\u0902\u0936\u093f\u092f\u0932 (\u092a\u094d\u0930\u0936\u093e\u0938\u0928) \u0938\u092e\u0942\u0939 \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0905\u0927\u093f\u0915\u093e\u0930\u0940 \u0915\u0940 \u090f\u0915 \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Officers/VC 26 2026 R 39 2026.pdf",
+   "vacancy_date": null
+  }
+ },
+ "last_run": "2026-08-01",
  "pages": {
   "bbj": {
    "doc_count": 15,
@@ -114,7 +179,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 340,
+   "doc_count": 341,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -398,6 +463,7 @@
     "https://cris.org.in/PDF/Project_Officers/VC 22 of 2025 R 15.08.04 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 25 2025 46 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 25 of 2025.pdf",
+    "https://cris.org.in/PDF/Project_Officers/VC 26 2026 R 39 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 26 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 26 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 27 of 2025.pdf",
@@ -457,7 +523,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "74d9e1df7a7a1581c96526cc47a1f2239d8536ff"
+   "text_hash": "f762edf910f12d674e603f13285902c75c5c338f"
   },
   "dfccil": {
    "doc_count": 6,
@@ -765,75 +831,9 @@
    "text_hash": "bcb69db290403d02d448132e426d3ad359c9607a"
   },
   "kmrcl": {
-   "doc_count": 65,
-   "docs": [
-    "http://kmrc.in/Annual-Procurement-Plan-FY-20.pdf",
-    "http://kmrc.in/admin/uploaded_news/List_of_Items_to_be_procured_during_2018-19.pdf",
-    "https://kmrc.in/admin/uploaded_career/22nd_feb_2019.pdf",
-    "https://kmrc.in/admin/uploaded_career/AAO.pdf",
-    "https://kmrc.in/admin/uploaded_career/ADDITIONAL_GENERAL_MANAGER_(CIVIL)-notification.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM(Operations_&_Maintenance).pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_(Civil)_Deputation_18.07.25.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_Civil-_Contractual_14.01.25.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_Civil_06_7_22.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_Civil_16_8_22.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_S&T.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_S&T_DEP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_S&T_EXP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/AM_S&T_Notice.pdf",
-    "https://kmrc.in/admin/uploaded_career/Accountant_-exp270324.pdf",
-    "https://kmrc.in/admin/uploaded_career/Advertisement_10.12.2020.pdf",
-    "https://kmrc.in/admin/uploaded_career/Advisor-_Contractual.pdf",
-    "https://kmrc.in/admin/uploaded_career/Advtt_Accounts_Officer_edited.pdf",
-    "https://kmrc.in/admin/uploaded_career/Application_for_CEE_POST_KMRC.pdf",
-    "https://kmrc.in/admin/uploaded_career/Assistant_Personal_Officer.pdf",
-    "https://kmrc.in/admin/uploaded_career/CEST_adv.pdf",
-    "https://kmrc.in/admin/uploaded_career/Contractual_DyCE_Arbn_Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/DGM_Finance.pdf",
-    "https://kmrc.in/admin/uploaded_career/GENERAL_MANAGER_(CIVIL)-_Expert.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM-Civil_29.11.2024.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM-Finance_Advertisement.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_(Civil)-Deputation_18.07.2025.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_(Finance)-KMRC.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_(Finance)-deputatuion.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Civil_01.08.22.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Civil_23.06.22.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Electrical-_revised.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Electrical.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_08.08.2024.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_DEP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_EXP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_KMRCL.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_ST_DEPUTATION.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_and_AGM_contractual.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_and_AGM_deputation.pdf",
-    "https://kmrc.in/admin/uploaded_career/GN-Finance_ADV2.pdf",
-    "https://kmrc.in/admin/uploaded_career/Manager_S&T_Deputation.pdf",
-    "https://kmrc.in/admin/uploaded_career/NOTIFICATION_FOR_GM_CIVIL_07052025.pdf",
-    "https://kmrc.in/admin/uploaded_career/NOTIFICATION_GM_ST_CONTRACT.pdf",
-    "https://kmrc.in/admin/uploaded_career/NOTIFICATION_revised.pdf",
-    "https://kmrc.in/admin/uploaded_career/Notice_on_fraud_recruitment_news.pdf",
-    "https://kmrc.in/admin/uploaded_career/SR._ADVISOR_(ARBITRATION).pdf",
-    "https://kmrc.in/admin/uploaded_career/SR._ADVISOR_(SAFETY_AND_PASSENGER_AMENITIES).pdf",
-    "https://kmrc.in/admin/uploaded_career/SSES&T_to_AMII.pdf",
-    "https://kmrc.in/admin/uploaded_career/Sr._Finance_Manage_20.02.2020.pdf",
-    "https://kmrc.in/admin/uploaded_career/VC_KMRCL_Revised.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_09.05.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_CS.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Noice_CLA.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice-Law_Exe.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_Exe_Engg-Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_GM-Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_GM-Civil__1_.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_Manager-Accounts-Exe_Engg-Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/appointment190224.pdf",
-    "https://kmrc.in/admin/uploaded_career/gm_civil_adv_corrigendum.pdf",
-    "https://kmrc.in/admin/uploaded_career/law_officer_230224.pdf",
-    "https://kmrc.in/admin/uploaded_career/notification_DyCE_Arbn_Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/notification_for_gm(s&t).pdf",
-    "https://kmrc.in/news_detail.php"
-   ],
-   "text_hash": "8ff235d33d4b8630019da80dbbd77f48f11b84f7"
+   "doc_count": 0,
+   "docs": [],
+   "text_hash": "7891a3ab2175c1dc720f5dda590766bce09ad231"
   },
   "kmrl": {
    "doc_count": 1,
@@ -1044,10 +1044,10 @@
   "nmrc": {
    "doc_count": 0,
    "docs": [],
-   "text_hash": "35d76cc0a679896de41d383e9faebb664ce6d9a1"
+   "text_hash": "16a1c2192646fd58623f4d379070afa9cad634b6"
   },
   "railtel": {
-   "doc_count": 508,
+   "doc_count": 509,
    "docs": [
     "http://www.railtel.in/images/pdf/Terms of Use.pdf",
     "https://www.railtel.in/career.html",
@@ -1164,6 +1164,7 @@
     "https://www.railtel.in/images/careers/KESWAN Vacancy Notification 21052026.pdf",
     "https://www.railtel.in/images/careers/KSITM Vacancy notification.pdf",
     "https://www.railtel.in/images/careers/List of Provisionally Empaneled Candidate for the post of Solution Architect in Data Centre..pdf",
+    "https://www.railtel.in/images/careers/List of Provisionally suitable candidates-Contractual Engagement-KSWAN Project.pdf",
     "https://www.railtel.in/images/careers/List of candidates provisionally shortlisted new.pdf",
     "https://www.railtel.in/images/careers/List of provisionally eligible candidates.pdf",
     "https://www.railtel.in/images/careers/List of provisionally empanelled candidates 15-10-2025.pdf",
@@ -1558,7 +1559,7 @@
     "https://www.railtelindia.com/images/pdf/Software as a Serivce (SaaS)- Association with RailTel-NOTICE.pdf",
     "javascript:;"
    ],
-   "text_hash": "fd0c7517df3343c0e852f0ce54a4c7d55811314e"
+   "text_hash": "743eeac9246e107496ec4abbac94cbdcd20e83a4"
   },
   "rites": {
    "doc_count": 10,
