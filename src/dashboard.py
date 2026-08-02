@@ -143,6 +143,26 @@ a{color:inherit}
 .count-l{display:block;margin-top:5px;font-size:11px;letter-spacing:.1em;
   text-transform:uppercase;color:var(--muted)}
 
+/* local control panel — hidden unless served by src/serve.py */
+.local{display:none;margin:14px 0 0;padding:12px 14px;border-radius:2px;
+  background:rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.16)}
+.local.on{display:block}
+.local-r{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.local button{font:inherit;font-size:12.5px;padding:8px 14px;border-radius:2px;
+  border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.1);
+  color:var(--brand-ink);cursor:pointer}
+.local button:hover:not(:disabled){background:rgba(255,255,255,.2)}
+.local button:disabled{opacity:.45;cursor:default}
+.local button.go{background:var(--brand-ink);color:var(--brand);
+  border-color:var(--brand-ink);font-weight:600}
+.local-s{font-family:"IBM Plex Mono",monospace;font-size:11.5px;
+  letter-spacing:.06em;opacity:.8;margin-left:auto}
+.local-log{display:none;margin:11px 0 0;max-height:230px;overflow:auto;
+  background:#12080a;color:#e8dcd9;border-radius:2px;padding:9px 11px;
+  font-family:"IBM Plex Mono",monospace;font-size:11px;line-height:1.55;
+  white-space:pre-wrap;word-break:break-word}
+.local-log.on{display:block}
+
 .tools{display:flex;gap:10px;align-items:center;margin:0 0 22px}
 .tools input{flex:1;padding:11px 13px;border:1px solid var(--rule);
   border-radius:2px;background:var(--card);font:inherit}
@@ -238,6 +258,82 @@ document.querySelectorAll('.count').forEach(c=>c.addEventListener('click',()=>{
     x.setAttribute('aria-pressed', x.dataset.filter===aspect));
   apply();
 }));
+
+/* --- local control panel ------------------------------------------------
+   Only src/serve.py answers /api/status, so on GitHub Pages the probe fails
+   and the panel stays hidden. Nothing below runs there. */
+(function(){
+  const panel=document.getElementById('local');
+  if(!panel) return;
+  const log=document.getElementById('local-log');
+  const state=document.getElementById('local-state');
+  const stop=document.getElementById('local-stop');
+  const btns=[...panel.querySelectorAll('button[data-mode]')];
+  const LABEL={full:'Refresh',dry:'Dry run',urls:'Link check',nopush:'Refresh (no push)'};
+  let seen=0, timer=null, watched=false;
+
+  const say=t=>{state.textContent=t;};
+  function append(lines){
+    if(!lines.length) return;
+    log.classList.add('on');
+    log.textContent+=(log.textContent?'\\n':'')+lines.join('\\n');
+    log.scrollTop=log.scrollHeight;
+  }
+  function busy(on){
+    btns.forEach(b=>b.disabled=on);
+    stop.style.display=on?'':'none';
+  }
+
+  async function poll(){
+    let s;
+    try{ s=await (await fetch('/api/status?since='+seen)).json(); }
+    catch(e){ say('server stopped'); busy(false); clearInterval(timer); timer=null; return; }
+    if(s.total<seen){ seen=0; log.textContent=''; }   /* a new run began */
+    append(s.lines); seen=s.total;
+    if(s.running){
+      watched=true; busy(true);
+      say((LABEL[s.mode]||s.mode)+' running since '+s.started);
+      return;
+    }
+    busy(false);
+    if(timer){ clearInterval(timer); timer=null; }
+    if(!s.started){ say('idle'); return; }
+    const ok=s.exit_code===0;
+    say((LABEL[s.mode]||s.mode)+(ok?' finished ':' failed ')+(s.finished||''));
+    /* A completed real run rewrote this very page — show it, but only if we
+       watched it happen, or reloading would loop. */
+    if(watched&&ok&&(s.mode==='full'||s.mode==='nopush')){
+      watched=false; setTimeout(()=>location.reload(),1400);
+    }
+    watched=false;
+  }
+
+  async function post(path,body){
+    const r=await fetch(path,{method:'POST',headers:{'Content-Type':'application/json'},
+                             body:JSON.stringify(body||{})});
+    return r.json();
+  }
+
+  btns.forEach(b=>b.addEventListener('click',async()=>{
+    busy(true); log.textContent=''; log.classList.remove('on'); seen=0;
+    say('starting…');
+    const r=await post('/api/run',{mode:b.dataset.mode}).catch(()=>null);
+    if(!r||!r.ok){ busy(false); say(r&&r.message?r.message:'could not start'); return; }
+    watched=true;
+    if(!timer) timer=setInterval(poll,1000);
+    poll();
+  }));
+  stop.addEventListener('click',async()=>{ say('stopping…'); await post('/api/stop'); });
+
+  /* the probe: reveal the panel only if this server is the one serving us */
+  fetch('/api/status').then(r=>r.ok?r.json():Promise.reject()).then(s=>{
+    panel.classList.add('on');
+    if(s.running){ seen=0; timer=setInterval(poll,1000); poll(); }
+    else if(s.started) say((LABEL[s.mode]||s.mode)+
+      (s.exit_code===0?' finished ':' failed ')+s.finished);   /* after a reload */
+    else say('idle');
+  }).catch(()=>{});
+})();
 """
 
 
@@ -318,6 +414,16 @@ def render(items: list[Item], new_uids: set[str], today: date, soon: int,
   <p>Board-level and senior posts across Railway public sector undertakings,
      metro rail corporations and the Railway Board.</p>
   <p class="stamp">Checked {run_at}</p>
+  <div class="local" id="local">
+    <div class="local-r">
+      <button class="go" data-mode="full">Refresh now</button>
+      <button data-mode="dry">Dry run</button>
+      <button data-mode="urls">Check links</button>
+      <button id="local-stop" style="display:none">Stop</button>
+      <span class="local-s" id="local-state">idle</span>
+    </div>
+    <pre class="local-log" id="local-log"></pre>
+  </div>
 </div></div>
 
 <div class="wrap">
