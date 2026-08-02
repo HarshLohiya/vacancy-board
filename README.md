@@ -16,8 +16,16 @@ post, the date the post falls vacant, and the application deadline including
 the 3:00 PM cut-off. Filtered to railway-sector CPSEs by default: IRCON, RITES,
 RVNL, RailTel, CONCOR, IRFC, IRCTC, DFCCIL, Konkan Railway, Braithwaite.
 
-**PESB Upcoming Vacancies.** Posts falling vacant that have not been advertised
-yet — often six to twelve months of notice. This is the more valuable half.
+**PESB Upcoming Vacancies — withdrawn by PESB, August 2026.** This was the
+more valuable half: posts falling vacant that had not been advertised yet,
+often six to twelve months of notice. PESB has taken the page down — the
+address now redirects to its error page and the site's menu offers only
+Advertised Vacancies and Vacancies Archive. Nothing on our side can recover
+it. The entry is left commented out in `config/sources.yaml`, so if they
+restore the page, uncommenting four lines is the whole fix.
+
+Advertised rows still show the date each post falls vacant, so you keep that
+much notice; what is gone is sight of a post before PESB advertises it.
 
 **27 career pages** across Railway PSUs, metro and RRTS corporations, and the
 Railway Board. These publish as loose PDFs with no structure, so they are
@@ -182,12 +190,12 @@ GitHub sometimes runs scheduled jobs five to twenty minutes late.
 The scheduled cloud run keeps working on its own — this is in addition to it,
 for when you want the complete picture.
 
-**Why you would.** GitHub's runners sit outside India and nine of the
-twenty-nine sources refuse them, including *both PESB feeds* — the only
-sources that yield properly parsed posts with deadlines. `indianrailways.gov.in`
+**Why you would.** GitHub's runners sit outside India and eight of the
+twenty-eight sources refuse them, including *the PESB feed* — the only source
+that yields properly parsed posts with deadlines. `indianrailways.gov.in`
 and MRVC refuse the connection outright; PESB, RVNL, NHSRCL and MPMRCL time
 out; Konkan fails TLS; PSU Connect returns 403. A run from an Indian
-connection reaches all twenty-nine. This is not fixable in the config — the
+connection reaches all twenty-eight. This is not fixable in the config — the
 same code and URLs work from here and fail there.
 
 Once, to set up:
@@ -205,6 +213,47 @@ Then:
 .\run.ps1 -CheckUrls     # just test every address in the config
 .\run.ps1 -NoPush        # run and notify, but leave git alone
 ```
+
+### A button instead of the terminal
+
+The board's local server starts when you log in, so there is nothing to
+launch: open **http://127.0.0.1:8765/** — worth bookmarking — and press
+**Refresh now**.
+
+```powershell
+.\autostart.ps1 -Status     # is it set up, is it running
+.\autostart.ps1 -Remove     # stop starting it at logon
+.\autostart.ps1 -Install    # set it up again
+```
+
+It runs under `pythonw.exe`, which has no console, so nothing appears on
+screen at logon or during a run. `-Install` puts one shortcut in your own
+Startup folder; `-Remove` deletes it. No admin rights, no service, no
+scheduled task.
+
+If the panel ever stops appearing on the page, the server is not running.
+`.\board.ps1` does the same job in a visible window with the errors on show,
+and double-clicking **Vacancy Board.cmd** is the same thing without a
+terminal. Either way, Ctrl+C or closing the window stops it.
+
+The button runs the same `run.ps1`, so a press is a full run: fetch all
+twenty-eight sources, notify, pull and push. **Dry run** and **Check links** are
+the other two switches, and **Stop** cancels one mid-way. The log appears under
+the buttons as it happens, and after a successful refresh the page reloads
+itself so you are looking at the new board.
+
+It serves the board from this machine on `127.0.0.1:8765` — the loopback
+address, so nothing outside this machine can reach it, which matters because
+anything that can reach it can push commits and send messages. `-Port` moves
+it; `-NoOpen` skips opening the browser.
+
+The published board on GitHub Pages does not grow a button. The page checks
+whether the local server is the one serving it and stays as it is when it is
+not, so the two are the same file.
+
+> The button only appears on a board written by this version of the code, so
+> run `.\run.ps1` once from the terminal first. After that, `board.ps1` is
+> enough.
 
 `run.ps1` pulls before it runs, so it does not collide with the state the
 scheduled run commits, and pushes after, so the dashboard reflects what your

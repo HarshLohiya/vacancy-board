@@ -65,11 +65,23 @@ structured:
     parser: pesb_table
     kind: advertised
 
-  - id: pesb_upcoming
-    name: "PESB - Upcoming Vacancies"
-    url: "https://pesb.gov.in/Advertisement/UpcomingVacancyDetailsForAll"
-    parser: pesb_table
-    kind: upcoming
+  # PESB withdrew its Upcoming Vacancies page in 2026 - the address below
+  # answers 302 -> /Error/Error, and the site's menu now offers only
+  # Advertised Vacancies and Vacancies Archive. Confirmed in a browser on
+  # 2 Aug 2026; it is not a scraping problem.
+  #
+  # What this costs: the board's "Upcoming vacancies" section, which only
+  # ever came from here, stays empty. Advertised rows still show the date a
+  # post falls vacant ("Vacant from ..."), but a post PESB has not yet
+  # advertised is no longer visible anywhere - that early warning is gone
+  # until they restore the page.
+  #
+  # If the page comes back, uncomment this and nothing else needs changing.
+  # - id: pesb_upcoming
+  #   name: "PESB - Upcoming Vacancies"
+  #   url: "https://pesb.gov.in/Advertisement/UpcomingVacancyDetailsForAll"
+  #   parser: pesb_table
+  #   kind: upcoming
 
 # ---------------------------------------------------------------------------
 # WATCHED PAGES - no usable structure, so these are monitored for change.
@@ -128,11 +140,11 @@ watched:
     url: "https://www.irctc.com/recruitment.php"
     group: "Railway PSU"
 
+  # "Carrer" is DFCCIL's own spelling - the corrected one 404s.
   - id: dfccil
     name: "DFCCIL"
-    url: "https://dfccil.com/Home/Recruitment"
+    url: "https://dfccil.com/Carrer/index?Id=1"
     group: "Railway PSU"
-    verify: true
 
   - id: krcl
     name: "Konkan Railway"

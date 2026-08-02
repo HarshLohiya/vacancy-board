@@ -1,9 +1,9 @@
 <#
     Run the vacancy check from this machine.
 
-    Why this exists: GitHub's runners are outside India and 9 of the 29
-    sources refuse them, including both PESB feeds. A run from here reaches
-    all 29, so this is the one that sees the whole picture.
+    Why this exists: GitHub's runners are outside India and 8 of the 28
+    sources refuse them, including the PESB feed. A run from here reaches
+    all 28, so this is the one that sees the whole picture.
 
         .\run.ps1                # full run: fetch, notify, push the board
         .\run.ps1 -DryRun        # print the message, send nothing, change nothing

@@ -4,7 +4,10 @@ carrying an expired certificate."""
 from __future__ import annotations
 
 import logging
+import re
 import time
+from urllib.parse import urlparse
+
 import urllib3
 import requests
 
@@ -23,6 +26,20 @@ HEADERS = {
 TIMEOUT = 45
 RETRIES = 3
 
+# Government sites routinely answer a missing page with 302 -> /Error/Error
+# and 200 OK, so the status code alone says nothing. PESB withdrew its
+# Upcoming Vacancies page exactly this way: --check-urls called it reachable
+# while the parser found no table. Landing somewhere error-shaped that we did
+# not ask for is the tell.
+ERROR_LANDING = re.compile(r"/(error|notfound|404|pagenotfound)\b", re.I)
+
+
+def _redirected_to_error(requested: str, final: str) -> bool:
+    if final == requested:
+        return False
+    return bool(ERROR_LANDING.search(urlparse(final).path)) and \
+        not ERROR_LANDING.search(urlparse(requested).path)
+
 
 def get(url: str) -> tuple[bool, str, str]:
     """Return (ok, html, note). Never raises."""
@@ -30,6 +47,11 @@ def get(url: str) -> tuple[bool, str, str]:
     for attempt in range(1, RETRIES + 1):
         try:
             r = requests.get(url, headers=HEADERS, timeout=TIMEOUT, verify=False)
+            if r.status_code == 200 and _redirected_to_error(url, r.url):
+                # No point retrying: the page is gone, not flaky.
+                note = f"page withdrawn - redirects to {r.url}"
+                log.warning("fetch failed %s -> %s", url, note)
+                return False, "", note
             if r.status_code == 200:
                 return True, r.text, ""
             last = f"HTTP {r.status_code}"
