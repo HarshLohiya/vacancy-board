@@ -251,10 +251,6 @@ The published board on GitHub Pages does not grow a button. The page checks
 whether the local server is the one serving it and stays as it is when it is
 not, so the two are the same file.
 
-> The button only appears on a board written by this version of the code, so
-> run `.\run.ps1` once from the terminal first. After that, `board.ps1` is
-> enough.
-
 `run.ps1` pulls before it runs, so it does not collide with the state the
 scheduled run commits, and pushes after, so the dashboard reflects what your
 machine saw. `-DryRun` restores `data/state.json` and the board files
@@ -268,6 +264,72 @@ next real run reports nothing. `run.ps1 -DryRun` exists to work around that.
 > `python -m tests.offline_test` runs the pipeline against fixture data with
 > no network. Be aware it **writes those fixtures into `data/state.json`** —
 > reset the file afterwards, or run it on a scratch copy.
+
+## Setting up a second machine
+
+Any number of machines can have the button. They share one repository, so
+each one pulls before it runs and pushes after — whichever you press Refresh
+on, both boards end up saying the same thing. About fifteen minutes.
+
+**1. Python and Git.** Install Python 3.11 or later from python.org, ticking
+**Add python.exe to PATH** on the first screen — nothing works without it —
+and Git from git-scm.com. Then, in PowerShell:
+
+```powershell
+python --version        # expect 3.11 or later
+git --version
+```
+
+**2. The repository.** Clone it wherever you like:
+
+```powershell
+cd $HOME\Documents
+git clone https://github.com/HarshLohiya/vacancy-board.git
+cd vacancy-board
+pip install -r requirements.txt
+```
+
+**3. The credentials.** `.env` is deliberately not in the repository — it
+holds your Telegram token. Copy the file across from the first machine by
+hand (USB stick, or retype it), or start from the template:
+
+```powershell
+copy .env.example .env      # then fill in the two Telegram values
+```
+
+Without it the run still works and still pushes the board; it just sends no
+Telegram message.
+
+**4. One run from the terminal, to settle Git.** The first push asks you to
+sign in to GitHub, in a browser window Git opens itself. Get that out of the
+way while you can see it:
+
+```powershell
+.\run.ps1
+```
+
+Do this before step 5. Once the server is running silently in the background,
+a sign-in prompt has nowhere to appear and a refresh would simply fail to
+push.
+
+**5. The button.**
+
+```powershell
+.\autostart.ps1 -Install
+```
+
+Then bookmark **http://127.0.0.1:8765/** on that machine. That is it — from
+then on, open the bookmark and press **Refresh now**.
+
+Two things to expect:
+
+- **The page is only as fresh as the last run on *that* machine.** Open the
+  bookmark on the second laptop after a week away and you are looking at a
+  week-old board — press Refresh and it pulls first, so it corrects itself.
+  The GitHub Pages address is always current and needs nothing installed.
+- **Both machines must be on an Indian connection** for the full picture, for
+  the reason above. On a connection outside India a refresh still works, it
+  just quietly loses eight sources including PESB.
 
 ## If it stops finding things
 
