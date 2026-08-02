@@ -192,6 +192,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/AGM_Civil_16_8_22.pdf",
    "vacancy_date": null
   },
+  "32286b73b4a4d0f0": {
+   "deadline_note": "",
+   "first_seen": "2026-08-02",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "Railway Board Invites Applications for CEO Post in HMRDC on Deputation",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/railway-board-invites-applications-for-ceo-post-in-hmrdc-on-deputation",
+   "vacancy_date": null
+  },
   "329e2eaa51c970c2": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -400,6 +416,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_GM-Civil__1_.pdf",
    "vacancy_date": null
   },
+  "69ecde61d78a41d3": {
+   "deadline_note": "",
+   "first_seen": "2026-08-02",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "organisation": "MRVC",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "mrvc",
+   "source_name": "MRVC",
+   "url": "https://mrvc.indianrailways.gov.in/",
+   "vacancy_date": null
+  },
   "6ce5dbcf0a018f00": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -558,6 +590,22 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/notification_DyCE_Arbn_Civil.pdf",
+   "vacancy_date": null
+  },
+  "899cd1136ca34a39": {
+   "deadline_note": "",
+   "first_seen": "2026-08-02",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "organisation": "Konkan Railway",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "krcl",
+   "source_name": "Konkan Railway",
+   "url": "https://konkanrailway.com/vacancy",
    "vacancy_date": null
   },
   "8daf17d48e5be686": {
@@ -1134,6 +1182,22 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/SSES&T_to_AMII.pdf",
+   "vacancy_date": null
+  },
+  "fd93d39333fef463": {
+   "deadline_note": "",
+   "first_seen": "2026-08-02",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "MECL Recruitment 2026: 13 Executive Trainee Posts via UPSC ESE 2024",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/mecl-recruitment-2026-13-executive-trainee-posts-via-upsc-ese-2024",
    "vacancy_date": null
   }
  },
@@ -2004,7 +2068,7 @@
     "https://konkanrailway.com/sites/default/files/PDF-KONKAN-security.pdf",
     "https://konkanrailway.com/sites/default/files/rorkfr0200_eng.pdf"
    ],
-   "text_hash": "57e5fe6dba07fd296b4c7a2673aadcaa1d56ebcb"
+   "text_hash": "971b18ace5b722e9da07120a7b8c57f42b165732"
   },
   "mahametro": {
    "doc_count": 169,
@@ -2209,7 +2273,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "f8969faf628de110848730e4c4bd5a9331d34f7c"
+   "text_hash": "038bc59410e0f206dbd72d1f5138f9f00da56d5a"
   },
   "ncrtc": {
    "doc_count": 13,
@@ -2260,17 +2324,17 @@
     "https://www.psuconnect.in/Jobs/iocl-pipelines-recruits-retired-police-officer-as-security-chief-in-khunti-jharkhand",
     "https://www.psuconnect.in/Jobs/irel-opens-recruitment-for-executive-posts-across-technical-and-non-technical-disciplines",
     "https://www.psuconnect.in/Jobs/konkan-railway-invites-applications-for-assistant-security-commissioner",
+    "https://www.psuconnect.in/Jobs/mecl-recruitment-2026-13-executive-trainee-posts-via-upsc-ese-2024",
     "https://www.psuconnect.in/Jobs/ministry-of-power-invites-fresh-applications-for-member-renewable-energy-post-in-cea-july-2026",
-    "https://www.psuconnect.in/Jobs/mrvc-recruitment-2026-for-manager-posts",
     "https://www.psuconnect.in/Jobs/nhsrcl-invites-applications-for-chief-project-manager-electrical-posts-in-gujarat",
-    "https://www.psuconnect.in/Jobs/rail-vikas-nigam-ltd-invites-applications-for-senior-posts-on-deputation-basis",
+    "https://www.psuconnect.in/Jobs/railway-board-invites-applications-for-ceo-post-in-hmrdc-on-deputation",
     "https://www.psuconnect.in/Jobs/rites-limited-invites-applications-for-multiple-senior-mechanical-engineering-posts-on-deputation",
     "https://www.psuconnect.in/Jobs/rlda-invites-applications-for-jgm-and-dgm-civil-posts",
     "https://www.psuconnect.in/Jobs/rvnl-recruits-2-general-managers-civil-on-deputation-in-kolkata",
     "https://www.psuconnect.in/Jobs/upsc-opens-applications-for-828-principal-and-vice-principal-posts-in-delhi-schools",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "d61b95c7a0ac13a403d86d9cf466ac71a70d5743"
+   "text_hash": "8f2894198a104ee00571a77102bf4b7053e64582"
   },
   "railtel": {
    "doc_count": 509,

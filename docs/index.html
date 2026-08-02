@@ -50,6 +50,26 @@ a{color:inherit}
 .count-l{display:block;margin-top:5px;font-size:11px;letter-spacing:.1em;
   text-transform:uppercase;color:var(--muted)}
 
+/* local control panel — hidden unless served by src/serve.py */
+.local{display:none;margin:14px 0 0;padding:12px 14px;border-radius:2px;
+  background:rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.16)}
+.local.on{display:block}
+.local-r{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.local button{font:inherit;font-size:12.5px;padding:8px 14px;border-radius:2px;
+  border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.1);
+  color:var(--brand-ink);cursor:pointer}
+.local button:hover:not(:disabled){background:rgba(255,255,255,.2)}
+.local button:disabled{opacity:.45;cursor:default}
+.local button.go{background:var(--brand-ink);color:var(--brand);
+  border-color:var(--brand-ink);font-weight:600}
+.local-s{font-family:"IBM Plex Mono",monospace;font-size:11.5px;
+  letter-spacing:.06em;opacity:.8;margin-left:auto}
+.local-log{display:none;margin:11px 0 0;max-height:230px;overflow:auto;
+  background:#12080a;color:#e8dcd9;border-radius:2px;padding:9px 11px;
+  font-family:"IBM Plex Mono",monospace;font-size:11px;line-height:1.55;
+  white-space:pre-wrap;word-break:break-word}
+.local-log.on{display:block}
+
 .tools{display:flex;gap:10px;align-items:center;margin:0 0 22px}
 .tools input{flex:1;padding:11px 13px;border:1px solid var(--rule);
   border-radius:2px;background:var(--card);font:inherit}
@@ -126,11 +146,21 @@ a{color:inherit}
   <h1>Vacancy Board</h1>
   <p>Board-level and senior posts across Railway public sector undertakings,
      metro rail corporations and the Railway Board.</p>
-  <p class="stamp">Checked 02 Aug 2026, 10:26 IST</p>
+  <p class="stamp">Checked 02 Aug 2026, 21:06 IST</p>
+  <div class="local" id="local">
+    <div class="local-r">
+      <button class="go" data-mode="full">Refresh now</button>
+      <button data-mode="dry">Dry run</button>
+      <button data-mode="urls">Check links</button>
+      <button id="local-stop" style="display:none">Stop</button>
+      <span class="local-s" id="local-state">idle</span>
+    </div>
+    <pre class="local-log" id="local-log"></pre>
+  </div>
 </div></div>
 
 <div class="wrap">
-  <div class="counts"><button class="count danger" data-filter="danger"><span class="count-n">0</span><span class="count-l">Closing soon</span></button><button class="count caution" data-filter="caution"><span class="count-n">0</span><span class="count-l">Open</span></button><button class="count clear" data-filter="clear"><span class="count-n">0</span><span class="count-l">Upcoming</span></button><button class="count fresh" data-filter="fresh"><span class="count-n">0</span><span class="count-l">New today</span></button></div>
+  <div class="counts"><button class="count danger" data-filter="danger"><span class="count-n">0</span><span class="count-l">Closing soon</span></button><button class="count caution" data-filter="caution"><span class="count-n">0</span><span class="count-l">Open</span></button><button class="count clear" data-filter="clear"><span class="count-n">0</span><span class="count-l">Upcoming</span></button><button class="count fresh" data-filter="fresh"><span class="count-n">4</span><span class="count-l">New today</span></button></div>
   <div class="tools">
     <input id="q" type="search" placeholder="Filter by organisation or post"
            aria-label="Filter by organisation or post">
@@ -142,6 +172,62 @@ a{color:inherit}
         <p class="block-note">New documents found on watched career pages. Deadline not machine-readable — open to check.</p>
       </header>
       <ul class="rail">
+      <li class="row off" data-search="konkan railway page content changed - no new document link found konkan railway railway psu" data-aspect="off" data-new="1">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">·</span>
+          <span class="g-l"></span>
+        </div>
+        <div class="body">
+          <p class="org">Konkan Railway<span class="tag-new">New</span></p>
+          <h3 class="post"><a href="https://konkanrailway.com/vacancy" target="_blank"
+             rel="noopener">Page content changed - no new document link found</a></h3>
+          <p class="meta">Posted recently <i>·</i> Konkan Railway</p>
+        </div>
+        <span class="sr">No date</span>
+      </li>
+      <li class="row off" data-search="mrvc page content changed - no new document link found mrvc railway psu" data-aspect="off" data-new="1">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">·</span>
+          <span class="g-l"></span>
+        </div>
+        <div class="body">
+          <p class="org">MRVC<span class="tag-new">New</span></p>
+          <h3 class="post"><a href="https://mrvc.indianrailways.gov.in/" target="_blank"
+             rel="noopener">Page content changed - no new document link found</a></h3>
+          <p class="meta">Posted recently <i>·</i> MRVC</p>
+        </div>
+        <span class="sr">No date</span>
+      </li>
+      <li class="row off" data-search="psu connect - jobs railway board invites applications for ceo post in hmrdc on deputation psu connect - jobs cross-check" data-aspect="off" data-new="1">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">·</span>
+          <span class="g-l"></span>
+        </div>
+        <div class="body">
+          <p class="org">PSU Connect - Jobs<span class="tag-new">New</span></p>
+          <h3 class="post"><a href="https://www.psuconnect.in/Jobs/railway-board-invites-applications-for-ceo-post-in-hmrdc-on-deputation" target="_blank"
+             rel="noopener">Railway Board Invites Applications for CEO Post in HMRDC on Deputation</a></h3>
+          <p class="meta">Posted recently <i>·</i> PSU Connect - Jobs</p>
+        </div>
+        <span class="sr">No date</span>
+      </li>
+      <li class="row off" data-search="psu connect - jobs mecl recruitment 2026: 13 executive trainee posts via upsc ese 2024 psu connect - jobs cross-check" data-aspect="off" data-new="1">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">·</span>
+          <span class="g-l"></span>
+        </div>
+        <div class="body">
+          <p class="org">PSU Connect - Jobs<span class="tag-new">New</span></p>
+          <h3 class="post"><a href="https://www.psuconnect.in/Jobs/mecl-recruitment-2026-13-executive-trainee-posts-via-upsc-ese-2024" target="_blank"
+             rel="noopener">MECL Recruitment 2026: 13 Executive Trainee Posts via UPSC ESE 2024</a></h3>
+          <p class="meta">Posted recently <i>·</i> PSU Connect - Jobs</p>
+        </div>
+        <span class="sr">No date</span>
+      </li>
       <li class="row off" data-search="kmrcl (kolkata) notification_revised.pdf kmrcl (kolkata) metro" data-aspect="off" data-new="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
@@ -645,66 +731,10 @@ a{color:inherit}
           <p class="meta">Posted recently <i>·</i> KMRCL (Kolkata)</p>
         </div>
         <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="kmrcl (kolkata) list of products kmrcl (kolkata) metro" data-aspect="off" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">KMRCL (Kolkata)</p>
-          <h3 class="post"><a href="http://kmrc.in/admin/uploaded_news/List_of_Items_to_be_procured_during_2018-19.pdf" target="_blank"
-             rel="noopener">List of Products</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRCL (Kolkata)</p>
-        </div>
-        <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="kmrcl (kolkata) gm_s&amp;t_dep_pdf.pdf kmrcl (kolkata) metro" data-aspect="off" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">KMRCL (Kolkata)</p>
-          <h3 class="post"><a href="https://kmrc.in/admin/uploaded_career/GM_S&amp;T_DEP_PDF.pdf" target="_blank"
-             rel="noopener">GM_S&amp;T_DEP_PDF.pdf</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRCL (Kolkata)</p>
-        </div>
-        <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="kmrcl (kolkata) gm_s&amp;t_kmrcl.pdf kmrcl (kolkata) metro" data-aspect="off" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">KMRCL (Kolkata)</p>
-          <h3 class="post"><a href="https://kmrc.in/admin/uploaded_career/GM_S&amp;T_KMRCL.pdf" target="_blank"
-             rel="noopener">GM_S&amp;T_KMRCL.pdf</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRCL (Kolkata)</p>
-        </div>
-        <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="kmrcl (kolkata) agm_s&amp;t.pdf kmrcl (kolkata) metro" data-aspect="off" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">KMRCL (Kolkata)</p>
-          <h3 class="post"><a href="https://kmrc.in/admin/uploaded_career/AGM_S&amp;T.pdf" target="_blank"
-             rel="noopener">AGM_S&amp;T.pdf</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRCL (Kolkata)</p>
-        </div>
-        <span class="sr">No date</span>
       </li></ul>
     </section>
   <div class="foot">
-    <p style="margin:18px 0 6px"><strong>Sources unreachable (9)</strong></p><div class="fail">PESB - Advertised Vacancies — timed out after 45s</div><div class="fail">PESB - Upcoming Vacancies — timed out after 45s</div><div class="fail">Railway Board — ConnectionError: HTTPSConnectionPool(host=&#x27;indianrailways.gov.in&#x27;, port=443): Max retries exceeded with url: /railwayboard/ (Caused by NewConnectionError(&quot;HTTPSConnection(host=&#x27;indianrailways.gov.in&#x27;, port=443): Failed to establish a new connection: [Errno 111] Connection refused&quot;))</div><div class="fail">RVNL — timed out after 45s</div><div class="fail">Konkan Railway — SSL error: SSLError</div><div class="fail">MRVC — ConnectionError: HTTPSConnectionPool(host=&#x27;mrvc.indianrailways.gov.in&#x27;, port=443): Max retries exceeded with url: / (Caused by NewConnectionError(&quot;HTTPSConnection(host=&#x27;mrvc.indianrailways.gov.in&#x27;, port=443): Failed to establish a new connection: [Errno 111] Connection refused&quot;))</div><div class="fail">NHSRCL — timed out after 45s</div><div class="fail">MPMRCL (Bhopal, Indore) — timed out after 45s</div><div class="fail">PSU Connect - Jobs — HTTP 403</div><p>Correct the address in <code>config/sources.yaml</code> and the next run will pick it up.</p>
+    
     <p>Rebuilt automatically each morning. Deadlines are shown as published by
        the source — confirm on the source page before acting on one.</p>
   </div>
@@ -734,5 +764,81 @@ document.querySelectorAll('.count').forEach(c=>c.addEventListener('click',()=>{
     x.setAttribute('aria-pressed', x.dataset.filter===aspect));
   apply();
 }));
+
+/* --- local control panel ------------------------------------------------
+   Only src/serve.py answers /api/status, so on GitHub Pages the probe fails
+   and the panel stays hidden. Nothing below runs there. */
+(function(){
+  const panel=document.getElementById('local');
+  if(!panel) return;
+  const log=document.getElementById('local-log');
+  const state=document.getElementById('local-state');
+  const stop=document.getElementById('local-stop');
+  const btns=[...panel.querySelectorAll('button[data-mode]')];
+  const LABEL={full:'Refresh',dry:'Dry run',urls:'Link check',nopush:'Refresh (no push)'};
+  let seen=0, timer=null, watched=false;
+
+  const say=t=>{state.textContent=t;};
+  function append(lines){
+    if(!lines.length) return;
+    log.classList.add('on');
+    log.textContent+=(log.textContent?'\n':'')+lines.join('\n');
+    log.scrollTop=log.scrollHeight;
+  }
+  function busy(on){
+    btns.forEach(b=>b.disabled=on);
+    stop.style.display=on?'':'none';
+  }
+
+  async function poll(){
+    let s;
+    try{ s=await (await fetch('/api/status?since='+seen)).json(); }
+    catch(e){ say('server stopped'); busy(false); clearInterval(timer); timer=null; return; }
+    if(s.total<seen){ seen=0; log.textContent=''; }   /* a new run began */
+    append(s.lines); seen=s.total;
+    if(s.running){
+      watched=true; busy(true);
+      say((LABEL[s.mode]||s.mode)+' running since '+s.started);
+      return;
+    }
+    busy(false);
+    if(timer){ clearInterval(timer); timer=null; }
+    if(!s.started){ say('idle'); return; }
+    const ok=s.exit_code===0;
+    say((LABEL[s.mode]||s.mode)+(ok?' finished ':' failed ')+(s.finished||''));
+    /* A completed real run rewrote this very page — show it, but only if we
+       watched it happen, or reloading would loop. */
+    if(watched&&ok&&(s.mode==='full'||s.mode==='nopush')){
+      watched=false; setTimeout(()=>location.reload(),1400);
+    }
+    watched=false;
+  }
+
+  async function post(path,body){
+    const r=await fetch(path,{method:'POST',headers:{'Content-Type':'application/json'},
+                             body:JSON.stringify(body||{})});
+    return r.json();
+  }
+
+  btns.forEach(b=>b.addEventListener('click',async()=>{
+    busy(true); log.textContent=''; log.classList.remove('on'); seen=0;
+    say('starting…');
+    const r=await post('/api/run',{mode:b.dataset.mode}).catch(()=>null);
+    if(!r||!r.ok){ busy(false); say(r&&r.message?r.message:'could not start'); return; }
+    watched=true;
+    if(!timer) timer=setInterval(poll,1000);
+    poll();
+  }));
+  stop.addEventListener('click',async()=>{ say('stopping…'); await post('/api/stop'); });
+
+  /* the probe: reveal the panel only if this server is the one serving us */
+  fetch('/api/status').then(r=>r.ok?r.json():Promise.reject()).then(s=>{
+    panel.classList.add('on');
+    if(s.running){ seen=0; timer=setInterval(poll,1000); poll(); }
+    else if(s.started) say((LABEL[s.mode]||s.mode)+
+      (s.exit_code===0?' finished ':' failed ')+s.finished);   /* after a reload */
+    else say('idle');
+  }).catch(()=>{});
+})();
 </script>
 </body></html>
