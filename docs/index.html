@@ -84,6 +84,20 @@ a{color:inherit}
 .block-n{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted)}
 .block-note{grid-column:1/-1;margin:2px 0 0;font-size:12.5px;color:var(--muted)}
 
+/* unconfirmed notices: present, but plainly not part of the board's promise */
+.aside{margin-top:40px;border-top:1px solid var(--rule);padding-top:4px}
+.aside summary{display:flex;gap:10px;align-items:baseline;padding:10px 0;
+  cursor:pointer;list-style:none}
+.aside summary::-webkit-details-marker{display:none}
+.aside summary::before{content:"▸";color:var(--muted);font-size:11px}
+.aside[open] summary::before{content:"▾"}
+.aside summary h2{margin:0;font-family:"IBM Plex Sans Condensed",sans-serif;
+  font-size:15px;letter-spacing:.13em;text-transform:uppercase;font-weight:600;
+  color:var(--muted)}
+.aside summary:hover h2{color:var(--ink)}
+.aside .block-note{margin:0 0 10px 21px;max-width:64ch}
+.aside .rail{opacity:.82}
+
 /* the rail */
 .rail{list-style:none;margin:0;padding:0}
 .row{display:grid;grid-template-columns:66px 1fr;background:var(--card);
@@ -145,8 +159,10 @@ a{color:inherit}
 <div class="mast"><div class="wrap">
   <h1>Vacancy Board</h1>
   <p>Board-level and senior posts across Railway public sector undertakings,
-     metro rail corporations and the Railway Board.</p>
-  <p class="stamp">Checked 07 Aug 2026, 00:01 IST</p>
+     metro rail corporations, state rail infrastructure JVs and the Railway
+     Board. Every post listed has a published closing date that has not yet
+     passed, and a link checked within the last week.</p>
+  <p class="stamp">Checked 07 Aug 2026, 00:46 IST</p>
   <div class="local" id="local">
     <div class="local-r">
       <button class="go" data-mode="full">Refresh now</button>
@@ -160,7 +176,7 @@ a{color:inherit}
 </div></div>
 
 <div class="wrap">
-  <div class="counts"><button class="count danger" data-filter="danger"><span class="count-n">1</span><span class="count-l">Closing soon</span></button><button class="count caution" data-filter="caution"><span class="count-n">4</span><span class="count-l">Open</span></button><button class="count clear" data-filter="clear"><span class="count-n">0</span><span class="count-l">Upcoming</span></button><button class="count fresh" data-filter="fresh"><span class="count-n">1</span><span class="count-l">New today</span></button></div>
+  <div class="counts"><button class="count danger" data-filter="danger"><span class="count-n">0</span><span class="count-l">Closing soon</span></button><button class="count caution" data-filter="caution"><span class="count-n">3</span><span class="count-l">Open</span></button><button class="count clear" data-filter="clear"><span class="count-n">0</span><span class="count-l">Upcoming</span></button><button class="count fresh" data-filter="fresh"><span class="count-n">0</span><span class="count-l">New today</span></button></div>
   <div class="tools">
     <input id="q" type="search" placeholder="Filter by organisation or post"
            aria-label="Filter by organisation or post">
@@ -168,31 +184,24 @@ a{color:inherit}
   
     <section class="block">
       <header class="block-h">
-        <h2>Closing soon</h2><span class="block-n">1</span>
-        <p class="block-note">Deadline within 7 days.</p>
-      </header>
-      <ul class="rail">
-      <li class="row danger" data-search="ircon international limited director (works) pesb - advertised vacancies board level (pesb)" data-aspect="danger" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">3</span>
-          <span class="g-l">days</span>
-        </div>
-        <div class="body">
-          <p class="org">IRCON International Limited</p>
-          <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1234" target="_blank"
-             rel="noopener">Director (Works)</a></h3>
-          <p class="meta">Apply by 10 Aug 2026 · 3:00PM <i>·</i> Vacant from 04 Dec 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
-        </div>
-        <span class="sr">Closing</span>
-      </li></ul>
-    </section>
-    <section class="block">
-      <header class="block-h">
-        <h2>Open</h2><span class="block-n">4</span>
+        <h2>Open</h2><span class="block-n">3</span>
         <p class="block-note">Applications still being received.</p>
       </header>
       <ul class="rail">
+      <li class="row caution" data-search="dmrc engagement of executive director (civil) on deputation basis — 15.08.2026 dmrc metro" data-aspect="caution" data-new="0">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">8</span>
+          <span class="g-l">days</span>
+        </div>
+        <div class="body">
+          <p class="org">DMRC</p>
+          <h3 class="post"><a href="https://www.delhimetrorail.com/docs/ed-civil.pdf" target="_blank"
+             rel="noopener">Engagement of Executive Director (Civil) on deputation basis — 15.08.2026</a></h3>
+          <p class="meta">Apply by 15 Aug 2026 · date read from the notice title <i>·</i> DMRC</p>
+        </div>
+        <span class="sr">Open</span>
+      </li>
       <li class="row caution" data-search="indian railway catering and tourism corporation limited (irctc) chairman &amp; managing director pesb - advertised vacancies board level (pesb)" data-aspect="caution" data-new="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
@@ -220,69 +229,27 @@ a{color:inherit}
           <p class="meta">Apply by 27 Aug 2026 · 3:00PM <i>·</i> Vacant from 20 Jul 2026 <i>·</i> Schedule A <i>·</i> Rs. 200000 – 370000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
         </div>
         <span class="sr">Open</span>
-      </li>
-      <li class="row caution" data-search="rail vikas nigam limited chairman &amp; managing director pesb - advertised vacancies board level (pesb)" data-aspect="caution" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">21</span>
-          <span class="g-l">days</span>
-        </div>
-        <div class="body">
-          <p class="org">Rail Vikas Nigam Limited</p>
-          <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1235" target="_blank"
-             rel="noopener">Chairman &amp; Managing Director</a></h3>
-          <p class="meta">Apply by 28 Aug 2026 · 3:00PM <i>·</i> Vacant from 22 Feb 2027 <i>·</i> Schedule A <i>·</i> Rs. 200000 - 370000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
-        </div>
-        <span class="sr">Open</span>
-      </li>
-      <li class="row caution" data-search="konkan railway corporation limited director (way &amp; works) pesb - advertised vacancies board level (pesb)" data-aspect="caution" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">25</span>
-          <span class="g-l">days</span>
-        </div>
-        <div class="body">
-          <p class="org">Konkan Railway Corporation Limited</p>
-          <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1236" target="_blank"
-             rel="noopener">Director (Way &amp; Works)</a></h3>
-          <p class="meta">Apply by 01 Sep 2026 · 3:00PM <i>·</i> Vacant from 04 Nov 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
-        </div>
-        <span class="sr">Open</span>
       </li></ul>
     </section>
-    <section class="block">
-      <header class="block-h">
-        <h2>Recent notices</h2><span class="block-n">40</span>
-        <p class="block-note">New documents found on watched career pages. Deadline not machine-readable — open to check.</p>
-      </header>
+    <details class="block aside">
+      <summary>
+        <h2>Unconfirmed notices</h2><span class="block-n">40</span>
+      </summary>
+      <p class="block-note">Documents found on watched career pages whose closing date the source did not publish in readable form. Not counted above and not alerted on — open one to see whether it is still live.</p>
       <ul class="rail">
-      <li class="row off" data-search="dmrc page content changed - no new document link found dmrc metro" data-aspect="off" data-new="1">
+      <li class="row off" data-search="dmrc page content changed - no new document link found dmrc metro" data-aspect="off" data-new="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
           <span class="g-l"></span>
         </div>
         <div class="body">
-          <p class="org">DMRC<span class="tag-new">New</span></p>
+          <p class="org">DMRC</p>
           <h3 class="post"><a href="https://www.delhimetrorail.com/career" target="_blank"
              rel="noopener">Page content changed - no new document link found</a></h3>
           <p class="meta">Posted recently <i>·</i> DMRC</p>
         </div>
         <span class="sr">No date</span>
-      </li>
-      <li class="row caution" data-search="dmrc engagement of executive director (civil) on deputation basis — 15.08.2026 dmrc metro" data-aspect="caution" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">8</span>
-          <span class="g-l">days</span>
-        </div>
-        <div class="body">
-          <p class="org">DMRC</p>
-          <h3 class="post"><a href="https://www.delhimetrorail.com/docs/ed-civil.pdf" target="_blank"
-             rel="noopener">Engagement of Executive Director (Civil) on deputation basis — 15.08.2026</a></h3>
-          <p class="meta">Apply by 15 Aug 2026 · date read from the notice title <i>·</i> DMRC</p>
-        </div>
-        <span class="sr">Open</span>
       </li>
       <li class="row off" data-search="psu connect - jobs cochin shipyard recruitment 2026: manager (defence-business expansions) – 2 vacancies psu connect - jobs cross-check" data-aspect="off" data-new="0">
         <div class="gutter" aria-hidden="true">
@@ -815,8 +782,22 @@ a{color:inherit}
           <p class="meta">Posted recently <i>·</i> KMRCL (Kolkata)</p>
         </div>
         <span class="sr">No date</span>
+      </li>
+      <li class="row off" data-search="kmrcl (kolkata) vacancy_noice_cla.pdf kmrcl (kolkata) metro" data-aspect="off" data-new="0">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">·</span>
+          <span class="g-l"></span>
+        </div>
+        <div class="body">
+          <p class="org">KMRCL (Kolkata)</p>
+          <h3 class="post"><a href="https://kmrc.in/admin/uploaded_career/Vacancy_Noice_CLA.pdf" target="_blank"
+             rel="noopener">Vacancy_Noice_CLA.pdf</a></h3>
+          <p class="meta">Posted recently <i>·</i> KMRCL (Kolkata)</p>
+        </div>
+        <span class="sr">No date</span>
       </li></ul>
-    </section>
+    </details>
   <div class="foot">
     
     <p>Rebuilt automatically each morning. Deadlines are shown as published by
