@@ -128,6 +128,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/DGM_Finance.pdf",
    "vacancy_date": null
   },
+  "1ccfeee65e9538f6": {
+   "deadline_note": "",
+   "first_seen": "2026-08-06",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "organisation": "IRFC",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "irfc",
+   "source_name": "IRFC",
+   "url": "https://irfc.co.in/careers",
+   "vacancy_date": null
+  },
   "23defe72d3a81dc3": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -624,6 +640,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/GM_ST_DEPUTATION.pdf",
    "vacancy_date": null
   },
+  "82fd80690f8952a0": {
+   "deadline_note": "",
+   "first_seen": "2026-08-06",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "organisation": "NCRTC (RRTS)",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "ncrtc",
+   "source_name": "NCRTC (RRTS)",
+   "url": "https://ncrtc.in/elementor-39298/",
+   "vacancy_date": null
+  },
   "86c1e8295ebabfe2": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -878,6 +910,22 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/Manager_S&T_Deputation.pdf",
+   "vacancy_date": null
+  },
+  "b8d50075d9446570": {
+   "deadline_note": "",
+   "first_seen": "2026-08-06",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "organisation": "NHSRCL",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "nhsrcl",
+   "source_name": "NHSRCL",
+   "url": "https://nhsrcl.in/en/career/vacancy-notice",
    "vacancy_date": null
   },
   "ba3e72552761723d": {
@@ -1136,6 +1184,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/AGM_Civil-_Contractual_14.01.25.pdf",
    "vacancy_date": null
   },
+  "efcfab60d0284e90": {
+   "deadline_note": "",
+   "first_seen": "2026-08-06",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "MahaMetro",
+   "post": "View",
+   "scale": "",
+   "schedule": "",
+   "source_id": "mahametro",
+   "source_name": "MahaMetro",
+   "url": "https://www.mahametro.org/pdf/Draft of Advt. No. 04_2026 (1).pdf",
+   "vacancy_date": null
+  },
   "f2122746e1df3665": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -1249,7 +1313,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-05",
+ "last_run": "2026-08-06",
  "pages": {
   "bbj": {
    "doc_count": 15,
@@ -2035,7 +2099,7 @@
     "https://irfc.co.in/sites\\default\\files\\news\\Whisperintheair.pdf",
     "https://twitter.com/IRFC_1986"
    ],
-   "text_hash": "bcb69db290403d02d448132e426d3ad359c9607a"
+   "text_hash": "7cc5b731ee28d881857df50b445c3f8e8d70caea"
   },
   "kmrcl": {
    "doc_count": 65,
@@ -2142,7 +2206,7 @@
    "text_hash": "971b18ace5b722e9da07120a7b8c57f42b165732"
   },
   "mahametro": {
-   "doc_count": 169,
+   "doc_count": 170,
    "docs": [
     "https://cdn3.digialm.com/EForms/configuredHtml/1709/65107/login.html",
     "https://g26.tcsion.com/OnlineAssessment/index.html?31582@@M212",
@@ -2220,6 +2284,7 @@
     "https://www.mahametro.org/pdf/Corrigendum_P_HR_052021.pdf",
     "https://www.mahametro.org/pdf/Corrigendumhr2.pdf",
     "https://www.mahametro.org/pdf/Document Verification-Technician Posts.pdf",
+    "https://www.mahametro.org/pdf/Draft of Advt. No. 04_2026 (1).pdf",
     "https://www.mahametro.org/pdf/EWS_CERTIFICATE.pdf",
     "https://www.mahametro.org/pdf/Examdate_Notice06_NS_2020.pdf",
     "https://www.mahametro.org/pdf/Examdate_Notice06_S_2020.pdf",
@@ -2314,7 +2379,7 @@
     "https://www.mahametro.org/pdf/extension_MahaMetro_P_HR06_2021.pdf",
     "https://www.mahametro.org/pdf/maha-metro_hr_0228032021.pdf"
    ],
-   "text_hash": "bc6e26ed4b629a9f4e2a874f59a7bb4484d6b1e6"
+   "text_hash": "fd548266a81c9b6c47f675093f83d6020508887c"
   },
   "mmrc": {
    "doc_count": 0,
@@ -2363,10 +2428,10 @@
     "https://ncrtc.in/wp-content/uploads/2026/07/NIP-MODIPURAM-LEASE-ACCOMMODATION.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/07/Notice-on-Website.pdf"
    ],
-   "text_hash": "6900b019e599e80f46388e156c904a2163a4ea53"
+   "text_hash": "e10e97e6b41c87e003802e2eb4fd731648ae5c61"
   },
   "nhsrcl": {
-   "doc_count": 11,
+   "doc_count": 10,
    "docs": [
     "https://indianrailways.gov.in/railwayboard/view_section.jsp?id=0%2C1%2C304%2C366%2C508%2C511",
     "https://nhsrcl.in/en/career/archive-latest-updates",
@@ -2377,10 +2442,9 @@
     "https://nhsrcl.in/en/project/grievance-redressal-committee-notices",
     "https://nhsrcl.in/en/tenders/active-tenders",
     "https://nhsrcl.in/sites/default/files/2022-05/Proc%20NOC%20%282%29.pdf",
-    "https://nhsrcl.in/sites/default/files/2025-02/CVC%20Manual%202021.pdf",
-    "https://nhsrcl.in/sites/default/files/notice/2026-07/Vacancy%20Notice%20NE%202%20Final.pdf"
+    "https://nhsrcl.in/sites/default/files/2025-02/CVC%20Manual%202021.pdf"
    ],
-   "text_hash": "477f5cd7b881df4c7ad11daba1336e8f044e5881"
+   "text_hash": "e4ffb1871f01def69c10186f5a664d801b85c437"
   },
   "nmrc": {
    "doc_count": 0,
