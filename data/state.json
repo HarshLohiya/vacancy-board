@@ -112,6 +112,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/appointment190224.pdf",
    "vacancy_date": null
   },
+  "118400928950f631": {
+   "deadline_note": "3:00PM",
+   "first_seen": "2026-08-06",
+   "group": "Board level (PESB)",
+   "issue_date": "2026-08-06",
+   "kind": "advertised",
+   "last_date": "2026-08-27",
+   "organisation": "Indian Railway Catering and Tourism Corporation Limited (IRCTC)",
+   "post": "Chairman & Managing Director",
+   "scale": "Rs. 200000 \u2013 370000 (IDA)",
+   "schedule": "Schedule A",
+   "source_id": "pesb_advertised",
+   "source_name": "PESB - Advertised Vacancies",
+   "url": "https://pesb.gov.in/Home/AdvertisVacancy#",
+   "vacancy_date": "2026-07-20"
+  },
   "1487bb2dd3e35d61": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -159,6 +175,22 @@
    "source_name": "IRFC",
    "url": "https://irfc.co.in/careers",
    "vacancy_date": null
+  },
+  "1f974f6e74247106": {
+   "deadline_note": "3:00PM",
+   "first_seen": "2026-08-06",
+   "group": "Board level (PESB)",
+   "issue_date": "2026-05-25",
+   "kind": "advertised",
+   "last_date": "2026-06-15",
+   "organisation": "Braithwaite & Co. Limited",
+   "post": "Chairman & Managing Director",
+   "scale": "Rs. 180000 \u2013 320000 (IDA)",
+   "schedule": "Schedule B",
+   "source_id": "pesb_advertised",
+   "source_name": "PESB - Advertised Vacancies",
+   "url": "https://pesb.gov.in/Home/AdvertisVacancy#",
+   "vacancy_date": "2025-12-12"
   },
   "23defe72d3a81dc3": {
    "deadline_note": "",
@@ -1456,6 +1488,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/Vacancy_CS.pdf",
    "vacancy_date": null
   },
+  "fa376f152bdae5b1": {
+   "deadline_note": "3:00PM",
+   "first_seen": "2026-08-06",
+   "group": "Board level (PESB)",
+   "issue_date": "2026-06-05",
+   "kind": "advertised",
+   "last_date": "2026-06-26",
+   "organisation": "Konkan Railway Corporation Limited",
+   "post": "Chairman & Managing Director",
+   "scale": "Rs. 200000 \u2013 370000 (IDA)",
+   "schedule": "Schedule A",
+   "source_id": "pesb_advertised",
+   "source_name": "PESB - Advertised Vacancies",
+   "url": "https://pesb.gov.in/Home/AdvertisVacancy#",
+   "vacancy_date": "2027-04-01"
+  },
   "fab5ceb75560d7df": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -2617,7 +2665,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "479704ea8fd2ce90ba6acd5d0036fd943752ce87"
+   "text_hash": "91e579efe4b9e60a0fb7f8d0d3f6c6840028eceb"
   },
   "ncrtc": {
    "doc_count": 13,
