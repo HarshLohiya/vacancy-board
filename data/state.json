@@ -304,6 +304,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/gm_civil_adv_corrigendum.pdf",
    "vacancy_date": null
   },
+  "337fe4c6aa50c115": {
+   "deadline_note": "3:00PM",
+   "first_seen": "2026-08-06",
+   "group": "Board level (PESB)",
+   "issue_date": "2026-08-04",
+   "kind": "advertised",
+   "last_date": "2026-09-01",
+   "organisation": "Konkan Railway Corporation Limited",
+   "post": "Director (Way & Works)",
+   "scale": "Rs. 180000 - 340000 (IDA)",
+   "schedule": "Schedule A",
+   "source_id": "pesb_advertised",
+   "source_name": "PESB - Advertised Vacancies",
+   "url": "https://pesb.gov.in/JobDescription/1236",
+   "vacancy_date": "2026-11-04"
+  },
   "3b01fd1c1bd89366": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -576,6 +592,22 @@
    "url": "https://www.railtel.in/images/careers/Cut-off marks DC 2026.pdf",
    "vacancy_date": null
   },
+  "667b9b11228955a2": {
+   "deadline_note": "",
+   "first_seen": "2026-08-07",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "organisation": "DMRC",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "dmrc",
+   "source_name": "DMRC",
+   "url": "https://www.delhimetrorail.com/career",
+   "vacancy_date": null
+  },
   "69ecde61d78a41d3": {
    "deadline_note": "",
    "first_seen": "2026-08-02",
@@ -639,6 +671,22 @@
    "source_name": "RailTel",
    "url": "https://www.railtel.in/images/careers/List of provisionally suitable candidates for KSWAN project -List 2.pdf",
    "vacancy_date": null
+  },
+  "703ced50fad1b416": {
+   "deadline_note": "3:00PM",
+   "first_seen": "2026-08-06",
+   "group": "Board level (PESB)",
+   "issue_date": "2026-07-31",
+   "kind": "advertised",
+   "last_date": "2026-08-28",
+   "organisation": "Rail Vikas Nigam Limited",
+   "post": "Chairman & Managing Director",
+   "scale": "Rs. 200000 - 370000 (IDA)",
+   "schedule": "Schedule A",
+   "source_id": "pesb_advertised",
+   "source_name": "PESB - Advertised Vacancies",
+   "url": "https://pesb.gov.in/JobDescription/1235",
+   "vacancy_date": "2027-02-22"
   },
   "70452b7d0f190f4b": {
    "deadline_note": "",
@@ -928,6 +976,22 @@
    "url": "https://www.railtel.in/images/careers/List of Provisionally suitable candidates-Contractual Engagement-KSWAN Project.pdf",
    "vacancy_date": null
   },
+  "a1ec5a661dc3c815": {
+   "deadline_note": "",
+   "first_seen": "2026-08-06",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "DMRC",
+   "post": "Recruitment of Manager (Civil) 2025",
+   "scale": "",
+   "schedule": "",
+   "source_id": "dmrc",
+   "source_name": "DMRC",
+   "url": "https://www.delhimetrorail.com/docs/old-notice.pdf",
+   "vacancy_date": null
+  },
   "a2f47ab3ce8f8f77": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -1168,6 +1232,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/GM-Civil_29.11.2024.pdf",
    "vacancy_date": null
   },
+  "c85a5e70e09e3a11": {
+   "deadline_note": "date read from the notice title",
+   "first_seen": "2026-08-06",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": "2026-08-15",
+   "organisation": "DMRC",
+   "post": "Engagement of Executive Director (Civil) on deputation basis \u2014 15.08.2026",
+   "scale": "",
+   "schedule": "",
+   "source_id": "dmrc",
+   "source_name": "DMRC",
+   "url": "https://www.delhimetrorail.com/docs/ed-civil.pdf",
+   "vacancy_date": null
+  },
   "cb10fe4662d5e1a0": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -1199,6 +1279,22 @@
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/Sr._Finance_Manage_20.02.2020.pdf",
    "vacancy_date": null
+  },
+  "cf440ae042771fb6": {
+   "deadline_note": "3:00PM",
+   "first_seen": "2026-08-06",
+   "group": "Board level (PESB)",
+   "issue_date": "2026-07-17",
+   "kind": "advertised",
+   "last_date": "2026-08-10",
+   "organisation": "IRCON International Limited",
+   "post": "Director (Works)",
+   "scale": "Rs. 180000 - 340000 (IDA)",
+   "schedule": "Schedule A",
+   "source_id": "pesb_advertised",
+   "source_name": "PESB - Advertised Vacancies",
+   "url": "https://pesb.gov.in/JobDescription/1234",
+   "vacancy_date": "2026-12-04"
   },
   "d32f195c29070ffa": {
    "deadline_note": "",
@@ -1440,6 +1536,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/GM-Finance_Advertisement.pdf",
    "vacancy_date": null
   },
+  "f43159517d4b76b8": {
+   "deadline_note": "3:00PM",
+   "first_seen": "2026-08-06",
+   "group": "Board level (PESB)",
+   "issue_date": "2026-06-27",
+   "kind": "advertised",
+   "last_date": "2026-07-28",
+   "organisation": "Dedicated Freight Corridor Corporation of India Limited",
+   "post": "Director (Operations & Business Development)",
+   "scale": "Rs. 180000 - 340000 (IDA)",
+   "schedule": "Schedule A",
+   "source_id": "pesb_advertised",
+   "source_name": "PESB - Advertised Vacancies",
+   "url": "https://pesb.gov.in/JobDescription/1238",
+   "vacancy_date": "2026-08-01"
+  },
   "f5150fdce3de0e63": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -1569,7 +1681,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-06",
+ "last_run": "2026-08-07",
  "pages": {
   "bbj": {
    "doc_count": 15,
@@ -2459,7 +2571,7 @@
     "https://konkanrailway.com/sites/default/files/PDF-KONKAN-security.pdf",
     "https://konkanrailway.com/sites/default/files/rorkfr0200_eng.pdf"
    ],
-   "text_hash": "b4849b535fdb7c03e7baa53bb3671d5309428390"
+   "text_hash": "844814ed2e0c411f2291779958c67a13224bfab6"
   },
   "mahametro": {
    "doc_count": 170,
@@ -2665,7 +2777,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "9ecd2850b54dc0ccb175d89ec09b172e0c40c711"
+   "text_hash": "6f3b76c3482df81548e548a5f5aff6da4d595821"
   },
   "ncrtc": {
    "doc_count": 13,
