@@ -128,8 +128,11 @@ a{color:inherit}
 .row.danger .g-n{color:var(--danger)}
 
 .body{padding:14px 16px 15px;min-width:0}
-.org{margin:0;font-size:11px;letter-spacing:.11em;text-transform:uppercase;
-  color:var(--muted);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+/* The organisation is half the answer to "is this for me?", so it carries
+   real weight rather than sitting as grey small print above the post. */
+.org{margin:0;font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--ink);font-weight:600;
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .tag-new{background:var(--brand);color:#fff;border-radius:2px;
   padding:1px 6px;font-size:9.5px;letter-spacing:.1em}
 .post{margin:5px 0 6px;font-size:17px;font-weight:600;line-height:1.28}
@@ -150,6 +153,15 @@ a{color:inherit}
   background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
   padding-bottom:1px}
 .post a:hover{background-image:linear-gradient(var(--brand),var(--brand))}
+/* the deadline, on its own line: the fact people scan for */
+.when{margin:0 0 3px;font-family:"IBM Plex Mono",monospace;font-size:13px;
+  color:var(--muted);line-height:1.5}
+.when b{font-weight:600;font-size:14px;color:var(--ink);letter-spacing:.01em}
+.row.danger .when b{color:var(--danger)}
+.row.caution .when b{color:#8a5900}
+.when .qual{opacity:.72;font-size:11.5px}
+.when .qual::before{content:"· "}
+
 .meta{margin:0;font-family:"IBM Plex Mono",monospace;font-size:11.5px;
   color:var(--muted);line-height:1.65}
 .meta i{font-style:normal;opacity:.45;padding:0 2px}
@@ -180,7 +192,7 @@ a{color:inherit}
      metro rail corporations, state rail infrastructure JVs and the Railway
      Board. Every post listed has a published closing date that has not yet
      passed, and a link checked within the last week.</p>
-  <p class="stamp">Checked 07 Aug 2026, 08:36 IST</p>
+  <p class="stamp">Checked 07 Aug 2026, 09:34 IST</p>
   <div class="local" id="local">
     <div class="local-r">
       <button class="go" data-mode="full">Refresh now</button>
@@ -217,7 +229,8 @@ a{color:inherit}
           <p class="org">IRCON International Limited<span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1234" target="_blank"
              rel="noopener">Director (Works)</a></h3>
-          <p class="meta">Apply by 11 Aug 2026 · 3:00PM <i>·</i> Vacant from 05 Dec 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
+          <p class="when">Apply by <b>11 Aug 2026</b> <span class="qual">3:00PM</span></p>
+          <p class="meta">Vacant from 05 Dec 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
         </div>
         <span class="sr">Closing</span>
       </li></ul>
@@ -239,7 +252,8 @@ a{color:inherit}
           <p class="org">DMRC<span class="tag-new">New</span><span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://www.delhimetrorail.com/docs/ed-civil.pdf" target="_blank"
              rel="noopener">Engagement of Executive Director (Civil) on deputation basis — 15.08.2026</a></h3>
-          <p class="meta">Apply by 15 Aug 2026 · date read from the notice title <i>·</i> DMRC</p>
+          <p class="when">Apply by <b>15 Aug 2026</b> <span class="qual">date read from the notice title</span></p>
+          <p class="meta">DMRC</p>
         </div>
         <span class="sr">Open</span>
       </li>
@@ -254,7 +268,8 @@ a{color:inherit}
           <p class="org">Rail Vikas Nigam Limited<span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1235" target="_blank"
              rel="noopener">Chairman &amp; Managing Director</a></h3>
-          <p class="meta">Apply by 29 Aug 2026 · 3:00PM <i>·</i> Vacant from 23 Feb 2027 <i>·</i> Schedule A <i>·</i> Rs. 200000 - 370000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
+          <p class="when">Apply by <b>29 Aug 2026</b> <span class="qual">3:00PM</span></p>
+          <p class="meta">Vacant from 23 Feb 2027 <i>·</i> Schedule A <i>·</i> Rs. 200000 - 370000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
         </div>
         <span class="sr">Open</span>
       </li>
@@ -269,13 +284,14 @@ a{color:inherit}
           <p class="org">Konkan Railway Corporation Limited<span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1236" target="_blank"
              rel="noopener">Director (Way &amp; Works)</a></h3>
-          <p class="meta">Apply by 02 Sep 2026 · 3:00PM <i>·</i> Vacant from 05 Nov 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
+          <p class="when">Apply by <b>02 Sep 2026</b> <span class="qual">3:00PM</span></p>
+          <p class="meta">Vacant from 05 Nov 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
         </div>
         <span class="sr">Open</span>
       </li></ul>
     </section>
   <div class="foot">
-    <p style="margin:18px 0 6px"><strong>Sources unreachable (35)</strong></p><div class="fail">Railway Board - Vacancy Circulars — simulated network failure</div><div class="fail">Railway Board — simulated network failure</div><div class="fail">IRCON International — simulated network failure</div><div class="fail">RITES — simulated network failure</div><div class="fail">RVNL — simulated network failure</div><div class="fail">RailTel — simulated network failure</div><div class="fail">CONCOR — simulated network failure</div><div class="fail">IRFC — simulated network failure</div><div class="fail">IRCTC — simulated network failure</div><div class="fail">DFCCIL — simulated network failure</div><div class="fail">Konkan Railway — simulated network failure</div><div class="fail">MRVC — simulated network failure</div><div class="fail">G-RIDE (Gujarat) — simulated network failure</div><div class="fail">K-RIDE (Karnataka) — simulated network failure</div><div class="fail">HRIDC (Haryana) — simulated network failure</div><div class="fail">HORCL (Haryana Orbital) — simulated network failure</div><div class="fail">MahaRail (Maharashtra) — simulated network failure</div><div class="fail">NHSRCL — simulated network failure</div><div class="fail">CRIS — simulated network failure</div><div class="fail">Braithwaite Burn &amp; Jessop — simulated network failure</div><div class="fail">NCRTC (RRTS) — simulated network failure</div><div class="fail">MMRC (Mumbai Metro 3) — simulated network failure</div><div class="fail">MahaMetro — simulated network failure</div><div class="fail">BMRCL (Bengaluru) — simulated network failure</div><div class="fail">CMRL (Chennai) — simulated network failure</div><div class="fail">KMRL (Kochi) — simulated network failure</div><div class="fail">UPMRC (Lucknow, Kanpur, Agra) — simulated network failure</div><div class="fail">MPMRCL (Bhopal, Indore) — simulated network failure</div><div class="fail">GMRC (Ahmedabad, Surat) — simulated network failure</div><div class="fail">NMRC (Noida) — simulated network failure</div><div class="fail">KMRCL (Kolkata) — simulated network failure</div><div class="fail">MMRDA (Mumbai Metro) — simulated network failure</div><div class="fail">L&amp;T Metro (Hyderabad) — simulated network failure</div><div class="fail">JMRC (Jaipur) — simulated network failure</div><div class="fail">PSU Connect - Jobs — simulated network failure</div><p>Correct the address in <code>config/sources.yaml</code> and the next run will pick it up.</p>
+    <p style="margin:18px 0 6px"><strong>Sources unreachable (34)</strong></p><div class="fail">Railway Board - Vacancy Circulars — simulated network failure</div><div class="fail">IRCON International — simulated network failure</div><div class="fail">RITES — simulated network failure</div><div class="fail">RVNL — simulated network failure</div><div class="fail">RailTel — simulated network failure</div><div class="fail">CONCOR — simulated network failure</div><div class="fail">IRFC — simulated network failure</div><div class="fail">IRCTC — simulated network failure</div><div class="fail">DFCCIL — simulated network failure</div><div class="fail">Konkan Railway — simulated network failure</div><div class="fail">MRVC — simulated network failure</div><div class="fail">G-RIDE (Gujarat) — simulated network failure</div><div class="fail">K-RIDE (Karnataka) — simulated network failure</div><div class="fail">HRIDC (Haryana) — simulated network failure</div><div class="fail">HORCL (Haryana Orbital) — simulated network failure</div><div class="fail">MahaRail (Maharashtra) — simulated network failure</div><div class="fail">NHSRCL — simulated network failure</div><div class="fail">CRIS — simulated network failure</div><div class="fail">Braithwaite Burn &amp; Jessop — simulated network failure</div><div class="fail">NCRTC (RRTS) — simulated network failure</div><div class="fail">MMRC (Mumbai Metro 3) — simulated network failure</div><div class="fail">MahaMetro — simulated network failure</div><div class="fail">BMRCL (Bengaluru) — simulated network failure</div><div class="fail">CMRL (Chennai) — simulated network failure</div><div class="fail">KMRL (Kochi) — simulated network failure</div><div class="fail">UPMRC (Lucknow, Kanpur, Agra) — simulated network failure</div><div class="fail">MPMRCL (Bhopal, Indore) — simulated network failure</div><div class="fail">GMRC (Ahmedabad, Surat) — simulated network failure</div><div class="fail">NMRC (Noida) — simulated network failure</div><div class="fail">KMRCL (Kolkata) — simulated network failure</div><div class="fail">MMRDA (Mumbai Metro) — simulated network failure</div><div class="fail">L&amp;T Metro (Hyderabad) — simulated network failure</div><div class="fail">JMRC (Jaipur) — simulated network failure</div><div class="fail">PSU Connect - Jobs — simulated network failure</div><p>Correct the address in <code>config/sources.yaml</code> and the next run will pick it up.</p>
     <p>Rebuilt automatically each morning. Deadlines are shown as published by
        the source — confirm on the source page before acting on one.</p>
   </div>
