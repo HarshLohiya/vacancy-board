@@ -1800,6 +1800,26 @@
    "url": "https://kmrc.in/admin/uploaded_career/GM_ST_DEPUTATION.pdf",
    "vacancy_date": null
   },
+  "81b7e0444ded2254": {
+   "deadline_note": "",
+   "first_seen": "2026-08-07",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "RailTel",
+   "post": "Notice for Engagement of Experienced Civil Engineer for RailTel Southern Region on Contract Basis",
+   "scale": "",
+   "schedule": "",
+   "source_id": "railtel",
+   "source_name": "RailTel",
+   "url": "https://www.railtel.in/images/careers/Civil Engg Notification 07082026.pdf",
+   "vacancy_date": null
+  },
   "823f58a81bb9aded": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -2198,6 +2218,26 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/AGM_S&T.pdf",
+   "vacancy_date": null
+  },
+  "98af2c31105be420": {
+   "deadline_note": "",
+   "first_seen": "2026-08-07",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u091a\u0947\u0928\u094d\u0928\u0908 \u0915\u0947 \u092f\u0942\u091f\u0940\u090f\u0938 \u0938\u092e\u0942\u0939 \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0905\u0927\u093f\u0915\u093e\u0930\u0940 \u0915\u0940 \u090f\u0915 \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Officers/VC 41 of 2026.pdf",
    "vacancy_date": null
   },
   "99454cf21107aed2": {
@@ -3895,7 +3935,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 343,
+   "doc_count": 344,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -4196,6 +4236,7 @@
     "https://cris.org.in/PDF/Project_Officers/VC 40 of 2024.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 40 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 41 of 2025.pdf",
+    "https://cris.org.in/PDF/Project_Officers/VC 41 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 43 2025 R 10 2026 R 33 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 43 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 44 R of 2024.pdf",
@@ -4241,7 +4282,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "e96769f85bd369c22eec26935585aadf0b6d58c6"
+   "text_hash": "fb553f3cca1630ee214797b050ab2de347b8d230"
   },
   "dfccil": {
    "doc_count": 28,
@@ -4738,7 +4779,7 @@
     "https://kochimetro.org/careers/site_media/notifications/214.pdf",
     "https://kochimetro.org/careers/site_media/notifications/215.pdf"
    ],
-   "text_hash": "653589af531c0ecc041a413526ca6c1d8b9ff5d4"
+   "text_hash": "820a077706139706cf61870bac7c58b1d4941270"
   },
   "krcl": {
    "doc_count": 19,
@@ -4763,7 +4804,7 @@
     "https://konkanrailway.com/sites/default/files/PDF-KONKAN-security.pdf",
     "https://konkanrailway.com/sites/default/files/rorkfr0200_eng.pdf"
    ],
-   "text_hash": "ea86a10d9221cf70763ef9cfcd941e419597099b"
+   "text_hash": "c75348536b47ada28df52feaa8a7e2ae17270306"
   },
   "kride": {
    "doc_count": 22,
@@ -5267,7 +5308,7 @@
     "https://mmrda.maharashtra.gov.in/sites/default/files/2026-07/final_advt._draft_do.pdf",
     "https://www.mmrda.maharashtra.gov.in/sites/default/files/2023-06/EASE_OF_DOING_BUSINESS_HANDBOOK_FOR_BUILDING_PERMISSIONS__%28Version_1.0%29.pdf"
    ],
-   "text_hash": "6c5586143a231567ec0accbcf02d7abe56c11f81"
+   "text_hash": "fa83a4c875f3db78a3331e765ded15fc6772316e"
   },
   "mpmrcl": {
    "doc_count": 12,
@@ -5292,7 +5333,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "b9ac1f0e3f92a104826c9a4479d89849bbc8d1d4"
+   "text_hash": "c8136d52720d1829e212d4c39bd5076f0cbcb733"
   },
   "ncrtc": {
    "doc_count": 13,
@@ -5372,7 +5413,7 @@
    "text_hash": "1ae4c4ae1c01660c182735bcf93e6fc48cc41bac"
   },
   "railtel": {
-   "doc_count": 511,
+   "doc_count": 512,
    "docs": [
     "http://www.railtel.in/images/pdf/Terms of Use.pdf",
     "https://www.railtel.in/career.html",
@@ -5431,6 +5472,7 @@
     "https://www.railtel.in/images/careers/CORRIGENDUM 2.pdf",
     "https://www.railtel.in/images/careers/CORRIGENDUM.pdf",
     "https://www.railtel.in/images/careers/CUT OFF MARKS AM Legal.pdf",
+    "https://www.railtel.in/images/careers/Civil Engg Notification 07082026.pdf",
     "https://www.railtel.in/images/careers/Contractual Vacancy Notice -WR - 06-03-2023.pdf",
     "https://www.railtel.in/images/careers/Corrigendum -1 dt 16.06.2026.pdf",
     "https://www.railtel.in/images/careers/Corrigendum 12.11.2025.pdf",
@@ -5886,7 +5928,7 @@
     "https://www.railtelindia.com/images/pdf/Software as a Serivce (SaaS)- Association with RailTel-NOTICE.pdf",
     "javascript:;"
    ],
-   "text_hash": "94306511840f67ae6159efc8d393258595c34f6d"
+   "text_hash": "8149614595bd7bf36063c36a7cd142905cb25884"
   },
   "rb_home": {
    "doc_count": 24,
