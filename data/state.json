@@ -2980,6 +2980,26 @@
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/V_No_16_2026.pdf",
    "vacancy_date": null
   },
+  "d129f848f42f6ca7": {
+   "deadline_note": "",
+   "first_seen": "2026-08-07",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs",
+   "vacancy_date": null
+  },
   "d1fe10d6b4330c25": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -4718,7 +4738,7 @@
     "https://kochimetro.org/careers/site_media/notifications/214.pdf",
     "https://kochimetro.org/careers/site_media/notifications/215.pdf"
    ],
-   "text_hash": "9f27e0950d175fd851460470450b664ace35c5a7"
+   "text_hash": "653589af531c0ecc041a413526ca6c1d8b9ff5d4"
   },
   "krcl": {
    "doc_count": 19,
@@ -4743,7 +4763,7 @@
     "https://konkanrailway.com/sites/default/files/PDF-KONKAN-security.pdf",
     "https://konkanrailway.com/sites/default/files/rorkfr0200_eng.pdf"
    ],
-   "text_hash": "fce2e7cdac2ce2871798b4a312db5bf28b14bbb2"
+   "text_hash": "ea86a10d9221cf70763ef9cfcd941e419597099b"
   },
   "kride": {
    "doc_count": 22,
@@ -5247,7 +5267,7 @@
     "https://mmrda.maharashtra.gov.in/sites/default/files/2026-07/final_advt._draft_do.pdf",
     "https://www.mmrda.maharashtra.gov.in/sites/default/files/2023-06/EASE_OF_DOING_BUSINESS_HANDBOOK_FOR_BUILDING_PERMISSIONS__%28Version_1.0%29.pdf"
    ],
-   "text_hash": "ccce9d11f9c97e27d48ea490b15d0c0b4d3b456a"
+   "text_hash": "6c5586143a231567ec0accbcf02d7abe56c11f81"
   },
   "mpmrcl": {
    "doc_count": 12,
@@ -5272,7 +5292,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "5ae25707c6fd33a9f9652df66f5c1dba2e05bcda"
+   "text_hash": "b9ac1f0e3f92a104826c9a4479d89849bbc8d1d4"
   },
   "ncrtc": {
    "doc_count": 13,
@@ -5349,7 +5369,7 @@
     "https://www.psuconnect.in/Jobs/rvnl-recruits-2-general-managers-civil-on-deputation-in-kolkata",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "942c39da9cd6051e8b130680760e7b0504834aef"
+   "text_hash": "1ae4c4ae1c01660c182735bcf93e6fc48cc41bac"
   },
   "railtel": {
    "doc_count": 511,
