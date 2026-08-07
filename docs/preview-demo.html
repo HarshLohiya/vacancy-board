@@ -12,6 +12,9 @@
   --paper:#e6eaed; --card:#fff; --ink:#171b1f; --muted:#5c6670;
   --rule:#ccd3d8; --brand:#6e1a22; --brand-ink:#f3e7e4;
   --danger:#c0272d; --caution:#c07c00; --clear:#157f4c; --off:#8b959c;
+  /* board-level rank: deliberately off the red/amber/green scale so it
+     cannot be read as a deadline signal */
+  --top:#4c3a8f; --top-bg:#f7f5fd;
   --shadow:0 1px 0 rgba(23,27,31,.06), 0 6px 22px -14px rgba(23,27,31,.5);
 }
 *{box-sizing:border-box}
@@ -45,6 +48,8 @@ a{color:inherit}
 .count.caution{border-top-color:var(--caution)}
 .count.clear{border-top-color:var(--clear)}
 .count.fresh{border-top-color:var(--brand)}
+.count.top{border-top-color:var(--top)}
+.count.top .count-n{color:var(--top)}
 .count-n{display:block;font-family:"IBM Plex Mono",monospace;font-size:26px;
   font-weight:600;line-height:1}
 .count-l{display:block;margin-top:5px;font-size:11px;letter-spacing:.1em;
@@ -128,6 +133,19 @@ a{color:inherit}
 .tag-new{background:var(--brand);color:#fff;border-radius:2px;
   padding:1px 6px;font-size:9.5px;letter-spacing:.1em}
 .post{margin:5px 0 6px;font-size:17px;font-weight:600;line-height:1.28}
+
+/* Board-level posts: Director, MD, CMD, CEO. A second, quieter channel than
+   the signal aspect, which is about time left - a row can be both urgent and
+   board-level and must still read as both. */
+.tag-top{background:var(--top);color:#fff;border-radius:2px;
+  padding:1px 6px;font-size:9.5px;letter-spacing:.1em}
+.row.top{background:var(--top-bg)}
+.row.top::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:var(--top)}
+.row.top .post{color:var(--top)}
+.row.top .post a{background-image:linear-gradient(var(--top),var(--top));
+  opacity:.92}
+.row.top .post a:hover{opacity:1}
 .post a{text-decoration:none;background-image:linear-gradient(var(--rule),var(--rule));
   background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
   padding-bottom:1px}
@@ -162,7 +180,7 @@ a{color:inherit}
      metro rail corporations, state rail infrastructure JVs and the Railway
      Board. Every post listed has a published closing date that has not yet
      passed, and a link checked within the last week.</p>
-  <p class="stamp">Checked 07 Aug 2026, 01:17 IST</p>
+  <p class="stamp">Checked 07 Aug 2026, 08:33 IST</p>
   <div class="local" id="local">
     <div class="local-r">
       <button class="go" data-mode="full">Refresh now</button>
@@ -176,7 +194,7 @@ a{color:inherit}
 </div></div>
 
 <div class="wrap">
-  <div class="counts"><button class="count danger" data-filter="danger"><span class="count-n">1</span><span class="count-l">Closing soon</span></button><button class="count caution" data-filter="caution"><span class="count-n">4</span><span class="count-l">Open</span></button><button class="count clear" data-filter="clear"><span class="count-n">0</span><span class="count-l">Upcoming</span></button><button class="count fresh" data-filter="fresh"><span class="count-n">1</span><span class="count-l">New today</span></button></div>
+  <div class="counts"><button class="count danger" data-filter="danger"><span class="count-n">1</span><span class="count-l">Closing soon</span></button><button class="count caution" data-filter="caution"><span class="count-n">3</span><span class="count-l">Open</span></button><button class="count clear" data-filter="clear"><span class="count-n">0</span><span class="count-l">Upcoming</span></button><button class="count top" data-filter="top"><span class="count-n">4</span><span class="count-l">Board level</span></button><button class="count fresh" data-filter="fresh"><span class="count-n">1</span><span class="count-l">New today</span></button></div>
   <div class="tools">
     <input id="q" type="search" placeholder="Filter by organisation or post"
            aria-label="Filter by organisation or post">
@@ -188,14 +206,15 @@ a{color:inherit}
         <p class="block-note">Deadline within 7 days.</p>
       </header>
       <ul class="rail">
-      <li class="row danger" data-search="ircon international limited director (works) pesb - advertised vacancies board level (pesb)" data-aspect="danger" data-new="0">
+      <li class="row danger top" data-search="ircon international limited director (works) pesb - advertised vacancies board level (pesb)"
+          data-aspect="danger" data-new="0" data-top="1">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">4</span>
           <span class="g-l">days</span>
         </div>
         <div class="body">
-          <p class="org">IRCON International Limited</p>
+          <p class="org">IRCON International Limited<span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1234" target="_blank"
              rel="noopener">Director (Works)</a></h3>
           <p class="meta">Apply by 11 Aug 2026 · 3:00PM <i>·</i> Vacant from 05 Dec 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
@@ -205,60 +224,49 @@ a{color:inherit}
     </section>
     <section class="block">
       <header class="block-h">
-        <h2>Open</h2><span class="block-n">4</span>
+        <h2>Open</h2><span class="block-n">3</span>
         <p class="block-note">Applications still being received.</p>
       </header>
       <ul class="rail">
-      <li class="row caution" data-search="dmrc engagement of executive director (civil) on deputation basis — 15.08.2026 dmrc metro" data-aspect="caution" data-new="1">
+      <li class="row caution top" data-search="dmrc engagement of executive director (civil) on deputation basis — 15.08.2026 dmrc metro"
+          data-aspect="caution" data-new="1" data-top="1">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">8</span>
           <span class="g-l">days</span>
         </div>
         <div class="body">
-          <p class="org">DMRC<span class="tag-new">New</span></p>
+          <p class="org">DMRC<span class="tag-new">New</span><span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://www.delhimetrorail.com/docs/ed-civil.pdf" target="_blank"
              rel="noopener">Engagement of Executive Director (Civil) on deputation basis — 15.08.2026</a></h3>
           <p class="meta">Apply by 15 Aug 2026 · date read from the notice title <i>·</i> DMRC</p>
         </div>
         <span class="sr">Open</span>
       </li>
-      <li class="row caution" data-search="rail vikas nigam limited chairman &amp; managing director pesb - advertised vacancies board level (pesb)" data-aspect="caution" data-new="0">
+      <li class="row caution top" data-search="rail vikas nigam limited chairman &amp; managing director pesb - advertised vacancies board level (pesb)"
+          data-aspect="caution" data-new="0" data-top="1">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">22</span>
           <span class="g-l">days</span>
         </div>
         <div class="body">
-          <p class="org">Rail Vikas Nigam Limited</p>
+          <p class="org">Rail Vikas Nigam Limited<span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1235" target="_blank"
              rel="noopener">Chairman &amp; Managing Director</a></h3>
           <p class="meta">Apply by 29 Aug 2026 · 3:00PM <i>·</i> Vacant from 23 Feb 2027 <i>·</i> Schedule A <i>·</i> Rs. 200000 - 370000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
         </div>
         <span class="sr">Open</span>
       </li>
-      <li class="row caution" data-search="steel authority of india limited (sail) director (commercial) pesb - advertised vacancies board level (pesb)" data-aspect="caution" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">25</span>
-          <span class="g-l">days</span>
-        </div>
-        <div class="body">
-          <p class="org">Steel Authority of India Limited (SAIL)</p>
-          <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1237" target="_blank"
-             rel="noopener">Director (Commercial)</a></h3>
-          <p class="meta">Apply by 01 Sep 2026 · 3:00PM <i>·</i> Vacant from 06 Oct 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
-        </div>
-        <span class="sr">Open</span>
-      </li>
-      <li class="row caution" data-search="konkan railway corporation limited director (way &amp; works) pesb - advertised vacancies board level (pesb)" data-aspect="caution" data-new="0">
+      <li class="row caution top" data-search="konkan railway corporation limited director (way &amp; works) pesb - advertised vacancies board level (pesb)"
+          data-aspect="caution" data-new="0" data-top="1">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">26</span>
           <span class="g-l">days</span>
         </div>
         <div class="body">
-          <p class="org">Konkan Railway Corporation Limited</p>
+          <p class="org">Konkan Railway Corporation Limited<span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://pesb.gov.in/JobDescription/1236" target="_blank"
              rel="noopener">Director (Way &amp; Works)</a></h3>
           <p class="meta">Apply by 02 Sep 2026 · 3:00PM <i>·</i> Vacant from 05 Nov 2026 <i>·</i> Schedule A <i>·</i> Rs. 180000 - 340000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
@@ -281,6 +289,7 @@ function apply(){
   rows.forEach(r=>{
     const okT=!t||r.dataset.search.includes(t);
     const okA=!aspect||(aspect==='fresh'?r.dataset.new==='1'
+                        :aspect==='top'?r.dataset.top==='1'
                         :r.dataset.aspect===aspect);
     r.style.display=(okT&&okA)?'':'none';
   });

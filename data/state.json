@@ -327,10 +327,10 @@
    "issue_date": "2026-01-17",
    "kind": "advertised",
    "last_date": null,
-   "link_checked": "",
+   "link_checked": "2026-08-07",
    "link_dead_since": "",
    "link_note": "",
-   "link_ok": null,
+   "link_ok": true,
    "organisation": "Kochi Metro Rail Limited (KMRL)",
    "post": "General Manager (Signalling & Telecom)",
    "scale": "",
@@ -447,10 +447,10 @@
    "issue_date": "2026-01-27",
    "kind": "advertised",
    "last_date": null,
-   "link_checked": "",
+   "link_checked": "2026-08-07",
    "link_dead_since": "",
    "link_note": "",
-   "link_ok": null,
+   "link_ok": true,
    "organisation": "CENTRE FOR RAILWAY INFORMATION SYSTEMS (CRIS",
    "post": "DIRECTOR (FINANCE)",
    "scale": "",
@@ -1147,10 +1147,10 @@
    "issue_date": "2026-06-18",
    "kind": "advertised",
    "last_date": null,
-   "link_checked": "",
+   "link_checked": "2026-08-07",
    "link_dead_since": "",
    "link_note": "",
-   "link_ok": null,
+   "link_ok": true,
    "organisation": "RLDA",
    "post": "Chief Project Manager, Joint General Manager/Deputy General Manager (Civil), Manager/Assistant Manager (Civil), Manager/Assistant Manager (Electrical)",
    "scale": "",
@@ -4440,7 +4440,7 @@
     "https://konkanrailway.com/sites/default/files/PDF-KONKAN-security.pdf",
     "https://konkanrailway.com/sites/default/files/rorkfr0200_eng.pdf"
    ],
-   "text_hash": "183a4276f739b2a0c6b826b29b8672b4ea8182b5"
+   "text_hash": "a02d01cc7e234dbd09a630d82781527ced78ab20"
   },
   "kride": {
    "doc_count": 22,
@@ -4944,7 +4944,7 @@
     "https://mmrda.maharashtra.gov.in/sites/default/files/2026-07/final_advt._draft_do.pdf",
     "https://www.mmrda.maharashtra.gov.in/sites/default/files/2023-06/EASE_OF_DOING_BUSINESS_HANDBOOK_FOR_BUILDING_PERMISSIONS__%28Version_1.0%29.pdf"
    ],
-   "text_hash": "7260bca29d25c0576c22146b4cc3f1683c034737"
+   "text_hash": "2c9c07ba5c3151b56b30d331fbcf945cc0c6fffc"
   },
   "mpmrcl": {
    "doc_count": 12,
@@ -4969,7 +4969,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "c3917ced117a81f5d0e3b4738c47e98a796b9381"
+   "text_hash": "9c687ee3cee82b58a2c13b06194273e7794ebc74"
   },
   "ncrtc": {
    "doc_count": 13,
