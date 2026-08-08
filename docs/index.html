@@ -12,6 +12,9 @@
   --paper:#e6eaed; --card:#fff; --ink:#171b1f; --muted:#5c6670;
   --rule:#ccd3d8; --brand:#6e1a22; --brand-ink:#f3e7e4;
   --danger:#c0272d; --caution:#c07c00; --clear:#157f4c; --off:#8b959c;
+  /* board-level rank: deliberately off the red/amber/green scale so it
+     cannot be read as a deadline signal */
+  --top:#4c3a8f; --top-bg:#f7f5fd;
   --shadow:0 1px 0 rgba(23,27,31,.06), 0 6px 22px -14px rgba(23,27,31,.5);
 }
 *{box-sizing:border-box}
@@ -45,6 +48,8 @@ a{color:inherit}
 .count.caution{border-top-color:var(--caution)}
 .count.clear{border-top-color:var(--clear)}
 .count.fresh{border-top-color:var(--brand)}
+.count.top{border-top-color:var(--top)}
+.count.top .count-n{color:var(--top)}
 .count-n{display:block;font-family:"IBM Plex Mono",monospace;font-size:26px;
   font-weight:600;line-height:1}
 .count-l{display:block;margin-top:5px;font-size:11px;letter-spacing:.1em;
@@ -84,6 +89,20 @@ a{color:inherit}
 .block-n{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--muted)}
 .block-note{grid-column:1/-1;margin:2px 0 0;font-size:12.5px;color:var(--muted)}
 
+/* unconfirmed notices: present, but plainly not part of the board's promise */
+.aside{margin-top:40px;border-top:1px solid var(--rule);padding-top:4px}
+.aside summary{display:flex;gap:10px;align-items:baseline;padding:10px 0;
+  cursor:pointer;list-style:none}
+.aside summary::-webkit-details-marker{display:none}
+.aside summary::before{content:"▸";color:var(--muted);font-size:11px}
+.aside[open] summary::before{content:"▾"}
+.aside summary h2{margin:0;font-family:"IBM Plex Sans Condensed",sans-serif;
+  font-size:15px;letter-spacing:.13em;text-transform:uppercase;font-weight:600;
+  color:var(--muted)}
+.aside summary:hover h2{color:var(--ink)}
+.aside .block-note{margin:0 0 10px 21px;max-width:64ch}
+.aside .rail{opacity:.82}
+
 /* the rail */
 .rail{list-style:none;margin:0;padding:0}
 .row{display:grid;grid-template-columns:66px 1fr;background:var(--card);
@@ -109,15 +128,40 @@ a{color:inherit}
 .row.danger .g-n{color:var(--danger)}
 
 .body{padding:14px 16px 15px;min-width:0}
-.org{margin:0;font-size:11px;letter-spacing:.11em;text-transform:uppercase;
-  color:var(--muted);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+/* The organisation is half the answer to "is this for me?", so it carries
+   real weight rather than sitting as grey small print above the post. */
+.org{margin:0;font-size:12.5px;letter-spacing:.07em;text-transform:uppercase;
+  color:var(--ink);font-weight:600;
+  display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .tag-new{background:var(--brand);color:#fff;border-radius:2px;
   padding:1px 6px;font-size:9.5px;letter-spacing:.1em}
 .post{margin:5px 0 6px;font-size:17px;font-weight:600;line-height:1.28}
+
+/* Board-level posts: Director, MD, CMD, CEO. A second, quieter channel than
+   the signal aspect, which is about time left - a row can be both urgent and
+   board-level and must still read as both. */
+.tag-top{background:var(--top);color:#fff;border-radius:2px;
+  padding:1px 6px;font-size:9.5px;letter-spacing:.1em}
+.row.top{background:var(--top-bg)}
+.row.top::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;
+  background:var(--top)}
+.row.top .post{color:var(--top)}
+.row.top .post a{background-image:linear-gradient(var(--top),var(--top));
+  opacity:.92}
+.row.top .post a:hover{opacity:1}
 .post a{text-decoration:none;background-image:linear-gradient(var(--rule),var(--rule));
   background-size:100% 1px;background-repeat:no-repeat;background-position:0 100%;
   padding-bottom:1px}
 .post a:hover{background-image:linear-gradient(var(--brand),var(--brand))}
+/* the deadline, on its own line: the fact people scan for */
+.when{margin:0 0 3px;font-family:"IBM Plex Mono",monospace;font-size:13px;
+  color:var(--muted);line-height:1.5}
+.when b{font-weight:600;font-size:14px;color:var(--ink);letter-spacing:.01em}
+.row.danger .when b{color:var(--danger)}
+.row.caution .when b{color:#8a5900}
+.when .qual{opacity:.72;font-size:11.5px}
+.when .qual::before{content:"· "}
+
 .meta{margin:0;font-family:"IBM Plex Mono",monospace;font-size:11.5px;
   color:var(--muted);line-height:1.65}
 .meta i{font-style:normal;opacity:.45;padding:0 2px}
@@ -145,8 +189,10 @@ a{color:inherit}
 <div class="mast"><div class="wrap">
   <h1>Vacancy Board</h1>
   <p>Board-level and senior posts across Railway public sector undertakings,
-     metro rail corporations and the Railway Board.</p>
-  <p class="stamp">Checked 08 Aug 2026, 08:40 IST</p>
+     metro rail corporations, state rail infrastructure JVs and the Railway
+     Board. Every post listed has a published closing date that has not yet
+     passed, and a link checked within the last week.</p>
+  <p class="stamp">Checked 08 Aug 2026, 13:13 IST</p>
   <div class="local" id="local">
     <div class="local-r">
       <button class="go" data-mode="full">Refresh now</button>
@@ -160,7 +206,7 @@ a{color:inherit}
 </div></div>
 
 <div class="wrap">
-  <div class="counts"><button class="count danger" data-filter="danger"><span class="count-n">1</span><span class="count-l">Closing soon</span></button><button class="count caution" data-filter="caution"><span class="count-n">15</span><span class="count-l">Open</span></button><button class="count clear" data-filter="clear"><span class="count-n">0</span><span class="count-l">Upcoming</span></button><button class="count fresh" data-filter="fresh"><span class="count-n">3</span><span class="count-l">New today</span></button></div>
+  <div class="counts"><button class="count danger" data-filter="danger"><span class="count-n">1</span><span class="count-l">Closing soon</span></button><button class="count caution" data-filter="caution"><span class="count-n">10</span><span class="count-l">Open</span></button><button class="count clear" data-filter="clear"><span class="count-n">0</span><span class="count-l">Upcoming</span></button><button class="count top" data-filter="top"><span class="count-n">5</span><span class="count-l">Board level</span></button><button class="count fresh" data-filter="fresh"><span class="count-n">1</span><span class="count-l">New today</span></button></div>
   <div class="tools">
     <input id="q" type="search" placeholder="Filter by organisation or post"
            aria-label="Filter by organisation or post">
@@ -172,7 +218,8 @@ a{color:inherit}
         <p class="block-note">Deadline within 7 days.</p>
       </header>
       <ul class="rail">
-      <li class="row danger" data-search="gujarat metro rail corporation ltd chief general manager/ general manager (civil) railway board - vacancy circulars railway board" data-aspect="danger" data-new="0">
+      <li class="row danger" data-search="gujarat metro rail corporation ltd chief general manager/ general manager (civil) railway board - vacancy circulars railway board"
+          data-aspect="danger" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">4</span>
@@ -182,32 +229,36 @@ a{color:inherit}
           <p class="org">Gujarat Metro Rail Corporation Ltd</p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/Recruitment%20notification%20of%20CGM%20GM%20Civil%20dated%202772026.pdf" target="_blank"
              rel="noopener">Chief General Manager/ General Manager (Civil)</a></h3>
-          <p class="meta">Apply by 12 Aug 2026 <i>·</i> 6 posts <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when">Apply by <b>12 Aug 2026</b></p>
+          <p class="meta">6 posts <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">Closing</span>
       </li></ul>
     </section>
     <section class="block">
       <header class="block-h">
-        <h2>Open</h2><span class="block-n">15</span>
+        <h2>Open</h2><span class="block-n">10</span>
         <p class="block-note">Applications still being received.</p>
       </header>
       <ul class="rail">
-      <li class="row caution" data-search="hassan mangalore rail development company ltd. (hmrdc) chief executive officer railway board - vacancy circulars railway board" data-aspect="caution" data-new="0">
+      <li class="row caution top" data-search="hassan mangalore rail development company ltd. (hmrdc) chief executive officer railway board - vacancy circulars railway board"
+          data-aspect="caution" data-new="0" data-top="1">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">12</span>
           <span class="g-l">days</span>
         </div>
         <div class="body">
-          <p class="org">HASSAN MANGALORE RAIL DEVELOPMENT COMPANY LTD. (HMRDC)</p>
+          <p class="org">HASSAN MANGALORE RAIL DEVELOPMENT COMPANY LTD. (HMRDC)<span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VACANCY%20NOTICE%20NO_%20292026.pdf" target="_blank"
              rel="noopener">CHIEF EXECUTIVE OFFICER</a></h3>
-          <p class="meta">Apply by 20 Aug 2026 <i>·</i> AS PER ANNEXURE <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when">Apply by <b>20 Aug 2026</b></p>
+          <p class="meta">AS PER ANNEXURE <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">Open</span>
       </li>
-      <li class="row caution" data-search="rlda chief project manager railway board - vacancy circulars railway board" data-aspect="caution" data-new="0">
+      <li class="row caution" data-search="rlda chief project manager railway board - vacancy circulars railway board"
+          data-aspect="caution" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">13</span>
@@ -217,11 +268,13 @@ a{color:inherit}
           <p class="org">RLDA</p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/V_No_18_2026.pdf" target="_blank"
              rel="noopener">Chief Project Manager</a></h3>
-          <p class="meta">Apply by 21 Aug 2026 <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when">Apply by <b>21 Aug 2026</b></p>
+          <p class="meta">Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">Open</span>
       </li>
-      <li class="row caution" data-search="dfccil general manager (technical) railway board - vacancy circulars railway board" data-aspect="caution" data-new="0">
+      <li class="row caution" data-search="dfccil general manager (technical) railway board - vacancy circulars railway board"
+          data-aspect="caution" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">13</span>
@@ -231,25 +284,29 @@ a{color:inherit}
           <p class="org">DFCCIL</p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VN_30_2026_230726.pdf" target="_blank"
              rel="noopener">General Manager (Technical)</a></h3>
-          <p class="meta">Apply by 21 Aug 2026 <i>·</i> IRSE/Officers of Engg. Deptt. Of Indian Railways/Central Govt./CPSU&#x27;s etc. <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when">Apply by <b>21 Aug 2026</b></p>
+          <p class="meta">IRSE/Officers of Engg. Deptt. Of Indian Railways/Central Govt./CPSU&#x27;s etc. <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">Open</span>
       </li>
-      <li class="row caution" data-search="indian railway catering and tourism corporation limited (irctc) chairman &amp; managing director pesb - advertised vacancies board level (pesb)" data-aspect="caution" data-new="0">
+      <li class="row caution top" data-search="indian railway catering and tourism corporation ltd (irctc). chairman &amp; managing director railway board - vacancy circulars railway board"
+          data-aspect="caution" data-new="1" data-top="1">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
-          <span class="g-n">19</span>
+          <span class="g-n">14</span>
           <span class="g-l">days</span>
         </div>
         <div class="body">
-          <p class="org">Indian Railway Catering and Tourism Corporation Limited (IRCTC)</p>
-          <h3 class="post"><a href="https://pesb.gov.in/Home/AdvertisVacancy" target="_blank"
-             rel="noopener">Chairman &amp; Managing Director</a></h3>
-          <p class="meta">Apply by 27 Aug 2026 · 3:00PM <i>·</i> Vacant from 20 Jul 2026 <i>·</i> Schedule A <i>·</i> Rs. 200000 – 370000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
+          <p class="org">INDIAN RAILWAY CATERING AND TOURISM CORPORATION LTD (IRCTC).<span class="tag-new">New</span><span class="tag-top">Board level</span></p>
+          <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/Image_044.pdf" target="_blank"
+             rel="noopener">CHAIRMAN &amp; MANAGING DIRECTOR</a></h3>
+          <p class="when">Apply by <b>22 Aug 2026</b> <span class="qual">15 days from issue on 07 Aug 2026</span></p>
+          <p class="meta">AS PER ANNEXURE <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">Open</span>
       </li>
-      <li class="row caution" data-search="kochi metro rail limited general manager (operations &amp; maintenance) railway board - vacancy circulars railway board" data-aspect="caution" data-new="0">
+      <li class="row caution" data-search="kochi metro rail limited general manager (operations &amp; maintenance) railway board - vacancy circulars railway board"
+          data-aspect="caution" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">19</span>
@@ -259,25 +316,45 @@ a{color:inherit}
           <p class="org">KOCHI METRO RAIL LIMITED</p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/GM(OM)-%20Railway%20Upload.pdf" target="_blank"
              rel="noopener">General Manager (Operations &amp; Maintenance)</a></h3>
-          <p class="meta">Apply by 27 Aug 2026 <i>·</i> IRTS/IRSE/IRSSE/IRSEE/IRSME <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when">Apply by <b>27 Aug 2026</b></p>
+          <p class="meta">IRTS/IRSE/IRSSE/IRSEE/IRSME <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">Open</span>
       </li>
-      <li class="row caution" data-search="kerala rail development corporation ltd. (krdcl) managing director railway board - vacancy circulars railway board" data-aspect="caution" data-new="0">
+      <li class="row caution top" data-search="indian railway catering and tourism corporation limited (irctc) chairman &amp; managing director pesb - advertised vacancies board level (pesb)"
+          data-aspect="caution" data-new="0" data-top="1">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">19</span>
+          <span class="g-l">days</span>
+        </div>
+        <div class="body">
+          <p class="org">Indian Railway Catering and Tourism Corporation Limited (IRCTC)<span class="tag-top">Board level</span></p>
+          <h3 class="post"><a href="https://pesb.gov.in/Home/AdvertisVacancy" target="_blank"
+             rel="noopener">Chairman &amp; Managing Director</a></h3>
+          <p class="when">Apply by <b>27 Aug 2026</b> <span class="qual">3:00PM</span></p>
+          <p class="meta">Vacant from 20 Jul 2026 <i>·</i> Schedule A <i>·</i> Rs. 200000 – 370000 (IDA) <i>·</i> PESB - Advertised Vacancies</p>
+        </div>
+        <span class="sr">Open</span>
+      </li>
+      <li class="row caution top" data-search="kerala rail development corporation ltd. (krdcl) managing director railway board - vacancy circulars railway board"
+          data-aspect="caution" data-new="0" data-top="1">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">22</span>
           <span class="g-l">days</span>
         </div>
         <div class="body">
-          <p class="org">KERALA RAIL DEVELOPMENT CORPORATION LTD. (KRDCL)</p>
+          <p class="org">KERALA RAIL DEVELOPMENT CORPORATION LTD. (KRDCL)<span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VACANCY%20NOTICE%20NO_%20262026.pdf" target="_blank"
              rel="noopener">MANAGING DIRECTOR</a></h3>
-          <p class="meta">Apply by 30 Aug 2026 · 45 days from issue on 16 Jul 2026 <i>·</i> AS PER ANNEXURES <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when">Apply by <b>30 Aug 2026</b> <span class="qual">45 days from issue on 16 Jul 2026</span></p>
+          <p class="meta">AS PER ANNEXURES <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">Open</span>
       </li>
-      <li class="row caution" data-search="rail vikas nigam ltd. gm (civil) at bhopal/indore on deputation basis railway board - vacancy circulars railway board" data-aspect="caution" data-new="0">
+      <li class="row caution" data-search="rail vikas nigam ltd. gm (civil) at bhopal/indore on deputation basis railway board - vacancy circulars railway board"
+          data-aspect="caution" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">22</span>
@@ -287,25 +364,29 @@ a{color:inherit}
           <p class="org">Rail Vikas Nigam Ltd.</p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/38%20CIVIL%20(1).pdf" target="_blank"
              rel="noopener">GM (Civil) at Bhopal/Indore on deputation basis</a></h3>
-          <p class="meta">Apply by 30 Aug 2026 <i>·</i> IRSE/Civil Engg. Deptt. <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when">Apply by <b>30 Aug 2026</b></p>
+          <p class="meta">IRSE/Civil Engg. Deptt. <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">Open</span>
       </li>
-      <li class="row caution" data-search="bharuch dahej railway company ltd. (bdrcl) managing director railway board - vacancy circulars railway board" data-aspect="caution" data-new="0">
+      <li class="row caution top" data-search="bharuch dahej railway company ltd. (bdrcl) managing director railway board - vacancy circulars railway board"
+          data-aspect="caution" data-new="0" data-top="1">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">23</span>
           <span class="g-l">days</span>
         </div>
         <div class="body">
-          <p class="org">BHARUCH DAHEJ RAILWAY COMPANY LTD. (BDRCL)</p>
+          <p class="org">BHARUCH DAHEJ RAILWAY COMPANY LTD. (BDRCL)<span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VACANCY%20NOTICE%20NO_%20312026.pdf" target="_blank"
              rel="noopener">MANAGING DIRECTOR</a></h3>
-          <p class="meta">Apply by 31 Aug 2026 <i>·</i> AS PER ANNEXURE <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when">Apply by <b>31 Aug 2026</b></p>
+          <p class="meta">AS PER ANNEXURE <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">Open</span>
       </li>
-      <li class="row clear" data-search="rail vikas nigam ltd. gm (civil) at kolkata on deputation basis railway board - vacancy circulars railway board" data-aspect="clear" data-new="0">
+      <li class="row clear" data-search="rail vikas nigam ltd. gm (civil) at kolkata on deputation basis railway board - vacancy circulars railway board"
+          data-aspect="clear" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">47</span>
@@ -315,11 +396,52 @@ a{color:inherit}
           <p class="org">Rail Vikas Nigam Ltd.</p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/46%20CIVIL.pdf" target="_blank"
              rel="noopener">GM (Civil) at Kolkata on deputation basis</a></h3>
-          <p class="meta">Apply by 24 Sep 2026 <i>·</i> IRSE / Civil Engg. · 2 posts <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when">Apply by <b>24 Sep 2026</b></p>
+          <p class="meta">IRSE / Civil Engg. · 2 posts <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">Open</span>
+      </li></ul>
+    </section>
+    <details class="block aside">
+      <summary>
+        <h2>Unconfirmed notices</h2><span class="block-n">40</span>
+      </summary>
+      <p class="block-note">Documents found on watched career pages whose closing date the source did not publish in readable form. Not counted above and not alerted on — open one to see whether it is still live.</p>
+      <ul class="rail">
+      <li class="row off" data-search="railtel detailed vacancy notice for sr. solution architect and solution architect in data centre on contract basis railtel railway psu"
+          data-aspect="off" data-new="0" data-top="0">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">·</span>
+          <span class="g-l"></span>
+        </div>
+        <div class="body">
+          <p class="org">RailTel</p>
+          <h3 class="post"><a href="https://www.railtel.in/images/careers/Sr. Soultion and Solution Architect draft vacancy Notice - Website.pdf" target="_blank"
+             rel="noopener">Detailed Vacancy Notice for Sr. Solution Architect and Solution Architect in Data Centre on Contract Basis</a></h3>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">RailTel</p>
+        </div>
+        <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="rlda chief project manager, joint general manager/deputy general manager (civil), manager/assistant manager (civil), manager/assistant manager (electrical) railway board - vacancy circulars railway board" data-aspect="off" data-new="0">
+      <li class="row off" data-search="mahametro corrigendum to advertisement no. maha-metro/n/hr/04/2026 date: 05.08.2026 mahametro metro"
+          data-aspect="off" data-new="0" data-top="0">
+        <div class="gutter" aria-hidden="true">
+          <span class="lamp"></span>
+          <span class="g-n">·</span>
+          <span class="g-l"></span>
+        </div>
+        <div class="body">
+          <p class="org">MahaMetro</p>
+          <h3 class="post"><a href="https://www.mahametro.org/pdf/Corrigendumhr3.pdf" target="_blank"
+             rel="noopener">Corrigendum to Advertisement No. MAHA-Metro/N/HR/04/2026 Date: 05.08.2026</a></h3>
+          <p class="when"><b>05 Aug 2026</b></p>
+          <p class="meta">MahaMetro</p>
+        </div>
+        <span class="sr">No date</span>
+      </li>
+      <li class="row off" data-search="rlda chief project manager, joint general manager/deputy general manager (civil), manager/assistant manager (civil), manager/assistant manager (electrical) railway board - vacancy circulars railway board"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -329,39 +451,13 @@ a{color:inherit}
           <p class="org">RLDA</p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/V_No_17_2026.pdf" target="_blank"
              rel="noopener">Chief Project Manager, Joint General Manager/Deputy General Manager (Civil), Manager/Assistant Manager (Civil), Manager/Assistant Manager (Electrical)</a></h3>
-          <p class="meta">18 Jun 2026 <i>·</i> 4 posts <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when"><b>18 Jun 2026</b></p>
+          <p class="meta">4 posts <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="rlda chief project manager, joint general manager/deputy general manager (civil) railway board - vacancy circulars railway board" data-aspect="off" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">RLDA</p>
-          <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/V_No_05_2026.pdf" target="_blank"
-             rel="noopener">Chief Project Manager, Joint General Manager/Deputy General Manager (Civil)</a></h3>
-          <p class="meta">23 Feb 2026 <i>·</i> 2 posts <i>·</i> Railway Board - Vacancy Circulars</p>
-        </div>
-        <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="kochi metro rail limited (kmrl) general manager (operations &amp; maintenance) railway board - vacancy circulars railway board" data-aspect="off" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">Kochi Metro Rail Limited (KMRL)</p>
-          <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Promotion_Posting/2026/GM(OM)%20to%20Railway%20%20Metros.pdf" target="_blank"
-             rel="noopener">General Manager (Operations &amp; Maintenance)</a></h3>
-          <p class="meta">17 Jan 2026 <i>·</i> As per circular and Corrigendum-2 <i>·</i> Railway Board - Vacancy Circulars</p>
-        </div>
-        <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="dfccil general manager (co-ord) railway board - vacancy circulars railway board" data-aspect="off" data-new="0">
+      <li class="row off" data-search="dfccil general manager (co-ord) railway board - vacancy circulars railway board"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -371,11 +467,13 @@ a{color:inherit}
           <p class="org">DFCCIL</p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/22_2026_060526.pdf" target="_blank"
              rel="noopener">General Manager (Co-ord)</a></h3>
-          <p class="meta">06 May 2026 <i>·</i> IRSE/Officers of Engg. Deptt. Of Indian Railways/Central Govt./CPSU&#x27;s etc. · 4 posts <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when"><b>06 May 2026</b></p>
+          <p class="meta">IRSE/Officers of Engg. Deptt. Of Indian Railways/Central Govt./CPSU&#x27;s etc. · 4 posts <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="haryana rail infrastructure development corporation ltd (hridc) - reg. general manager (project) railway board - vacancy circulars railway board" data-aspect="off" data-new="0">
+      <li class="row off" data-search="haryana rail infrastructure development corporation ltd (hridc) - reg. general manager (project) railway board - vacancy circulars railway board"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -385,74 +483,29 @@ a{color:inherit}
           <p class="org">Haryana Rail Infrastructure Development Corporation Ltd (HRIDC) - reg.</p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/20260102154032_removed.pdf" target="_blank"
              rel="noopener">GENERAL MANAGER (PROJECT)</a></h3>
-          <p class="meta">02 Jan 2026 <i>·</i> IRSE / Civil Engg. Department <i>·</i> Railway Board - Vacancy Circulars</p>
+          <p class="when"><b>02 Jan 2026</b></p>
+          <p class="meta">IRSE / Civil Engg. Department <i>·</i> Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="national high speed rail corporation ltd. (nhsrcl) managing director railway board - vacancy circulars railway board" data-aspect="off" data-new="0">
+      <li class="row off top" data-search="national high speed rail corporation ltd. (nhsrcl) managing director railway board - vacancy circulars railway board"
+          data-aspect="off" data-new="0" data-top="1">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
           <span class="g-l"></span>
         </div>
         <div class="body">
-          <p class="org">NATIONAL HIGH SPEED RAIL CORPORATION LTD. (NHSRCL)</p>
+          <p class="org">NATIONAL HIGH SPEED RAIL CORPORATION LTD. (NHSRCL)<span class="tag-top">Board level</span></p>
           <h3 class="post"><a href="https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VACANCY%20NOTICE%20NO_%20222026.pdf" target="_blank"
              rel="noopener">MANAGING DIRECTOR</a></h3>
-          <p class="meta">12 May 2026 <i>·</i> Railway Board - Vacancy Circulars</p>
-        </div>
-        <span class="sr">No date</span>
-      </li></ul>
-    </section>
-    <section class="block">
-      <header class="block-h">
-        <h2>Recent notices</h2><span class="block-n">40</span>
-        <p class="block-note">New documents found on watched career pages. Deadline not machine-readable — open to check.</p>
-      </header>
-      <ul class="rail">
-      <li class="row off" data-search="railtel detailed vacancy notice for sr. solution architect and solution architect in data centre on contract basis railtel railway psu" data-aspect="off" data-new="1">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">RailTel<span class="tag-new">New</span></p>
-          <h3 class="post"><a href="https://www.railtel.in/images/careers/Sr. Soultion and Solution Architect draft vacancy Notice - Website.pdf" target="_blank"
-             rel="noopener">Detailed Vacancy Notice for Sr. Solution Architect and Solution Architect in Data Centre on Contract Basis</a></h3>
-          <p class="meta">Posted recently <i>·</i> RailTel</p>
+          <p class="when"><b>12 May 2026</b></p>
+          <p class="meta">Railway Board - Vacancy Circulars</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="mahametro corrigendum to advertisement no. maha-metro/n/hr/04/2026 date: 05.08.2026 mahametro metro" data-aspect="off" data-new="1">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">MahaMetro<span class="tag-new">New</span></p>
-          <h3 class="post"><a href="https://www.mahametro.org/pdf/Corrigendumhr3.pdf" target="_blank"
-             rel="noopener">Corrigendum to Advertisement No. MAHA-Metro/N/HR/04/2026 Date: 05.08.2026</a></h3>
-          <p class="meta">05 Aug 2026 <i>·</i> MahaMetro</p>
-        </div>
-        <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="kmrl (kochi) page content changed - no new document link found kmrl (kochi) metro" data-aspect="off" data-new="1">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">KMRL (Kochi)<span class="tag-new">New</span></p>
-          <h3 class="post"><a href="https://kochimetro.org/careers/" target="_blank"
-             rel="noopener">Page content changed - no new document link found</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
-        </div>
-        <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/07 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/07 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -462,11 +515,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/194.pdf" target="_blank"
              rel="noopener">KMRL/HR/2025-26/07</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="nmrc (noida) format of various certificates nmrc (noida) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="nmrc (noida) format of various certificates nmrc (noida) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -476,11 +531,13 @@ a{color:inherit}
           <p class="org">NMRC (Noida)</p>
           <h3 class="post"><a href="https://www.nmrcnoida.com/assets/pdf/career/Format-of-Various-Certificates.pdf" target="_blank"
              rel="noopener">Format of Various Certificates</a></h3>
-          <p class="meta">Posted recently <i>·</i> NMRC (Noida)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">NMRC (Noida)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/13 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/13 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -490,11 +547,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/202.pdf" target="_blank"
              rel="noopener">KMRL/HR/2025-26/13</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) click here to download the application form kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) click here to download the application form kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -504,11 +563,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/112.pdf" target="_blank"
              rel="noopener">Click here to download the application form</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="jmrc (jaipur) jmrc recruitment rules 2012 jmrc (jaipur) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="jmrc (jaipur) jmrc recruitment rules 2012 jmrc (jaipur) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -518,11 +579,13 @@ a{color:inherit}
           <p class="org">JMRC (Jaipur)</p>
           <h3 class="post"><a href="https://transport.rajasthan.gov.in/content/transportportal/en/metro-portal/career/jmrc-recruitment-rules-2012.html" target="_blank"
              rel="noopener">JMRC Recruitment Rules 2012</a></h3>
-          <p class="meta">Posted recently <i>·</i> JMRC (Jaipur)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">JMRC (Jaipur)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2024-25/15 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2024-25/15 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -532,11 +595,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/185.pdf" target="_blank"
              rel="noopener">KMRL/HR/2024-25/15</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="jmrc (jaipur) public notice jmrc (jaipur) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="jmrc (jaipur) public notice jmrc (jaipur) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -546,11 +611,13 @@ a{color:inherit}
           <p class="org">JMRC (Jaipur)</p>
           <h3 class="post"><a href="https://transport.rajasthan.gov.in/content/transportportal/en/metro-portal/citizen-corner/public-notice.html" target="_blank"
              rel="noopener">Public Notice</a></h3>
-          <p class="meta">Posted recently <i>·</i> JMRC (Jaipur)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">JMRC (Jaipur)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) list of candidates in the order of merit called for psychometric test for the post of sc/to kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) list of candidates in the order of merit called for psychometric test for the post of sc/to kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -560,11 +627,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/news/SCTO-Psychometric.pdf" target="_blank"
              rel="noopener">List of candidates in the order of merit called for Psychometric Test for the post of SC/TO</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) admit card downloading link - scto &amp; je (civil) -09th march 2024 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) admit card downloading link - scto &amp; je (civil) -09th march 2024 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -574,11 +643,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/news/Admit_card_download.pdf" target="_blank"
              rel="noopener">Admit Card Downloading Link - SCTO &amp; JE (Civil) -09th March 2024</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/04 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/04 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -588,11 +659,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/191.pdf" target="_blank"
              rel="noopener">KMRL/HR/2025-26/04</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/11 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/11 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -602,11 +675,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/200.pdf" target="_blank"
              rel="noopener">KMRL/HR/2025-26/11</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/02 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/02 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -616,11 +691,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/189.pdf" target="_blank"
              rel="noopener">KMRL/HR/2025-26/02</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2023-24/09 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2023-24/09 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -630,11 +707,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/175.pdf" target="_blank"
              rel="noopener">KMRL/HR/2023-24/09</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="nmrc (noida) cancellation notice (379 kb) nmrc (noida) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="nmrc (noida) cancellation notice (379 kb) nmrc (noida) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -644,11 +723,13 @@ a{color:inherit}
           <p class="org">NMRC (Noida)</p>
           <h3 class="post"><a href="https://www.nmrcnoida.com/Upload/CareersRecentItems/45/DOC-20260717-WA0009.pdf" target="_blank"
              rel="noopener">CANCELLATION NOTICE (379 Kb)</a></h3>
-          <p class="meta">Posted recently <i>·</i> NMRC (Noida)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">NMRC (Noida)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="jmrc (jaipur) recruitment jmrc (jaipur) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="jmrc (jaipur) recruitment jmrc (jaipur) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -658,11 +739,13 @@ a{color:inherit}
           <p class="org">JMRC (Jaipur)</p>
           <h3 class="post"><a href="https://transport.rajasthan.gov.in/content/transportportal/en/rsrtc-portal/recruitment.html" target="_blank"
              rel="noopener">Recruitment</a></h3>
-          <p class="meta">Posted recently <i>·</i> JMRC (Jaipur)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">JMRC (Jaipur)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2026-27/10 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2026-27/10 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -672,11 +755,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/214.pdf" target="_blank"
              rel="noopener">KMRL/HR/2026-27/10</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) page content changed - no new document link found kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) page content changed - no new document link found kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -684,13 +769,15 @@ a{color:inherit}
         </div>
         <div class="body">
           <p class="org">KMRL (Kochi)</p>
-          <h3 class="post"><a href="https://kochimetro.org/careers/kmrl_vacancy.php?vac_type=jobs&amp;company=KMRL" target="_blank"
+          <h3 class="post"><a href="https://kochimetro.org/careers/" target="_blank"
              rel="noopener">Page content changed - no new document link found</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2024-25/05 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2024-25/05 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -700,11 +787,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/171.pdf" target="_blank"
              rel="noopener">KMRL/HR/2024-25/05</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2026-27/05 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2026-27/05 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -714,11 +803,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/211.pdf" target="_blank"
              rel="noopener">KMRL/HR/2026-27/05</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="nmrc (noida) cvo advt. dated 06.03.2026 (388 kb) nmrc (noida) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="nmrc (noida) cvo advt. dated 06.03.2026 (388 kb) nmrc (noida) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -728,11 +819,13 @@ a{color:inherit}
           <p class="org">NMRC (Noida)</p>
           <h3 class="post"><a href="https://www.nmrcnoida.com/Upload/CareersRecentItems/40/CVO Advt. dated 06.03.2026.pdf" target="_blank"
              rel="noopener">CVO Advt. dated 06.03.2026 (388 Kb)</a></h3>
-          <p class="meta">06 Mar 2026 <i>·</i> NMRC (Noida)</p>
+          <p class="when"><b>06 Mar 2026</b></p>
+          <p class="meta">NMRC (Noida)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="jmrc (jaipur) direct recruitment jmrc (jaipur) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="jmrc (jaipur) direct recruitment jmrc (jaipur) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -742,11 +835,13 @@ a{color:inherit}
           <p class="org">JMRC (Jaipur)</p>
           <h3 class="post"><a href="https://transport.rajasthan.gov.in/content/transportportal/en/metro-portal/career/direct-recruitment.html" target="_blank"
              rel="noopener">Direct Recruitment</a></h3>
-          <p class="meta">Posted recently <i>·</i> JMRC (Jaipur)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">JMRC (Jaipur)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2024-25/04 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2024-25/04 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -756,11 +851,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/170.pdf" target="_blank"
              rel="noopener">KMRL/HR/2024-25/04</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="dmrc page content changed - no new document link found dmrc metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="dmrc page content changed - no new document link found dmrc metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -770,11 +867,13 @@ a{color:inherit}
           <p class="org">DMRC</p>
           <h3 class="post"><a href="https://www.delhimetrorail.com/career" target="_blank"
              rel="noopener">Page content changed - no new document link found</a></h3>
-          <p class="meta">Posted recently <i>·</i> DMRC</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">DMRC</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="g-ride (gujarat) posh act 2013 g-ride (gujarat) state rail jv" data-aspect="off" data-new="0">
+      <li class="row off" data-search="g-ride (gujarat) posh act 2013 g-ride (gujarat) state rail jv"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -784,11 +883,13 @@ a{color:inherit}
           <p class="org">G-RIDE (Gujarat)</p>
           <h3 class="post"><a href="https://gride.org.in/wp-content/uploads/2025/05/POSH-ACT-2013.pdf" target="_blank"
              rel="noopener">POSH ACT 2013</a></h3>
-          <p class="meta">Posted recently <i>·</i> G-RIDE (Gujarat)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">G-RIDE (Gujarat)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2026-27/06 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2026-27/06 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -798,11 +899,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/210.pdf" target="_blank"
              rel="noopener">KMRL/HR/2026-27/06</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2024-25/08 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2024-25/08 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -812,11 +915,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/174.pdf" target="_blank"
              rel="noopener">KMRL/HR/2024-25/08</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="nmrc (noida) application form with annexures (353 kb) nmrc (noida) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="nmrc (noida) application form with annexures (353 kb) nmrc (noida) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -826,11 +931,13 @@ a{color:inherit}
           <p class="org">NMRC (Noida)</p>
           <h3 class="post"><a href="https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Application Form with Annexures.pdf" target="_blank"
              rel="noopener">Application Form with Annexures (353 Kb)</a></h3>
-          <p class="meta">Posted recently <i>·</i> NMRC (Noida)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">NMRC (Noida)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/01 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2025-26/01 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -840,11 +947,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/188.pdf" target="_blank"
              rel="noopener">KMRL/HR/2025-26/01</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2026-27/07 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/2026-27/07 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -854,25 +963,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/212.pdf" target="_blank"
              rel="noopener">KMRL/HR/2026-27/07</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) click here to download the application form kmrl (kochi) metro" data-aspect="off" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">KMRL (Kochi)</p>
-          <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/103.pdf" target="_blank"
-             rel="noopener">Click here to download the application form</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
-        </div>
-        <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="kmrl (kochi) kmrl/hr/reemployment/2024-25/14 kmrl (kochi) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="kmrl (kochi) kmrl/hr/reemployment/2024-25/14 kmrl (kochi) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -882,11 +979,13 @@ a{color:inherit}
           <p class="org">KMRL (Kochi)</p>
           <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/182.pdf" target="_blank"
              rel="noopener">KMRL/HR/REEMPLOYMENT/2024-25/14</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">KMRL (Kochi)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="nmrc (noida) application form (292 kb) nmrc (noida) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="nmrc (noida) application form (292 kb) nmrc (noida) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -896,11 +995,13 @@ a{color:inherit}
           <p class="org">NMRC (Noida)</p>
           <h3 class="post"><a href="https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Application Form.pdf" target="_blank"
              rel="noopener">Application Form (292 Kb)</a></h3>
-          <p class="meta">Posted recently <i>·</i> NMRC (Noida)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">NMRC (Noida)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="railtel notice for engagement of experienced civil engineer for railtel southern region on contract basis railtel railway psu" data-aspect="off" data-new="0">
+      <li class="row off" data-search="railtel notice for engagement of experienced civil engineer for railtel southern region on contract basis railtel railway psu"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -910,11 +1011,13 @@ a{color:inherit}
           <p class="org">RailTel</p>
           <h3 class="post"><a href="https://www.railtel.in/images/careers/Civil Engg Notification 07082026.pdf" target="_blank"
              rel="noopener">Notice for Engagement of Experienced Civil Engineer for RailTel Southern Region on Contract Basis</a></h3>
-          <p class="meta">Posted recently <i>·</i> RailTel</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">RailTel</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="nmrc (noida) important notice of regarding employees nmrc (noida) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="nmrc (noida) important notice of regarding employees nmrc (noida) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -924,25 +1027,13 @@ a{color:inherit}
           <p class="org">NMRC (Noida)</p>
           <h3 class="post"><a href="https://www.nmrcnoida.com/Career/public-career" target="_blank"
              rel="noopener">Important notice of regarding employees</a></h3>
-          <p class="meta">Posted recently <i>·</i> NMRC (Noida)</p>
+          <p class="when"><b>Posted recently</b></p>
+          <p class="meta">NMRC (Noida)</p>
         </div>
         <span class="sr">No date</span>
       </li>
-      <li class="row off" data-search="kmrl (kochi) click here to download the application form kmrl (kochi) metro" data-aspect="off" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">KMRL (Kochi)</p>
-          <h3 class="post"><a href="https://kochimetro.org/careers/site_media/notifications/107.pdf" target="_blank"
-             rel="noopener">Click here to download the application form</a></h3>
-          <p class="meta">Posted recently <i>·</i> KMRL (Kochi)</p>
-        </div>
-        <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="nmrc (noida) officer posts 01.04.2026 (425 kb) nmrc (noida) metro" data-aspect="off" data-new="0">
+      <li class="row off" data-search="nmrc (noida) officer posts 01.04.2026 (425 kb) nmrc (noida) metro"
+          data-aspect="off" data-new="0" data-top="0">
         <div class="gutter" aria-hidden="true">
           <span class="lamp"></span>
           <span class="g-n">·</span>
@@ -952,27 +1043,14 @@ a{color:inherit}
           <p class="org">NMRC (Noida)</p>
           <h3 class="post"><a href="https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Officer Posts 01.04.2026.pdf" target="_blank"
              rel="noopener">Officer Posts 01.04.2026 (425 Kb)</a></h3>
-          <p class="meta">01 Apr 2026 <i>·</i> NMRC (Noida)</p>
-        </div>
-        <span class="sr">No date</span>
-      </li>
-      <li class="row off" data-search="jmrc (jaipur) jmrc recruitment portal jmrc (jaipur) metro" data-aspect="off" data-new="0">
-        <div class="gutter" aria-hidden="true">
-          <span class="lamp"></span>
-          <span class="g-n">·</span>
-          <span class="g-l"></span>
-        </div>
-        <div class="body">
-          <p class="org">JMRC (Jaipur)</p>
-          <h3 class="post"><a href="https://transport.rajasthan.gov.in/content/transportportal/en/metro-portal/career/jmrc-recruitment-portal.html" target="_blank"
-             rel="noopener">JMRC Recruitment Portal</a></h3>
-          <p class="meta">Posted recently <i>·</i> JMRC (Jaipur)</p>
+          <p class="when"><b>01 Apr 2026</b></p>
+          <p class="meta">NMRC (Noida)</p>
         </div>
         <span class="sr">No date</span>
       </li></ul>
-    </section>
+    </details>
   <div class="foot">
-    <p style="margin:18px 0 6px"><strong>Sources unreachable (6)</strong></p><div class="fail">PESB - Advertised Vacancies — timed out after 45s</div><div class="fail">Railway Board — ConnectionError: HTTPSConnectionPool(host=&#x27;indianrailways.gov.in&#x27;, port=443): Max retries exceeded with url: /railwayboard/ (Caused by NewConnectionError(&quot;HTTPSConnection(host=&#x27;indianrailways.gov.in&#x27;, port=443): Failed to establish a new connection: [Errno 111] Connection refused&quot;))</div><div class="fail">Konkan Railway — SSL error: SSLError</div><div class="fail">MRVC — ConnectionError: HTTPSConnectionPool(host=&#x27;mrvc.indianrailways.gov.in&#x27;, port=443): Max retries exceeded with url: / (Caused by NewConnectionError(&quot;HTTPSConnection(host=&#x27;mrvc.indianrailways.gov.in&#x27;, port=443): Failed to establish a new connection: [Errno 111] Connection refused&quot;))</div><div class="fail">MPMRCL (Bhopal, Indore) — timed out after 45s</div><div class="fail">PSU Connect - Jobs — HTTP 403</div><p>Correct the address in <code>config/sources.yaml</code> and the next run will pick it up.</p>
+    
     <p>Rebuilt automatically each morning. Deadlines are shown as published by
        the source — confirm on the source page before acting on one.</p>
   </div>
@@ -986,6 +1064,7 @@ function apply(){
   rows.forEach(r=>{
     const okT=!t||r.dataset.search.includes(t);
     const okA=!aspect||(aspect==='fresh'?r.dataset.new==='1'
+                        :aspect==='top'?r.dataset.top==='1'
                         :r.dataset.aspect===aspect);
     r.style.display=(okT&&okA)?'':'none';
   });

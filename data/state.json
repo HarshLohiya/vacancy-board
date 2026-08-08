@@ -947,6 +947,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "2026-08-08",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": true,
    "organisation": "RailTel",
    "post": "Detailed Vacancy Notice for Sr. Solution Architect and Solution Architect in Data Centre on Contract Basis",
    "scale": "",
@@ -1043,6 +1047,10 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "KMRL (Kochi)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -1499,6 +1507,10 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "NMRC (Noida)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -1795,6 +1807,10 @@
    "issue_date": "2026-08-05",
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "MahaMetro",
    "post": "Corrigendum to Advertisement No. MAHA-Metro/N/HR/04/2026 Date: 05.08.2026",
    "scale": "",
@@ -1891,6 +1907,10 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "NCRTC (RRTS)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -2460,6 +2480,26 @@
    "url": "https://kmrc.in/admin/uploaded_career/Assistant_Personal_Officer.pdf",
    "vacancy_date": null
   },
+  "a3c59881e20797d9": {
+   "deadline_note": "15 days from issue on 07 Aug 2026",
+   "first_seen": "2026-08-08",
+   "group": "Railway Board",
+   "issue_date": "2026-08-07",
+   "kind": "advertised",
+   "last_date": "2026-08-22",
+   "link_checked": "2026-08-08",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": true,
+   "organisation": "INDIAN RAILWAY CATERING AND TOURISM CORPORATION LTD (IRCTC).",
+   "post": "CHAIRMAN & MANAGING DIRECTOR",
+   "scale": "",
+   "schedule": "AS PER ANNEXURE",
+   "source_id": "rb_vacancy_circulars",
+   "source_name": "Railway Board - Vacancy Circulars",
+   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/Image_044.pdf",
+   "vacancy_date": null
+  },
   "a456d2fc22dec3a7": {
    "deadline_note": "",
    "first_seen": "2026-08-06",
@@ -2918,6 +2958,26 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/GM-Civil_29.11.2024.pdf",
+   "vacancy_date": null
+  },
+  "c254425192e133ee": {
+   "deadline_note": "",
+   "first_seen": "2026-08-08",
+   "group": "Railway Board",
+   "issue_date": "2026-08-07",
+   "kind": "advertised",
+   "last_date": "2026-08-07",
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "Konkan Railway Corporation Ltd.",
+   "post": "Chief Project Manager/Chief Engineer// Corporate Office, Belapur",
+   "scale": "",
+   "schedule": "IRSE Officer",
+   "source_id": "rb_vacancy_circulars",
+   "source_name": "Railway Board - Vacancy Circulars",
+   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/2026/Vacancy%20Notice%20No%20DE-P-11-2026.pdf",
    "vacancy_date": null
   },
   "c288a8bbbc2d0b6a": {
@@ -4773,11 +4833,53 @@
    "text_hash": "8ff235d33d4b8630019da80dbbd77f48f11b84f7"
   },
   "kmrl": {
-   "doc_count": 1,
+   "doc_count": 43,
    "docs": [
-    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf"
+    "https://kochimetro.org/careers/kmrl_vacancy.php?vac_type=jobs&company=KMRL",
+    "https://kochimetro.org/careers/site_media/news/Admit_card_download.pdf",
+    "https://kochimetro.org/careers/site_media/news/Executive Trainee - Website.pdf",
+    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf",
+    "https://kochimetro.org/careers/site_media/news/JEcivilandtrack-Medical.pdf",
+    "https://kochimetro.org/careers/site_media/news/SCTO-Psychometric.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/102.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/103.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/107.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/112.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/113.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/168.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/169.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/170.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/171.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/174.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/175.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/177.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/178.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/182.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/183.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/184.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/185.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/186.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/187.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/188.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/189.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/190.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/191.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/193.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/194.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/195.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/198.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/199.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/200.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/201.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/202.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/210.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/211.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/212.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/213.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/214.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/215.pdf"
    ],
-   "text_hash": "af57240873ce7b4999c5812e6ac4700e921bdaf3"
+   "text_hash": "4b17563bd7ca99a72c8f3b206222c7f33cb52ea1"
   },
   "krcl": {
    "doc_count": 19,
@@ -4802,7 +4904,7 @@
     "https://konkanrailway.com/sites/default/files/PDF-KONKAN-security.pdf",
     "https://konkanrailway.com/sites/default/files/rorkfr0200_eng.pdf"
    ],
-   "text_hash": "c75348536b47ada28df52feaa8a7e2ae17270306"
+   "text_hash": "22f32dee8ded0bc852d11ce376981bbce1723f02"
   },
   "kride": {
    "doc_count": 22,
@@ -5307,7 +5409,7 @@
     "https://mmrda.maharashtra.gov.in/sites/default/files/2026-07/final_advt._draft_do.pdf",
     "https://www.mmrda.maharashtra.gov.in/sites/default/files/2023-06/EASE_OF_DOING_BUSINESS_HANDBOOK_FOR_BUILDING_PERMISSIONS__%28Version_1.0%29.pdf"
    ],
-   "text_hash": "fa83a4c875f3db78a3331e765ded15fc6772316e"
+   "text_hash": "4323b6044a6cbb65782455fc31c6ad468257bcba"
   },
   "mpmrcl": {
    "doc_count": 12,
@@ -5332,7 +5434,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "c8136d52720d1829e212d4c39bd5076f0cbcb733"
+   "text_hash": "cd75d49a4de543981ea10363b29cc30a0d24e7fb"
   },
   "ncrtc": {
    "doc_count": 12,
@@ -5369,9 +5471,25 @@
    "text_hash": "e4ffb1871f01def69c10186f5a664d801b85c437"
   },
   "nmrc": {
-   "doc_count": 0,
-   "docs": [],
-   "text_hash": "16a1c2192646fd58623f4d379070afa9cad634b6"
+   "doc_count": 15,
+   "docs": [
+    "https://www.nmrcnoida.com/Career/public-career",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Application Form with Annexures.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/CVO Advt. dated 06.03.2026.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Extension Notice.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Application Form.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/DGM CS Result.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Officer Posts 01.04.2026.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Result DGM PROJECT FINANCE.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/Application Form - Legal.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/DOC-20260717-WA0009.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/SSO or SO Legal Post  01.04.2026.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Advt. Young Professional Legal.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Application Form.pdf",
+    "https://www.nmrcnoida.com/assets/pdf/career/Format-of-Various-Certificates.pdf",
+    "https://www.nmrcnoida.com/assets/pdf/career/Standards-of-Medical-Examination.pdf"
+   ],
+   "text_hash": "e3a98df7fcdccafa522d3902bb2e30da3bda0919"
   },
   "psuconnect": {
    "doc_count": 15,
@@ -5392,7 +5510,7 @@
     "https://www.psuconnect.in/Jobs/rvnl-recruits-2-general-managers-civil-on-deputation-in-kolkata",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "1ae4c4ae1c01660c182735bcf93e6fc48cc41bac"
+   "text_hash": "942c39da9cd6051e8b130680760e7b0504834aef"
   },
   "railtel": {
    "doc_count": 513,
