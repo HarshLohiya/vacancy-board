@@ -1336,26 +1336,6 @@
    "url": "https://www.delhimetrorail.com/career",
    "vacancy_date": null
   },
-  "690d38ef9c332dce": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-05-20",
-   "kind": "advertised",
-   "last_date": "2026-06-10",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "KOCHI METRO RAIL LIMITED",
-   "post": "General Manager (Operations & Maintenance)",
-   "scale": "",
-   "schedule": "IRTS/IRSE/IRSSE/IRSEE/IRSME",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/GM(OM)%20-%20Railway%20Upload.pdf",
-   "vacancy_date": null
-  },
   "69ecde61d78a41d3": {
    "deadline_note": "",
    "first_seen": "2026-08-02",
@@ -3893,7 +3873,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-09",
+ "last_run": "2026-08-10",
  "pages": {
   "bbj": {
    "doc_count": 15,
