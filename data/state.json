@@ -440,6 +440,26 @@
    "url": "https://transport.rajasthan.gov.in/content/transportportal/en/metro-portal/citizen-corner/public-notice.html",
    "vacancy_date": null
   },
+  "2d776072c6618e0b": {
+   "deadline_note": "",
+   "first_seen": "2026-08-10",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "MPMRCL (Bhopal, Indore)",
+   "post": "Sunday / Holiday Timetable",
+   "scale": "",
+   "schedule": "",
+   "source_id": "mpmrcl",
+   "source_name": "MPMRCL (Bhopal, Indore)",
+   "url": "https://mpmetrorail.com/uploads/media/Bhopal_Metro_Sunday_Holiday_Timetable.pdf",
+   "vacancy_date": null
+  },
   "2d85fa03752df67f": {
    "deadline_note": "3:00PM",
    "first_seen": "2026-08-06",
@@ -1047,6 +1067,10 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "KMRL (Kochi)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -1476,6 +1500,26 @@
    "url": "https://www.railtel.in/images/careers/List of provisionally suitable candidates for KSWAN project -List 2.pdf",
    "vacancy_date": null
   },
+  "6f309db82e6ceeb4": {
+   "deadline_note": "",
+   "first_seen": "2026-08-10",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "PSU Jobs 2026: GRID-INDIA Director Recruitment, Salary Up to \u20b93.40 Lakh",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/psu-jobs-2026-grid-india-director-recruitment-salary-up-to-3-40-lakh",
+   "vacancy_date": null
+  },
   "70452b7d0f190f4b": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -1483,6 +1527,10 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "NMRC (Noida)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -4785,11 +4833,53 @@
    "text_hash": "8ff235d33d4b8630019da80dbbd77f48f11b84f7"
   },
   "kmrl": {
-   "doc_count": 1,
+   "doc_count": 43,
    "docs": [
-    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf"
+    "https://kochimetro.org/careers/kmrl_vacancy.php?vac_type=jobs&company=KMRL",
+    "https://kochimetro.org/careers/site_media/news/Admit_card_download.pdf",
+    "https://kochimetro.org/careers/site_media/news/Executive Trainee - Website.pdf",
+    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf",
+    "https://kochimetro.org/careers/site_media/news/JEcivilandtrack-Medical.pdf",
+    "https://kochimetro.org/careers/site_media/news/SCTO-Psychometric.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/102.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/103.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/107.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/112.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/113.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/168.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/169.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/170.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/171.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/174.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/175.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/177.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/178.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/182.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/183.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/184.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/185.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/186.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/187.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/188.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/189.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/190.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/191.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/193.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/194.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/195.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/198.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/199.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/200.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/201.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/202.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/210.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/211.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/212.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/213.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/214.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/215.pdf"
    ],
-   "text_hash": "af57240873ce7b4999c5812e6ac4700e921bdaf3"
+   "text_hash": "f353206e0a00a508b9ac8b609cd3f80155eb53bb"
   },
   "krcl": {
    "doc_count": 19,
@@ -4814,7 +4904,7 @@
     "https://konkanrailway.com/sites/default/files/PDF-KONKAN-security.pdf",
     "https://konkanrailway.com/sites/default/files/rorkfr0200_eng.pdf"
    ],
-   "text_hash": "22f32dee8ded0bc852d11ce376981bbce1723f02"
+   "text_hash": "460234234246b91ac78d27f49eae60d4c1dadac5"
   },
   "kride": {
    "doc_count": 22,
@@ -5319,12 +5409,13 @@
     "https://mmrda.maharashtra.gov.in/sites/default/files/2026-07/final_advt._draft_do.pdf",
     "https://www.mmrda.maharashtra.gov.in/sites/default/files/2023-06/EASE_OF_DOING_BUSINESS_HANDBOOK_FOR_BUILDING_PERMISSIONS__%28Version_1.0%29.pdf"
    ],
-   "text_hash": "4323b6044a6cbb65782455fc31c6ad468257bcba"
+   "text_hash": "95912787e9e0b5ee0d31434ec7cbf5f1b9bdf20d"
   },
   "mpmrcl": {
-   "doc_count": 12,
+   "doc_count": 13,
    "docs": [
     "https://mpmetrorail.com/uploads/media/Bhopal_Fare_matrix.pdf",
+    "https://mpmetrorail.com/uploads/media/Bhopal_Metro_Sunday_Holiday_Timetable.pdf",
     "https://mpmetrorail.com/uploads/media/Fare_Chart_(English_Hindi)_Indore_Metro.pdf",
     "https://mpmetrorail.com/uploads/media/IGBC_MPMRCL_CERIFICATE1.pdf",
     "https://mpmetrorail.com/uploads/media/Metro_Operational_Timings_Indore_(2).pdf",
@@ -5344,7 +5435,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "cd75d49a4de543981ea10363b29cc30a0d24e7fb"
+   "text_hash": "bad4030185f8862488a9557562f58cf09389b6e4"
   },
   "ncrtc": {
    "doc_count": 12,
@@ -5381,9 +5472,25 @@
    "text_hash": "e4ffb1871f01def69c10186f5a664d801b85c437"
   },
   "nmrc": {
-   "doc_count": 0,
-   "docs": [],
-   "text_hash": "16a1c2192646fd58623f4d379070afa9cad634b6"
+   "doc_count": 15,
+   "docs": [
+    "https://www.nmrcnoida.com/Career/public-career",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Application Form with Annexures.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/CVO Advt. dated 06.03.2026.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Extension Notice.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Application Form.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/DGM CS Result.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Officer Posts 01.04.2026.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Result DGM PROJECT FINANCE.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/Application Form - Legal.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/DOC-20260717-WA0009.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/SSO or SO Legal Post  01.04.2026.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Advt. Young Professional Legal.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Application Form.pdf",
+    "https://www.nmrcnoida.com/assets/pdf/career/Format-of-Various-Certificates.pdf",
+    "https://www.nmrcnoida.com/assets/pdf/career/Standards-of-Medical-Examination.pdf"
+   ],
+   "text_hash": "e3a98df7fcdccafa522d3902bb2e30da3bda0919"
   },
   "psuconnect": {
    "doc_count": 15,
@@ -5391,7 +5498,6 @@
     "https://www.psuconnect.in/Jobs/aai-opens-recruitment-for-389-manager-junior-executive-posts-applications-begin-august-8",
     "https://www.psuconnect.in/Jobs/cochin-shipyard-recruitment-2026-manager-defence-business-expansions",
     "https://www.psuconnect.in/Jobs/indian-oil-1450-apprentice-vacancies-at-panipat-refinery",
-    "https://www.psuconnect.in/Jobs/irel-opens-recruitment-for-executive-posts-across-technical-and-non-technical-disciplines",
     "https://www.psuconnect.in/Jobs/kochi-metro-hiring-senior-officers-gm-operation-maintenance-and-gm-signalling-telecom",
     "https://www.psuconnect.in/Jobs/konkan-railway-invites-applications-for-assistant-security-commissioner",
     "https://www.psuconnect.in/Jobs/mecl-recruitment-2026-13-executive-trainee-posts-via-upsc-ese-2024",
@@ -5399,12 +5505,13 @@
     "https://www.psuconnect.in/Jobs/nhsrcl-invites-applications-for-senior-manager-and-manager-vigilance-posts",
     "https://www.psuconnect.in/Jobs/pesb-opens-applications-for-irctc-cmd-post-2026",
     "https://www.psuconnect.in/Jobs/pnb-recruitment-2026-545-local-bank-officer-posts-announced",
+    "https://www.psuconnect.in/Jobs/psu-jobs-2026-grid-india-director-recruitment-salary-up-to-3-40-lakh",
     "https://www.psuconnect.in/Jobs/railway-board-invites-applications-for-ceo-post-in-hmrdc-on-deputation",
     "https://www.psuconnect.in/Jobs/rlda-invites-applications-for-jgm-and-dgm-civil-posts",
     "https://www.psuconnect.in/Jobs/rvnl-recruits-2-general-managers-civil-on-deputation-in-kolkata",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "942c39da9cd6051e8b130680760e7b0504834aef"
+   "text_hash": "eb10d3dc4206cc13dd4bd937fbb8dfa0303ebdcc"
   },
   "railtel": {
    "doc_count": 513,
