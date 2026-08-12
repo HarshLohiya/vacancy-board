@@ -160,6 +160,26 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/202.pdf",
    "vacancy_date": null
   },
+  "0c83e4276c976eca": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u092e\u0947\u0902 \u0938\u0939\u093e\u092f\u0915 \u092a\u094d\u0930\u092c\u0902\u0927\u0915/\u092f\u0942\u091f\u0940\u090f\u0938 \u0915\u0947 \u090f\u0915 \u092a\u0926 \u0915\u0940 \u0930\u093f\u0915\u094d\u0924\u093f \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u092f\u0941\u0915\u094d\u0924\u093f \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 \u0939\u0948\u0964",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Non_Gazetted/Extn of vacancy Notice 62 of 26- AM-UTS.pdf",
+   "vacancy_date": null
+  },
   "0d6f87abba5ad354": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -200,6 +220,26 @@
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VN%20No_%2006%20CGM%20Civil%20Siliguri.pdf",
    "vacancy_date": null
   },
+  "0dc279b7d8399907": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "NHSRCL",
+   "post": "Latest Career Updates",
+   "scale": "",
+   "schedule": "",
+   "source_id": "nhsrcl",
+   "source_name": "NHSRCL",
+   "url": "https://nhsrcl.in/en/career/latest-updates",
+   "vacancy_date": null
+  },
   "0e437fbc31458d6d": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -218,6 +258,26 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/AGM(Operations_&_Maintenance).pdf",
+   "vacancy_date": null
+  },
+  "0f61cf4972212caa": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Railway Board",
+   "issue_date": "2026-08-07",
+   "kind": "advertised",
+   "last_date": "2026-09-07",
+   "link_checked": "2026-08-12",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": true,
+   "organisation": "Konkan Railway Corporation Ltd.",
+   "post": "Chief Project Manager/Chief Engineer// Corporate Office, Belapur",
+   "scale": "",
+   "schedule": "IRSE Officer",
+   "source_id": "rb_vacancy_circulars",
+   "source_name": "Railway Board - Vacancy Circulars",
+   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/2026/Vacancy%20Notice%20No%20DE-P-11-2026.pdf",
    "vacancy_date": null
   },
   "102cc7ba39e00804": {
@@ -287,6 +347,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "2026-08-12",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": true,
    "organisation": "NHSRCL",
    "post": "Latest Career Updates",
    "scale": "",
@@ -294,6 +358,26 @@
    "source_id": "nhsrcl",
    "source_name": "NHSRCL",
    "url": "https://nhsrcl.in/index.php/en/career/latest-updates",
+   "vacancy_date": null
+  },
+  "17a9c6299f077d72": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Railway PSU",
+   "issue_date": "2025-12-31",
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "NHSRCL",
+   "post": "Career Updates Before 31/12/2025",
+   "scale": "",
+   "schedule": "",
+   "source_id": "nhsrcl",
+   "source_name": "NHSRCL",
+   "url": "https://nhsrcl.in/en/career/archive-latest-updates",
    "vacancy_date": null
   },
   "19c238da8db3d61b": {
@@ -354,6 +438,26 @@
    "source_id": "irfc",
    "source_name": "IRFC",
    "url": "https://irfc.co.in/careers",
+   "vacancy_date": null
+  },
+  "1d2c1ed552396649": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "State rail JV",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "G-RIDE (Gujarat)",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gride",
+   "source_name": "G-RIDE (Gujarat)",
+   "url": "https://gride.org.in/",
    "vacancy_date": null
   },
   "2156323e8ab2ef8a": {
@@ -456,22 +560,6 @@
    "url": "https://transport.rajasthan.gov.in/content/transportportal/en/metro-portal/citizen-corner/public-notice.html",
    "vacancy_date": null
   },
-  "288f69409515b8bc": {
-   "deadline_note": "",
-   "first_seen": "2026-08-11",
-   "group": "Metro",
-   "issue_date": null,
-   "kind": "document",
-   "last_date": null,
-   "organisation": "GMRC (Ahmedabad, Surat)",
-   "post": "3.Merit List & Reserved List for the post of Jr Engineer (Electrical)",
-   "scale": "",
-   "schedule": "",
-   "source_id": "gmrc",
-   "source_name": "GMRC (Ahmedabad, Surat)",
-   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/3.-Merit-List-Reserved-List-for-the-post-of-Jr-Engineer-Electrical.pdf",
-   "vacancy_date": null
-  },
   "2cadf486fce8839b": {
    "deadline_note": "",
    "first_seen": "2026-08-11",
@@ -479,6 +567,10 @@
    "issue_date": "2025-12-31",
    "kind": "document",
    "last_date": null,
+   "link_checked": "2026-08-12",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": true,
    "organisation": "NHSRCL",
    "post": "Career Updates Before 31/12/2025",
    "scale": "",
@@ -495,10 +587,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
-   "link_checked": "",
+   "link_checked": "2026-08-12",
    "link_dead_since": "",
    "link_note": "",
-   "link_ok": null,
+   "link_ok": true,
    "organisation": "MPMRCL (Bhopal, Indore)",
    "post": "Sunday / Holiday Timetable",
    "scale": "",
@@ -668,22 +760,6 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/191.pdf",
    "vacancy_date": null
   },
-  "3778cf7d95f37291": {
-   "deadline_note": "",
-   "first_seen": "2026-08-11",
-   "group": "Metro",
-   "issue_date": null,
-   "kind": "document",
-   "last_date": null,
-   "organisation": "GMRC (Ahmedabad, Surat)",
-   "post": "6.Merit List & Reserved List for the post of Maintainer (Electrical)",
-   "scale": "",
-   "schedule": "",
-   "source_id": "gmrc",
-   "source_name": "GMRC (Ahmedabad, Surat)",
-   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/6.-Merit-List-Reserved-List-for-the-post-of-Maintainer-Electrical.pdf",
-   "vacancy_date": null
-  },
   "37c4eabe08743760": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -722,6 +798,26 @@
    "source_id": "kmrl",
    "source_name": "KMRL (Kochi)",
    "url": "https://kochimetro.org/careers/site_media/notifications/189.pdf",
+   "vacancy_date": null
+  },
+  "39eb984325c5a221": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "Braithwaite & Co. Recruitment 2026: 27 Contractual Vacancies for Engineers",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/braithwaite-hiring-27-engineers-apply-by-10-sept-2026",
    "vacancy_date": null
   },
   "3b01fd1c1bd89366": {
@@ -911,6 +1007,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "2026-08-12",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": true,
    "organisation": "RailTel",
    "post": "List of RailTel Business Associate",
    "scale": "",
@@ -1047,6 +1147,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "NHSRCL",
    "post": "Grievance Redressal Committee Notice",
    "scale": "",
@@ -1163,6 +1267,10 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "KMRL (Kochi)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -1170,6 +1278,26 @@
    "source_id": "kmrl",
    "source_name": "KMRL (Kochi)",
    "url": "https://kochimetro.org/careers/",
+   "vacancy_date": null
+  },
+  "5840d023bbe2a425": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/careers/",
    "vacancy_date": null
   },
   "58940f2a43c80322": {
@@ -1370,6 +1498,26 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_GM-Civil__1_.pdf",
+   "vacancy_date": null
+  },
+  "62fb329d64c00d45": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "NHSRCL",
+   "post": "Active Tender/Notice",
+   "scale": "",
+   "schedule": "",
+   "source_id": "nhsrcl",
+   "source_name": "NHSRCL",
+   "url": "https://nhsrcl.in/en/tenders/active-tenders",
    "vacancy_date": null
   },
   "644241cd67857762": {
@@ -1619,6 +1767,10 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "NMRC (Noida)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -1675,6 +1827,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "GMRC (Ahmedabad, Surat)",
    "post": "4.Merit List & Reserved List for the post of Jr Engineer (Electronics)",
    "scale": "",
@@ -1711,6 +1867,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "MahaMetro",
    "post": "View",
    "scale": "",
@@ -1727,6 +1887,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "NHSRCL",
    "post": "Vacancies for Deputation",
    "scale": "",
@@ -1903,6 +2067,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "GMRC (Ahmedabad, Surat)",
    "post": "7.Merit List & Reserved List for the post of Maintainer (Electronics)",
    "scale": "",
@@ -2079,6 +2247,10 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "NCRTC (RRTS)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -2266,6 +2438,26 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/Accountant_-exp270324.pdf",
+   "vacancy_date": null
+  },
+  "8e8bfeea264d4747": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Metro",
+   "issue_date": "2026-08-05",
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "MahaMetro",
+   "post": "Corrigendum - 2 to Advertisement No. MAHA-Metro/N/HR/04/2026 Date: 05.08.2026",
+   "scale": "",
+   "schedule": "",
+   "source_id": "mahametro",
+   "source_name": "MahaMetro",
+   "url": "https://www.mahametro.org/pdf/Corrigendumhr4.pdf",
    "vacancy_date": null
   },
   "8f9cb7435c59d2ea": {
@@ -2655,6 +2847,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "NHSRCL",
    "post": "Vacancy/Notice",
    "scale": "",
@@ -2884,6 +3080,26 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/199.pdf",
    "vacancy_date": null
   },
+  "b20d43be9d7e44db": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u092e\u0941\u0902\u092c\u0908 \u0915\u0947 \u092a\u0940\u0906\u0930\u090f\u0938 \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0938\u0939\u093e\u092f\u0915 \u0915\u0940 \u0924\u0940\u0928 \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Assistants/12 R 29 R 43 2026.pdf",
+   "vacancy_date": null
+  },
   "b2776084a74b8552": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -3024,6 +3240,26 @@
    "url": "https://kmrc.in/admin/uploaded_career/AM_S&T_Notice.pdf",
    "vacancy_date": null
   },
+  "bae0618813a1d044": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "NHSRCL",
+   "post": "Grievance Redressal Committee Notice",
+   "scale": "",
+   "schedule": "",
+   "source_id": "nhsrcl",
+   "source_name": "NHSRCL",
+   "url": "https://nhsrcl.in/en/project/grievance-redressal-committee-notices",
+   "vacancy_date": null
+  },
   "bc053212db0680cd": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -3131,6 +3367,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "NHSRCL",
    "post": "Active Tender/Notice",
    "scale": "",
@@ -3240,22 +3480,6 @@
    "url": "https://transport.rajasthan.gov.in/content/transportportal/en/Recuritment_Status.html",
    "vacancy_date": null
   },
-  "ca248f3f65bd85dc": {
-   "deadline_note": "",
-   "first_seen": "2026-08-11",
-   "group": "Railway PSU",
-   "issue_date": null,
-   "kind": "document",
-   "last_date": null,
-   "organisation": "NHSRCL",
-   "post": "Engagement on Re-employment basis for Retired Personnel",
-   "scale": "",
-   "schedule": "",
-   "source_id": "nhsrcl",
-   "source_name": "NHSRCL",
-   "url": "https://nhsrcl.in/index.php/en/career/re-employment",
-   "vacancy_date": null
-  },
   "cb10fe4662d5e1a0": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -3296,6 +3520,26 @@
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Promotion_Posting/2026/GM(OM)%20to%20Railway%20%20Metros.pdf",
    "vacancy_date": null
   },
+  "cd2ea5089cca7b7d": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u0915\u0947 \u090f\u0928\u0917\u0947\u091f \u0938\u092e\u0942\u0939 \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0905\u0927\u093f\u0915\u093e\u0930\u0940 \u0915\u0940 \u090f\u0915 \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Officers/VC 42 of 2026.pdf",
+   "vacancy_date": null
+  },
   "cd95fba26d8c39b0": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -3334,6 +3578,26 @@
    "source_id": "rb_vacancy_circulars",
    "source_name": "Railway Board - Vacancy Circulars",
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/V_No_16_2026.pdf",
+   "vacancy_date": null
+  },
+  "d0ec91e16e3cf632": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "NHSRCL",
+   "post": "Vacancies for Deputation",
+   "scale": "",
+   "schedule": "",
+   "source_id": "nhsrcl",
+   "source_name": "NHSRCL",
+   "url": "https://nhsrcl.in/en/career/deputation-vacancies",
    "vacancy_date": null
   },
   "d129f848f42f6ca7": {
@@ -3543,6 +3807,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "GMRC (Ahmedabad, Surat)",
    "post": "1.Declaration of Marks Obtained by Candidates Appeared in the OMR based written examination",
    "scale": "",
@@ -3799,6 +4067,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "GMRC (Ahmedabad, Surat)",
    "post": "2.List of Candidates Qualified for Psychometric Examination for the Post of SC/TO",
    "scale": "",
@@ -3846,6 +4118,26 @@
    "source_id": "nmrc",
    "source_name": "NMRC (Noida)",
    "url": "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Extension Notice.pdf",
+   "vacancy_date": null
+  },
+  "ebc035f1eb572812": {
+   "deadline_note": "",
+   "first_seen": "2026-08-12",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "BEL Recruits Deputy Engineers for Radar Unit with Mauritius Posting",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/bel-recruits-deputy-engineers-for-radar-unit-with-mauritius-posting",
    "vacancy_date": null
   },
   "ec886c2ddf755d31": {
@@ -4155,6 +4447,10 @@
    "issue_date": null,
    "kind": "document",
    "last_date": null,
+   "link_checked": "",
+   "link_dead_since": "",
+   "link_note": "",
+   "link_ok": null,
    "organisation": "GMRC (Ahmedabad, Surat)",
    "post": "5.Merit List & Reserved List for the post of Maintainer (Fitter)",
    "scale": "",
@@ -4165,7 +4461,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-11",
+ "last_run": "2026-08-12",
  "pages": {
   "bbj": {
    "doc_count": 15,
@@ -4279,7 +4575,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 344,
+   "doc_count": 347,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -4332,6 +4628,7 @@
     "https://cris.org.in/PDF/Non_Gazetted/EXTN OF DATE _ VAC NO 25-2024-AM-COA.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/Executive -PRS Vac No 21 of 2024.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/Extn of last date-AM-PRS-SC.pdf",
+    "https://cris.org.in/PDF/Non_Gazetted/Extn of vacancy Notice 62 of 26- AM-UTS.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/Field_Implementer CMS (1).pdf",
     "https://cris.org.in/PDF/Non_Gazetted/IMG_20240830_0002.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/IMG_20240911_0002.pdf",
@@ -4402,6 +4699,7 @@
     "https://cris.org.in/PDF/Non_Gazetted/vac notice 44-R-2025 for AM-Exe-Personnel.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/vac notice No 05 of 2024 _AM WISE.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/vacany notice no 33 of 2025-AM-cloud.pdf",
+    "https://cris.org.in/PDF/Project_Assistants/12 R 29 R 43 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/OO 39 2025 R 09 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/PAS&T.pdf",
     "https://cris.org.in/PDF/Project_Assistants/RTIS.pdf",
@@ -4581,6 +4879,7 @@
     "https://cris.org.in/PDF/Project_Officers/VC 40 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 41 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 41 of 2026.pdf",
+    "https://cris.org.in/PDF/Project_Officers/VC 42 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 43 2025 R 10 2026 R 33 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 43 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 44 R of 2024.pdf",
@@ -4626,7 +4925,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "fb553f3cca1630ee214797b050ab2de347b8d230"
+   "text_hash": "cf9bb1d3b66f723832f3bea45c1e95f57262b22f"
   },
   "dfccil": {
    "doc_count": 28,
@@ -4898,7 +5197,7 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/7.-Merit-List-Reserved-List-for-the-post-of-Maintainer-Electronics.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "8f76b32c551173efe4237698483f945f8373f2fd"
+   "text_hash": "4070dac5d35390f78d448590467421300c2f09ed"
   },
   "gride": {
    "doc_count": 3,
@@ -4907,7 +5206,7 @@
     "https://gride.org.in/wp-content/uploads/2025/05/POSH-ACT-2013.pdf",
     "https://gride.org.in/wp-content/uploads/2025/05/POSH-Act-Committee-Details.pdf"
    ],
-   "text_hash": "f754755588f8de4f54cfaa2c03387d61f330db07"
+   "text_hash": "e7788bb2e8fcaf32479f294291c7550bf9db61f7"
   },
   "horcl": {
    "doc_count": 13,
@@ -5084,11 +5383,53 @@
    "text_hash": "8ff235d33d4b8630019da80dbbd77f48f11b84f7"
   },
   "kmrl": {
-   "doc_count": 1,
+   "doc_count": 43,
    "docs": [
-    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf"
+    "https://kochimetro.org/careers/kmrl_vacancy.php?vac_type=jobs&company=KMRL",
+    "https://kochimetro.org/careers/site_media/news/Admit_card_download.pdf",
+    "https://kochimetro.org/careers/site_media/news/Executive Trainee - Website.pdf",
+    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf",
+    "https://kochimetro.org/careers/site_media/news/JEcivilandtrack-Medical.pdf",
+    "https://kochimetro.org/careers/site_media/news/SCTO-Psychometric.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/102.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/103.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/107.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/112.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/113.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/168.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/169.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/170.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/171.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/174.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/175.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/177.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/178.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/182.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/183.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/184.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/185.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/186.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/187.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/188.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/189.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/190.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/191.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/193.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/194.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/195.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/198.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/199.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/200.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/201.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/202.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/210.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/211.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/212.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/213.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/214.pdf",
+    "https://kochimetro.org/careers/site_media/notifications/215.pdf"
    ],
-   "text_hash": "af57240873ce7b4999c5812e6ac4700e921bdaf3"
+   "text_hash": "1860062d04ab1f3a73d90aac88dc353636ce5704"
   },
   "krcl": {
    "doc_count": 19,
@@ -5113,7 +5454,7 @@
     "https://konkanrailway.com/sites/default/files/PDF-KONKAN-security.pdf",
     "https://konkanrailway.com/sites/default/files/rorkfr0200_eng.pdf"
    ],
-   "text_hash": "460234234246b91ac78d27f49eae60d4c1dadac5"
+   "text_hash": "d26770e850e54ffac7a6c7153ccefecba15a5b03"
   },
   "kride": {
    "doc_count": 22,
@@ -5151,7 +5492,7 @@
    "text_hash": "f05904ddbcb24d85adaefb9a873bd785189cf79a"
   },
   "mahametro": {
-   "doc_count": 172,
+   "doc_count": 173,
    "docs": [
     "https://cdn3.digialm.com/EForms/configuredHtml/1709/65107/login.html",
     "https://g26.tcsion.com/OnlineAssessment/index.html?31582@@M212",
@@ -5230,6 +5571,7 @@
     "https://www.mahametro.org/pdf/Corrigendum_P_HR_052021.pdf",
     "https://www.mahametro.org/pdf/Corrigendumhr2.pdf",
     "https://www.mahametro.org/pdf/Corrigendumhr3.pdf",
+    "https://www.mahametro.org/pdf/Corrigendumhr4.pdf",
     "https://www.mahametro.org/pdf/Document Verification-Technician Posts.pdf",
     "https://www.mahametro.org/pdf/Draft of Advt. No. 04_2026 (1).pdf",
     "https://www.mahametro.org/pdf/EWS_CERTIFICATE.pdf",
@@ -5326,7 +5668,7 @@
     "https://www.mahametro.org/pdf/extension_MahaMetro_P_HR06_2021.pdf",
     "https://www.mahametro.org/pdf/maha-metro_hr_0228032021.pdf"
    ],
-   "text_hash": "0db2190795944df7bb1952726883eff8c3722570"
+   "text_hash": "8b80f3eab2fbc99615e77658a929ed0cef014755"
   },
   "maharail": {
    "doc_count": 3,
@@ -5619,7 +5961,7 @@
     "https://mmrda.maharashtra.gov.in/sites/default/files/2026-07/final_advt._draft_do.pdf",
     "https://www.mmrda.maharashtra.gov.in/sites/default/files/2023-06/EASE_OF_DOING_BUSINESS_HANDBOOK_FOR_BUILDING_PERMISSIONS__%28Version_1.0%29.pdf"
    ],
-   "text_hash": "95912787e9e0b5ee0d31434ec7cbf5f1b9bdf20d"
+   "text_hash": "ab5e02bc014d91f4cb184af926bebce2868fc113"
   },
   "mpmrcl": {
    "doc_count": 13,
@@ -5645,7 +5987,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "bad4030185f8862488a9557562f58cf09389b6e4"
+   "text_hash": "76c97fcff25546d4ed8b991e3d95527141d1db69"
   },
   "ncrtc": {
    "doc_count": 11,
@@ -5662,34 +6004,51 @@
     "https://ncrtc.in/wp-content/uploads/2026/03/List_Suspended_Debarred_19.02.26.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/06/EOI3_Feeder_services_Rolling-Namo-Bharat-16.06.2026.pdf"
    ],
-   "text_hash": "3596e92333f8688c1f56642fee33acc224c873a4"
+   "text_hash": "493f9231dc4a55e1625d187c77eb7cbb3812b8d0"
   },
   "nhsrcl": {
-   "doc_count": 11,
+   "doc_count": 10,
    "docs": [
     "https://indianrailways.gov.in/railwayboard/view_section.jsp?id=0%2C1%2C304%2C366%2C508%2C511",
+    "https://nhsrcl.in/en/career/archive-latest-updates",
+    "https://nhsrcl.in/en/career/deputation-vacancies",
+    "https://nhsrcl.in/en/career/latest-updates",
+    "https://nhsrcl.in/en/career/re-employment",
     "https://nhsrcl.in/en/career/vacancy-notice",
-    "https://nhsrcl.in/index.php/en/career/archive-latest-updates",
-    "https://nhsrcl.in/index.php/en/career/deputation-vacancies",
-    "https://nhsrcl.in/index.php/en/career/latest-updates",
-    "https://nhsrcl.in/index.php/en/career/re-employment",
-    "https://nhsrcl.in/index.php/en/career/vacancy-notice",
-    "https://nhsrcl.in/index.php/en/project/grievance-redressal-committee-notices",
-    "https://nhsrcl.in/index.php/en/tenders/active-tenders",
+    "https://nhsrcl.in/en/project/grievance-redressal-committee-notices",
+    "https://nhsrcl.in/en/tenders/active-tenders",
     "https://nhsrcl.in/sites/default/files/2022-05/Proc%20NOC%20%282%29.pdf",
-    "https://nhsrcl.in/sites/default/files/2025-02/CVC%20Manual%202021.pdf"
+    "https://nhsrcl.in/sites/default/files/2026-08/Vigilance%20Manual%20-%202026.pdf"
    ],
    "text_hash": "e4ffb1871f01def69c10186f5a664d801b85c437"
   },
   "nmrc": {
-   "doc_count": 0,
-   "docs": [],
-   "text_hash": "16a1c2192646fd58623f4d379070afa9cad634b6"
+   "doc_count": 15,
+   "docs": [
+    "https://www.nmrcnoida.com/Career/public-career",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Application Form with Annexures.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/CVO Advt. dated 06.03.2026.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Extension Notice.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Application Form.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/DGM CS Result.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Officer Posts 01.04.2026.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Result DGM PROJECT FINANCE.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/Application Form - Legal.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/DOC-20260717-WA0009.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/SSO or SO Legal Post  01.04.2026.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Advt. Young Professional Legal.pdf",
+    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Application Form.pdf",
+    "https://www.nmrcnoida.com/assets/pdf/career/Format-of-Various-Certificates.pdf",
+    "https://www.nmrcnoida.com/assets/pdf/career/Standards-of-Medical-Examination.pdf"
+   ],
+   "text_hash": "f86f827ed77c8ee761d79393fb7496e1429a1de7"
   },
   "psuconnect": {
    "doc_count": 15,
    "docs": [
     "https://www.psuconnect.in/Jobs/aai-opens-recruitment-for-389-manager-junior-executive-posts-applications-begin-august-8",
+    "https://www.psuconnect.in/Jobs/bel-recruits-deputy-engineers-for-radar-unit-with-mauritius-posting",
+    "https://www.psuconnect.in/Jobs/braithwaite-hiring-27-engineers-apply-by-10-sept-2026",
     "https://www.psuconnect.in/Jobs/cochin-shipyard-recruitment-2026-manager-defence-business-expansions",
     "https://www.psuconnect.in/Jobs/indian-oil-1450-apprentice-vacancies-at-panipat-refinery",
     "https://www.psuconnect.in/Jobs/kochi-metro-hiring-senior-officers-gm-operation-maintenance-and-gm-signalling-telecom",
@@ -5701,11 +6060,9 @@
     "https://www.psuconnect.in/Jobs/pnb-recruitment-2026-545-local-bank-officer-posts-announced",
     "https://www.psuconnect.in/Jobs/psu-jobs-2026-grid-india-director-recruitment-salary-up-to-3-40-lakh",
     "https://www.psuconnect.in/Jobs/railway-board-invites-applications-for-ceo-post-in-hmrdc-on-deputation",
-    "https://www.psuconnect.in/Jobs/rlda-invites-applications-for-jgm-and-dgm-civil-posts",
-    "https://www.psuconnect.in/Jobs/rvnl-recruits-2-general-managers-civil-on-deputation-in-kolkata",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "eb10d3dc4206cc13dd4bd937fbb8dfa0303ebdcc"
+   "text_hash": "95a630b221ff2355cf885853d6a6247b39b99f18"
   },
   "railtel": {
    "doc_count": 513,
