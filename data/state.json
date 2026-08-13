@@ -140,6 +140,22 @@
    "url": "https://www.psuconnect.in/Jobs/cochin-shipyard-recruitment-2026-manager-defence-business-expansions",
    "vacancy_date": null
   },
+  "0b642d968c9d3601": {
+   "deadline_note": "",
+   "first_seen": "2026-08-13",
+   "group": "Metro",
+   "issue_date": "2026-04-29",
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "OMR Based Written Examination Result \u2013 O&M Personnel (Non-Executive) Recruitment (Notification No. GMRCL/HR/RECT/O&M/2026/15 dated 29.04.2026)",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/careers/",
+   "vacancy_date": null
+  },
   "0c7f582878a4101f": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -2952,6 +2968,22 @@
    "url": "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/DGM CS Result.pdf",
    "vacancy_date": null
   },
+  "a7ccf4776db93783": {
+   "deadline_note": "",
+   "first_seen": "2026-08-13",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "Corrigendum",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/Corrigendum-GMRCLHRRECTCivilJul-202622.pdf",
+   "vacancy_date": null
+  },
   "a9c0fbcbb0c1b5b1": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -4432,6 +4464,22 @@
    "url": "https://www.psuconnect.in/Jobs/mecl-recruitment-2026-13-executive-trainee-posts-via-upsc-ese-2024",
    "vacancy_date": null
   },
+  "fe43a662e65eab5e": {
+   "deadline_note": "",
+   "first_seen": "2026-08-13",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "Corrigendum",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/Corrigendum-GMRCLHRRECTSysJul-202623.pdf",
+   "vacancy_date": null
+  },
   "ffde0c317b1de2cf": {
    "deadline_note": "",
    "first_seen": "2026-08-11",
@@ -4453,7 +4501,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-12",
+ "last_run": "2026-08-13",
  "pages": {
   "bbj": {
    "doc_count": 15,
@@ -4959,8 +5007,9 @@
    "text_hash": "4ba37f1675249091dbd2387dd68ea9d962a2b1f6"
   },
   "gmrc": {
-   "doc_count": 227,
+   "doc_count": 230,
    "docs": [
+    "https://www.gujaratmetrorail.com/careers/",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2024/01/Corrigendum-to-recruitment-notification-dated-10.05.23.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2024/01/OM-Non-Executive-Notification_10.05.2023-3.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2024/02/01__SCTO__PROVISIONAL_ANSWER_KEY-1.pdf",
@@ -5187,9 +5236,11 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/5.-Merit-List-Reserved-List-for-the-post-of-Maintainer-Fitter.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/6.-Merit-List-Reserved-List-for-the-post-of-Maintainer-Electrical.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/7.-Merit-List-Reserved-List-for-the-post-of-Maintainer-Electronics.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/Corrigendum-GMRCLHRRECTCivilJul-202622.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/Corrigendum-GMRCLHRRECTSysJul-202623.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "4070dac5d35390f78d448590467421300c2f09ed"
+   "text_hash": "ca238c3e78b1fb79d0e784d761fce92048ef35b8"
   },
   "gride": {
    "doc_count": 3,
