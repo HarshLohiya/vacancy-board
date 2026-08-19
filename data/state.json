@@ -1327,10 +1327,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "KMRL (Kochi)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -1827,10 +1823,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "NMRC (Noida)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -3940,6 +3932,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/Vacancy_09.05.pdf",
    "vacancy_date": null
   },
+  "d99254b34b56ad84": {
+   "deadline_note": "",
+   "first_seen": "2026-08-19",
+   "group": "Metro",
+   "issue_date": "2026-08-10",
+   "kind": "document",
+   "last_date": null,
+   "organisation": "MahaMetro",
+   "post": "Corrigendum to Advertisement No. MAHA-Metro/N/HR/05/2026, dated-10.08.2026",
+   "scale": "",
+   "schedule": "",
+   "source_id": "mahametro",
+   "source_name": "MahaMetro",
+   "url": "https://www.mahametro.org/pdf/Corrigendum_152.pdf",
+   "vacancy_date": null
+  },
   "daf34ca54feba80d": {
    "deadline_note": "",
    "first_seen": "2026-08-11",
@@ -4621,7 +4629,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-18",
+ "last_run": "2026-08-19",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -5550,53 +5558,11 @@
    "text_hash": "8ff235d33d4b8630019da80dbbd77f48f11b84f7"
   },
   "kmrl": {
-   "doc_count": 43,
+   "doc_count": 1,
    "docs": [
-    "https://kochimetro.org/careers/kmrl_vacancy.php?vac_type=jobs&company=KMRL",
-    "https://kochimetro.org/careers/site_media/news/Admit_card_download.pdf",
-    "https://kochimetro.org/careers/site_media/news/Executive Trainee - Website.pdf",
-    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf",
-    "https://kochimetro.org/careers/site_media/news/JEcivilandtrack-Medical.pdf",
-    "https://kochimetro.org/careers/site_media/news/SCTO-Psychometric.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/102.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/103.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/107.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/112.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/113.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/168.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/169.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/170.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/171.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/174.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/175.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/177.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/178.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/182.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/183.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/184.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/185.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/186.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/187.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/188.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/189.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/190.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/191.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/193.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/194.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/195.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/198.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/199.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/200.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/201.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/202.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/210.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/211.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/212.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/213.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/214.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/215.pdf"
+    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf"
    ],
-   "text_hash": "8d54cbefc09f26c27cfd040db133aaa820348741"
+   "text_hash": "af57240873ce7b4999c5812e6ac4700e921bdaf3"
   },
   "krcl": {
    "doc_count": 19,
@@ -5659,7 +5625,7 @@
    "text_hash": "f05904ddbcb24d85adaefb9a873bd785189cf79a"
   },
   "mahametro": {
-   "doc_count": 173,
+   "doc_count": 174,
    "docs": [
     "https://cdn3.digialm.com/EForms/configuredHtml/1709/65107/login.html",
     "https://g26.tcsion.com/OnlineAssessment/index.html?31582@@M212",
@@ -5731,6 +5697,7 @@
     "https://www.mahametro.org/pdf/Corrigendum Advt. 01_2025-GM (HR).pdf",
     "https://www.mahametro.org/pdf/CorrigendumMAHA-MetroPHRO&M06(NS)2020.pdf",
     "https://www.mahametro.org/pdf/CorrigendumMAHA-MetroPHRO&M06(S)2020.pdf",
+    "https://www.mahametro.org/pdf/Corrigendum_152.pdf",
     "https://www.mahametro.org/pdf/Corrigendum_MAHA-MetroPHR052021.pdf",
     "https://www.mahametro.org/pdf/Corrigendum_Maha_Metro_P_HR_01_2020.pdf",
     "https://www.mahametro.org/pdf/Corrigendum_Maha_Metro_P_OM_02_2020.pdf",
@@ -5835,7 +5802,7 @@
     "https://www.mahametro.org/pdf/extension_MahaMetro_P_HR06_2021.pdf",
     "https://www.mahametro.org/pdf/maha-metro_hr_0228032021.pdf"
    ],
-   "text_hash": "8b80f3eab2fbc99615e77658a929ed0cef014755"
+   "text_hash": "9d3ad7b252ecf8caaaf7012bc27894cb8fe2dd25"
   },
   "maharail": {
    "doc_count": 3,
@@ -6189,25 +6156,9 @@
    "text_hash": "e4ffb1871f01def69c10186f5a664d801b85c437"
   },
   "nmrc": {
-   "doc_count": 15,
-   "docs": [
-    "https://www.nmrcnoida.com/Career/public-career",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Application Form with Annexures.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/CVO Advt. dated 06.03.2026.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Extension Notice.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Application Form.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/DGM CS Result.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Officer Posts 01.04.2026.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Result DGM PROJECT FINANCE.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/Application Form - Legal.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/DOC-20260717-WA0009.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/SSO or SO Legal Post  01.04.2026.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Advt. Young Professional Legal.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Application Form.pdf",
-    "https://www.nmrcnoida.com/assets/pdf/career/Format-of-Various-Certificates.pdf",
-    "https://www.nmrcnoida.com/assets/pdf/career/Standards-of-Medical-Examination.pdf"
-   ],
-   "text_hash": "f86f827ed77c8ee761d79393fb7496e1429a1de7"
+   "doc_count": 0,
+   "docs": [],
+   "text_hash": "16a1c2192646fd58623f4d379070afa9cad634b6"
   },
   "psuconnect": {
    "doc_count": 15,
