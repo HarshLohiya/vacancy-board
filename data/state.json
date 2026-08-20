@@ -1240,6 +1240,22 @@
    "url": "https://www.railtel.in/images/careers/Sr. Soultion and Solution Architect draft vacancy Notice - Website.pdf",
    "vacancy_date": null
   },
+  "4e711f3b23c1a08b": {
+   "deadline_note": "",
+   "first_seen": "2026-08-20",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "MahaMetro",
+   "post": "View",
+   "scale": "",
+   "schedule": "",
+   "source_id": "mahametro",
+   "source_name": "MahaMetro",
+   "url": "https://www.mahametro.org/pdf/Advt. N_HR_06_2026-new .pdf",
+   "vacancy_date": null
+  },
   "54eb6bbddb8c1552": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -1343,10 +1359,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "GMRC (Ahmedabad, Surat)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -2319,10 +2331,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "NCRTC (RRTS)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -4528,6 +4536,22 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/168.pdf",
    "vacancy_date": null
   },
+  "f9f9b90c1e41ac01": {
+   "deadline_note": "",
+   "first_seen": "2026-08-20",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "MahaMetro",
+   "post": "View",
+   "scale": "",
+   "schedule": "",
+   "source_id": "mahametro",
+   "source_name": "MahaMetro",
+   "url": "https://www.mahametro.org/pdf/Advt. N_HR_07_2026.pdf",
+   "vacancy_date": null
+  },
   "fa1c86a490a65de5": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -4629,7 +4653,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-19",
+ "last_run": "2026-08-20",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -5372,7 +5396,7 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/Corrigendum-GMRCLHRRECTSysJul-202623.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "ca238c3e78b1fb79d0e784d761fce92048ef35b8"
+   "text_hash": "bf1f4f460aab412e72ecea63a9c6ea188c67e7a3"
   },
   "gride": {
    "doc_count": 3,
@@ -5625,7 +5649,7 @@
    "text_hash": "f05904ddbcb24d85adaefb9a873bd785189cf79a"
   },
   "mahametro": {
-   "doc_count": 174,
+   "doc_count": 176,
    "docs": [
     "https://cdn3.digialm.com/EForms/configuredHtml/1709/65107/login.html",
     "https://g26.tcsion.com/OnlineAssessment/index.html?31582@@M212",
@@ -5664,6 +5688,8 @@
     "https://www.mahametro.org/pdf/Advt. Mahe Metro HR-03.2018.pdf",
     "https://www.mahametro.org/pdf/Advt. N_HR_04_2025.pdf",
     "https://www.mahametro.org/pdf/Advt. N_HR_05  with form 3.pdf",
+    "https://www.mahametro.org/pdf/Advt. N_HR_06_2026-new .pdf",
+    "https://www.mahametro.org/pdf/Advt. N_HR_07_2026.pdf",
     "https://www.mahametro.org/pdf/Advt. No. 07.2018 03.08.2018.PDF",
     "https://www.mahametro.org/pdf/Advt. No. 11.2018-21.11.2018.PDF",
     "https://www.mahametro.org/pdf/Advt. No. 13.pdf",
@@ -5802,7 +5828,7 @@
     "https://www.mahametro.org/pdf/extension_MahaMetro_P_HR06_2021.pdf",
     "https://www.mahametro.org/pdf/maha-metro_hr_0228032021.pdf"
    ],
-   "text_hash": "9d3ad7b252ecf8caaaf7012bc27894cb8fe2dd25"
+   "text_hash": "b505c4959a1f5989d24ffd373deb5f077f49e9f0"
   },
   "maharail": {
    "doc_count": 3,
@@ -6137,7 +6163,7 @@
     "https://ncrtc.in/wp-content/uploads/2026/03/List_Suspended_Debarred_19.02.26.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/06/EOI3_Feeder_services_Rolling-Namo-Bharat-16.06.2026.pdf"
    ],
-   "text_hash": "0574a9d5d2e303219b41c0d94b3d4c8519fefc27"
+   "text_hash": "d50013d704e52d8e02cd25e2f8654494c66e849a"
   },
   "nhsrcl": {
    "doc_count": 10,
