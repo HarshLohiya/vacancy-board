@@ -600,26 +600,6 @@
    "url": "https://kmrc.in/admin/uploaded_career/VC_KMRCL_Revised.pdf",
    "vacancy_date": null
   },
-  "2416c78a16098e77": {
-   "deadline_note": "3:00PM",
-   "first_seen": "2026-08-07",
-   "group": "Board level (PESB)",
-   "issue_date": "2026-06-01",
-   "kind": "advertised",
-   "last_date": "2026-06-22",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "Engineers India Limited",
-   "post": "Director (Projects)",
-   "scale": "Rs. 180000 \u2013 340000 (IDA)",
-   "schedule": "Schedule A",
-   "source_id": "pesb_advertised",
-   "source_name": "PESB - Advertised Vacancies",
-   "url": "https://pesb.gov.in/Home/AdvertisVacancy",
-   "vacancy_date": "2027-06-01"
-  },
   "2515f918455a2b43": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -1427,10 +1407,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "KMRL (Kochi)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -1967,10 +1943,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "NMRC (Noida)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -3360,26 +3332,6 @@
    "url": "https://kmrc.in/admin/uploaded_career/Notice_on_fraud_recruitment_news.pdf",
    "vacancy_date": null
   },
-  "b03afe433ffbfe48": {
-   "deadline_note": "21 days from issue on 01 Jun 2026",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-06-01",
-   "kind": "advertised",
-   "last_date": "2026-06-22",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "RailTel Corporation of India Ltd. (RCIL)",
-   "post": "Design Director (Chief Manager/Sr. Manager)/Jabalpur/WR",
-   "scale": "",
-   "schedule": "S&T Executives of Railways/Railway PSU",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/FINAL%20VACANCY%20NOTICE%20NO%2008-2026%20UPLOADED%20FOR%20DESIGN%20DIRECTOR%20JABALPUR%20WR.pdf",
-   "vacancy_date": null
-  },
   "b1d0f6923e387253": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -3519,26 +3471,6 @@
    "source_name": "NHSRCL",
    "url": "https://nhsrcl.in/en/career/vacancy-notice",
    "vacancy_date": null
-  },
-  "b8ff5e939202692e": {
-   "deadline_note": "3:00PM",
-   "first_seen": "2026-08-07",
-   "group": "Board level (PESB)",
-   "issue_date": "2026-06-02",
-   "kind": "advertised",
-   "last_date": "2026-06-22",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "Bharat Heavy Electricals Limited (BHEL)",
-   "post": "Director (Power)",
-   "scale": "Rs. 180000 \u2013 340000 (IDA)",
-   "schedule": "Schedule A",
-   "source_id": "pesb_advertised",
-   "source_name": "PESB - Advertised Vacancies",
-   "url": "https://pesb.gov.in/Home/AdvertisVacancy",
-   "vacancy_date": "2027-03-01"
   },
   "ba3e72552761723d": {
    "deadline_note": "",
@@ -4941,7 +4873,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-21",
+ "last_run": "2026-08-22",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -5871,53 +5803,11 @@
    "text_hash": "8ff235d33d4b8630019da80dbbd77f48f11b84f7"
   },
   "kmrl": {
-   "doc_count": 43,
+   "doc_count": 1,
    "docs": [
-    "https://kochimetro.org/careers/kmrl_vacancy.php?vac_type=jobs&company=KMRL",
-    "https://kochimetro.org/careers/site_media/news/Admit_card_download.pdf",
-    "https://kochimetro.org/careers/site_media/news/Executive Trainee - Website.pdf",
-    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf",
-    "https://kochimetro.org/careers/site_media/news/JEcivilandtrack-Medical.pdf",
-    "https://kochimetro.org/careers/site_media/news/SCTO-Psychometric.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/102.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/103.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/107.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/112.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/113.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/168.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/169.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/170.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/171.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/174.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/175.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/177.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/178.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/182.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/183.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/184.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/185.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/186.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/187.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/188.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/189.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/190.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/191.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/193.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/194.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/195.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/198.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/199.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/200.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/201.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/202.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/210.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/211.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/212.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/213.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/214.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/215.pdf"
+    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf"
    ],
-   "text_hash": "cce05de99e7a096802b8fd26c7950ba1d5cb465b"
+   "text_hash": "af57240873ce7b4999c5812e6ac4700e921bdaf3"
   },
   "krcl": {
    "doc_count": 19,
@@ -6513,25 +6403,9 @@
    "text_hash": "e4ffb1871f01def69c10186f5a664d801b85c437"
   },
   "nmrc": {
-   "doc_count": 15,
-   "docs": [
-    "https://www.nmrcnoida.com/Career/public-career",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Application Form with Annexures.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/CVO Advt. dated 06.03.2026.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Extension Notice.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Application Form.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/DGM CS Result.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Officer Posts 01.04.2026.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Result DGM PROJECT FINANCE.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/Application Form - Legal.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/DOC-20260717-WA0009.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/SSO or SO Legal Post  01.04.2026.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Advt. Young Professional Legal.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Application Form.pdf",
-    "https://www.nmrcnoida.com/assets/pdf/career/Format-of-Various-Certificates.pdf",
-    "https://www.nmrcnoida.com/assets/pdf/career/Standards-of-Medical-Examination.pdf"
-   ],
-   "text_hash": "f86f827ed77c8ee761d79393fb7496e1429a1de7"
+   "doc_count": 0,
+   "docs": [],
+   "text_hash": "16a1c2192646fd58623f4d379070afa9cad634b6"
   },
   "psuconnect": {
    "doc_count": 16,
