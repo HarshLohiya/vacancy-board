@@ -543,10 +543,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "2026-08-18",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
    "organisation": "IRFC",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -1590,6 +1586,22 @@
    "source_id": "kmrl",
    "source_name": "KMRL (Kochi)",
    "url": "https://kochimetro.org/careers/site_media/notifications/211.pdf",
+   "vacancy_date": null
+  },
+  "5f512d916f414245": {
+   "deadline_note": "",
+   "first_seen": "2026-08-25",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u092e\u0947\u0902 \u0938\u0939\u093e\u092f\u0915 \u092a\u094d\u0930\u092c\u0902\u0927\u0915/\u090f\u092b\u0913\u0906\u0908\u090f\u0938 \u0915\u0947 \u0926\u094b \u092a\u0926 \u0915\u0940 \u0930\u093f\u0915\u094d\u0924\u093f \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u092f\u0941\u0915\u094d\u0924\u093f \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 \u0939\u0948\u0964",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Non_Gazetted/document (49)_merged.pdf",
    "vacancy_date": null
   },
   "5f5d471cf49b6e31": {
@@ -2664,6 +2676,22 @@
    "url": "https://transport.rajasthan.gov.in/content/transportportal/en/metro-portal/career/deputation.html",
    "vacancy_date": null
   },
+  "8b9b6f4e3f0fc28c": {
+   "deadline_note": "",
+   "first_seen": "2026-08-25",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u092e\u0947\u0902 \u0938\u0939\u093e\u092f\u0915 \u092a\u094d\u0930\u092c\u0902\u0927\u0915/\u090f\u092b\u090f\u092e\u090f\u092e \u0915\u0947 \u090f\u0915 \u092a\u0926 \u0915\u0940 \u0930\u093f\u0915\u094d\u0924\u093f \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u092f\u0941\u0915\u094d\u0924\u093f \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 \u0939\u0948\u0964",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Non_Gazetted/document (48)_merged.pdf",
+   "vacancy_date": null
+  },
   "8daf17d48e5be686": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -3284,6 +3312,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/Contractual_DyCE_Arbn_Civil.pdf",
    "vacancy_date": null
   },
+  "ac491461f7fd78ba": {
+   "deadline_note": "",
+   "first_seen": "2026-08-25",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u092e\u0947\u0902 \u0938\u0939\u093e\u092f\u0915 \u092a\u094d\u0930\u092c\u0902\u0927\u0915/\u0921\u092c\u094d\u0932\u094d\u092f\u0942\u090f \u0915\u0947 \u090f\u0915 \u092a\u0926 \u0915\u0940 \u0930\u093f\u0915\u094d\u0924\u093f \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u092f\u0941\u0915\u094d\u0924\u093f \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 \u0939\u0948\u0964",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Non_Gazetted/document (50)_merged.pdf",
+   "vacancy_date": null
+  },
   "ad2556b15bc44d4b": {
    "deadline_note": "date read from the notice title",
    "first_seen": "2026-08-18",
@@ -3902,6 +3946,22 @@
    "source_id": "rb_vacancy_circulars",
    "source_name": "Railway Board - Vacancy Circulars",
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VACANCY%20NOTICE%20NO_%20292026.pdf",
+   "vacancy_date": null
+  },
+  "d2031d30a0cd3b1c": {
+   "deadline_note": "",
+   "first_seen": "2026-08-25",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "RailTel",
+   "post": "List of RailTel Business Associate",
+   "scale": "",
+   "schedule": "",
+   "source_id": "railtel",
+   "source_name": "RailTel",
+   "url": "https://www.railtel.in/images/pdf/List of RailTels Business Associates (Last updated on 24-08-2026).pdf",
    "vacancy_date": null
   },
   "d26133585f70783b": {
@@ -4664,26 +4724,6 @@
    "url": "https://kmrc.in/admin/uploaded_career/GM-Finance_Advertisement.pdf",
    "vacancy_date": null
   },
-  "f46acf542117c683": {
-   "deadline_note": "20 days from issue on 05 Jun 2026",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-06-05",
-   "kind": "advertised",
-   "last_date": "2026-06-25",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "KONKAN RAILWAY CORPORATION LTD. (KRCL)",
-   "post": "CHAIRMAN & MANAGING DIRECTOR",
-   "scale": "",
-   "schedule": "AS PER ANNEXURES",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/20260605162123.pdf",
-   "vacancy_date": null
-  },
   "f5150fdce3de0e63": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -4885,7 +4925,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-24",
+ "last_run": "2026-08-25",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -5001,7 +5041,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 350,
+   "doc_count": 353,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -5116,6 +5156,9 @@
     "https://cris.org.in/PDF/Non_Gazetted/document (30)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (4)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (4)_merged_060726.pdf",
+    "https://cris.org.in/PDF/Non_Gazetted/document (48)_merged.pdf",
+    "https://cris.org.in/PDF/Non_Gazetted/document (49)_merged.pdf",
+    "https://cris.org.in/PDF/Non_Gazetted/document (50)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (8)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (9)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/organized (18).pdf",
@@ -5354,7 +5397,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "68eb7df5568da79767e9542c865b1e48c0dad6cf"
+   "text_hash": "28a64c0a886fa92e2eaa87b9b0563b9d0ff62c04"
   },
   "dfccil": {
    "doc_count": 28,
@@ -5728,7 +5771,7 @@
     "https://irfc.co.in/sites\\default\\files\\news\\Whisperintheair.pdf",
     "https://twitter.com/IRFC_1986"
    ],
-   "text_hash": "7cc5b731ee28d881857df50b445c3f8e8d70caea"
+   "text_hash": "02c5b6fb4c82921272205abb8a2690fed2d67a7a"
   },
   "jmrc": {
    "doc_count": 7,
@@ -6396,7 +6439,7 @@
     "https://ncrtc.in/wp-content/uploads/2026/03/List_Suspended_Debarred_19.02.26.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/06/EOI3_Feeder_services_Rolling-Namo-Bharat-16.06.2026.pdf"
    ],
-   "text_hash": "5c55af1c956455aefe6961e2b604443f6af0e7ab"
+   "text_hash": "57997af9eeac27c0e8dc714a72eb12a376dc8ce8"
   },
   "nhsrcl": {
    "doc_count": 10,
@@ -6916,7 +6959,7 @@
     "https://www.railtel.in/images/pdf/Interview-Schedule-Ahmedabad.pdf",
     "https://www.railtel.in/images/pdf/Interview-list-for-website-8.pdf",
     "https://www.railtel.in/images/pdf/JGM(IT)-list-of-shortlisted-candidates-for-web.pdf",
-    "https://www.railtel.in/images/pdf/List of RailTels Business Associates (Last updated on 17-08-2026).pdf",
+    "https://www.railtel.in/images/pdf/List of RailTels Business Associates (Last updated on 24-08-2026).pdf",
     "https://www.railtel.in/images/pdf/List-of-Selected-candidates.pdf",
     "https://www.railtel.in/images/pdf/List-of-shortlisted-candidates-for-Test-Interview-for-apptt-as-OA-NOFN.pdf",
     "https://www.railtel.in/images/pdf/List-of-successful-candidate.pdf",
