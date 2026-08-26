@@ -972,6 +972,22 @@
    "url": "https://kmrc.in/career.php",
    "vacancy_date": null
   },
+  "3c64ec5ce5d8f235": {
+   "deadline_note": "",
+   "first_seen": "2026-08-26",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "RailTel",
+   "post": "List-III Result Published for KSWAN Project",
+   "scale": "",
+   "schedule": "",
+   "source_id": "railtel",
+   "source_name": "RailTel",
+   "url": "https://www.railtel.in/images/pdf/Result Published for KSWAN Proj List3.pdf",
+   "vacancy_date": null
+  },
   "3d446658b4e3f907": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -2832,26 +2848,6 @@
    "url": "https://kochimetro.org/careers/site_media/news/JEcivilandtrack-Medical.pdf",
    "vacancy_date": null
   },
-  "946c096ec46cdd7c": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-06-04",
-   "kind": "advertised",
-   "last_date": "2026-06-26",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "Mumbai Metro Rail Corporation Ltd. (MMRCL)",
-   "post": "GENERAL MANAGER (CIVIL)-02 POSTS & GENERAL MANAGER (BUILDING AND MAINTENANCE)- 01 POST",
-   "scale": "",
-   "schedule": "IRSE/Civil Engineering Deptt. \u00b7 3 posts",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VACANCY%20NOTICE%20NO_%20242026.pdf",
-   "vacancy_date": null
-  },
   "95537af97887cc6d": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -3506,6 +3502,22 @@
    "source_id": "kmrl",
    "source_name": "KMRL (Kochi)",
    "url": "https://kochimetro.org/careers/site_media/notifications/177.pdf",
+   "vacancy_date": null
+  },
+  "b73dab6622a1efff": {
+   "deadline_note": "",
+   "first_seen": "2026-08-26",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u092e\u0947\u0902 \u0938\u0939\u093e\u092f\u0915 \u092a\u094d\u0930\u092c\u0902\u0927\u0915/\u0906\u0930-\u0928\u093f\u092f\u0902\u0924\u094d\u0930\u0915 \u0915\u0947 \u090f\u0915 \u092a\u0926 \u0915\u0940 \u0930\u093f\u0915\u094d\u0924\u093f \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u092f\u0941\u0915\u094d\u0924\u093f \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 \u0939\u0948\u0964",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Non_Gazetted/document (52)_merged.pdf",
    "vacancy_date": null
   },
   "b8d50075d9446570": {
@@ -4284,26 +4296,6 @@
    "url": "https://cris.org.in/PDF/Contact details of CRIS Officials (as on 06.08.26).pdf",
    "vacancy_date": null
   },
-  "dfe26b593221eb88": {
-   "deadline_note": "3:00PM",
-   "first_seen": "2026-08-01",
-   "group": "Board level (PESB)",
-   "issue_date": "2026-06-05",
-   "kind": "advertised",
-   "last_date": "2026-06-26",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "Konkan Railway Corporation Limited",
-   "post": "Chairman & Managing Director",
-   "scale": "Rs. 200000 \u2013 370000 (IDA)",
-   "schedule": "Schedule A",
-   "source_id": "pesb_advertised",
-   "source_name": "PESB - Advertised Vacancies",
-   "url": "https://pesb.gov.in/Home/AdvertisVacancy",
-   "vacancy_date": "2027-04-01"
-  },
   "e03c50cd683baa0a": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -4925,7 +4917,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-25",
+ "last_run": "2026-08-26",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -5041,7 +5033,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 353,
+   "doc_count": 354,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -5159,6 +5151,7 @@
     "https://cris.org.in/PDF/Non_Gazetted/document (48)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (49)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (50)_merged.pdf",
+    "https://cris.org.in/PDF/Non_Gazetted/document (52)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (8)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (9)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/organized (18).pdf",
@@ -5397,7 +5390,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "28a64c0a886fa92e2eaa87b9b0563b9d0ff62c04"
+   "text_hash": "ce1bf073d5a1afa99f97240e5952c71b4500104c"
   },
   "dfccil": {
    "doc_count": 28,
@@ -6485,7 +6478,7 @@
    "text_hash": "cc2852e85ff4732ef12b19021104845f2e5c7bde"
   },
   "railtel": {
-   "doc_count": 516,
+   "doc_count": 517,
    "docs": [
     "http://www.railtel.in/images/pdf/Terms of Use.pdf",
     "https://www.railtel.in/career.html",
@@ -6978,6 +6971,7 @@
     "https://www.railtel.in/images/pdf/Railtel Corporation of India Limited - Registration certificate.pdf",
     "https://www.railtel.in/images/pdf/Reallotment-of-Region-DM(Mktg).pdf",
     "https://www.railtel.in/images/pdf/Reallotment-of-Regions-DM(Tech).pdf",
+    "https://www.railtel.in/images/pdf/Result Published for KSWAN Proj List3.pdf",
     "https://www.railtel.in/images/pdf/Result-(Final)-JGM(IT).pdf",
     "https://www.railtel.in/images/pdf/Result-of-Addl.GM(Mktg).pdf",
     "https://www.railtel.in/images/pdf/Results-final-for-web-2.pdf",
@@ -7004,7 +6998,7 @@
     "https://www.railtelindia.com/images/pdf/Software as a Serivce (SaaS)- Association with RailTel-NOTICE.pdf",
     "javascript:;"
    ],
-   "text_hash": "60e383f852c6becf5e94da967dd0aeb8f667a363"
+   "text_hash": "87bf97db7a55dc8053a1f1da69126b9f74f17ab2"
   },
   "rb_home": {
    "doc_count": 24,
