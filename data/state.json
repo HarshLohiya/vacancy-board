@@ -4164,26 +4164,6 @@
    "url": "https://kmrc.in/admin/uploaded_career/Sr._Finance_Manage_20.02.2020.pdf",
    "vacancy_date": null
   },
-  "d004731c96e7ebc2": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-06-09",
-   "kind": "advertised",
-   "last_date": "2026-06-30",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "RLDA",
-   "post": "General Manager/HR, Joint General Manager/Deputy General manager (Civil), Joint General Manager/Deputy General manager (MEPF) & Joint General Manager/Deputy General manager (Signal & Telecom/Extra",
-   "scale": "",
-   "schedule": "6 posts",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/V_No_16_2026.pdf",
-   "vacancy_date": null
-  },
   "d0ec91e16e3cf632": {
    "deadline_note": "",
    "first_seen": "2026-08-12",
@@ -5205,7 +5185,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-29",
+ "last_run": "2026-08-30",
  "pages": {
   "bbj": {
    "doc_count": 17,
