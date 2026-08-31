@@ -660,6 +660,22 @@
    "url": "https://www.nmrcnoida.com/Upload/CareersRecentItems/47/Combined Format Certificate.pdf",
    "vacancy_date": null
   },
+  "1f70ed289eedc24e": {
+   "deadline_note": "",
+   "first_seen": "2026-08-31",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u0915\u0947 \u0938\u0940\u0908\u092a\u0940 \u0917\u094d\u0930\u0941\u092a \u0915\u0947 \u091f\u0940\u090f\u092e\u090f\u0938 \u092a\u094d\u0930\u094b\u091c\u0947\u0915\u094d\u091f \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0938\u0939\u093e\u092f\u0915 \u0915\u0940 \u090f\u0915 \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Assistants/VC 47 of 2026.pdf",
+   "vacancy_date": null
+  },
   "2156323e8ab2ef8a": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -1567,10 +1583,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "KMRL (Kochi)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -2167,10 +2179,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "NMRC (Noida)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -2707,10 +2715,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "NCRTC (RRTS)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -4560,6 +4564,22 @@
    "url": "https://cris.org.in/PDF/Project_Officers/VC 26 2026 R 39 2026.pdf",
    "vacancy_date": null
   },
+  "d901c929fb2c4c5d": {
+   "deadline_note": "",
+   "first_seen": "2026-08-31",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "RailTel",
+   "post": "List of RailTel Business Associate",
+   "scale": "",
+   "schedule": "",
+   "source_id": "railtel",
+   "source_name": "RailTel",
+   "url": "https://www.railtel.in/images/pdf/List of RailTels Business Associates (Last updated on 31-08-2026).pdf",
+   "vacancy_date": null
+  },
   "d91229800523a667": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -5421,7 +5441,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-30",
+ "last_run": "2026-08-31",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -5537,7 +5557,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 354,
+   "doc_count": 355,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -5766,6 +5786,7 @@
     "https://cris.org.in/PDF/Project_Assistants/VC 44 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 45 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 47 of 2025.pdf",
+    "https://cris.org.in/PDF/Project_Assistants/VC 47 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 9  2024 PA  DA GROUP.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 9R.pdf",
     "https://cris.org.in/PDF/Project_Assistants/Vac Notice 25 of2023_ Project Assitt_HRMS.pdf",
@@ -5894,7 +5915,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "ce1bf073d5a1afa99f97240e5952c71b4500104c"
+   "text_hash": "9817b1480bec6524646f98758e62dc8f9096639e"
   },
   "dfccil": {
    "doc_count": 28,
@@ -6360,47 +6381,11 @@
    "text_hash": "8ff235d33d4b8630019da80dbbd77f48f11b84f7"
   },
   "kmrl": {
-   "doc_count": 37,
+   "doc_count": 1,
    "docs": [
-    "https://kochimetro.org/careers/kmrl_vacancy.php?vac_type=jobs&company=KMRL",
-    "https://kochimetro.org/careers/site_media/news/Admit_card_download.pdf",
-    "https://kochimetro.org/careers/site_media/news/Executive Trainee - Website.pdf",
-    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf",
-    "https://kochimetro.org/careers/site_media/news/JEcivilandtrack-Medical.pdf",
-    "https://kochimetro.org/careers/site_media/news/SCTO-Psychometric.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/102.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/103.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/107.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/112.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/113.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/168.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/169.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/170.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/171.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/174.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/175.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/177.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/178.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/182.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/183.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/184.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/185.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/186.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/187.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/188.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/189.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/190.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/191.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/193.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/194.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/195.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/198.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/199.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/200.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/201.pdf",
-    "https://kochimetro.org/careers/site_media/notifications/202.pdf"
+    "https://kochimetro.org/careers/site_media/news/Guidelines_Internship.pdf"
    ],
-   "text_hash": "ff985c6af6839d788072fee8fb6ba4604437d948"
+   "text_hash": "af57240873ce7b4999c5812e6ac4700e921bdaf3"
   },
   "krcl": {
    "doc_count": 19,
@@ -6977,7 +6962,7 @@
     "https://ncrtc.in/wp-content/uploads/2026/03/List_Suspended_Debarred_19.02.26.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/06/EOI3_Feeder_services_Rolling-Namo-Bharat-16.06.2026.pdf"
    ],
-   "text_hash": "ea88f977dd1553b86b56ebc4f2efea54b6295d4a"
+   "text_hash": "0efdd82d25bcbd3434bd7922b6b0b6b036a9c74c"
   },
   "nhsrcl": {
    "doc_count": 10,
@@ -6996,28 +6981,9 @@
    "text_hash": "e4ffb1871f01def69c10186f5a664d801b85c437"
   },
   "nmrc": {
-   "doc_count": 18,
-   "docs": [
-    "https://www.nmrcnoida.com/Career/public-career",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Application Form with Annexures.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/CVO Advt. dated 06.03.2026.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/40/Extension Notice.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Application Form.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/DGM CS Result.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Officer Posts 01.04.2026.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Result DGM PROJECT FINANCE.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/Application Form - Legal.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/DOC-20260717-WA0009.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/45/SSO or SO Legal Post  01.04.2026.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Advt. Young Professional Legal.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Application Form.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/47/Application Form.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/47/Combined Format Certificate.pdf",
-    "https://www.nmrcnoida.com/Upload/CareersRecentItems/47/Final Advt. 22.08.2026.pdf",
-    "https://www.nmrcnoida.com/assets/pdf/career/Format-of-Various-Certificates.pdf",
-    "https://www.nmrcnoida.com/assets/pdf/career/Standards-of-Medical-Examination.pdf"
-   ],
-   "text_hash": "c578af1b74410344e68f2dba8efd1e48cc3bdfb4"
+   "doc_count": 0,
+   "docs": [],
+   "text_hash": "16a1c2192646fd58623f4d379070afa9cad634b6"
   },
   "psuconnect": {
    "doc_count": 17,
@@ -7517,7 +7483,7 @@
     "https://www.railtel.in/images/pdf/Interview-Schedule-Ahmedabad.pdf",
     "https://www.railtel.in/images/pdf/Interview-list-for-website-8.pdf",
     "https://www.railtel.in/images/pdf/JGM(IT)-list-of-shortlisted-candidates-for-web.pdf",
-    "https://www.railtel.in/images/pdf/List of RailTels Business Associates (Last updated on 24-08-2026).pdf",
+    "https://www.railtel.in/images/pdf/List of RailTels Business Associates (Last updated on 31-08-2026).pdf",
     "https://www.railtel.in/images/pdf/List-of-Selected-candidates.pdf",
     "https://www.railtel.in/images/pdf/List-of-shortlisted-candidates-for-Test-Interview-for-apptt-as-OA-NOFN.pdf",
     "https://www.railtel.in/images/pdf/List-of-successful-candidate.pdf",
