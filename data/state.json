@@ -400,6 +400,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/appointment190224.pdf",
    "vacancy_date": null
   },
+  "14566d0a05b82bd5": {
+   "deadline_note": "",
+   "first_seen": "2026-09-01",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "Container Corporation of India Director (Project & Services) Vacancy 2026; Apply by 21 Sept",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/container-corporation-of-india-director-project-services-vacancy-2026-apply-by-21-sept",
+   "vacancy_date": null
+  },
   "148951ca567f83fd": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -1063,10 +1079,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "2026-08-18",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
    "organisation": "KMRCL (Kolkata)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -1315,26 +1327,6 @@
    "source_name": "KMRL (Kochi)",
    "url": "https://kochimetro.org/careers/site_media/notifications/214.pdf",
    "vacancy_date": null
-  },
-  "493c2caad4bcc7da": {
-   "deadline_note": "3:00PM",
-   "first_seen": "2026-08-07",
-   "group": "Board level (PESB)",
-   "issue_date": "2026-06-11",
-   "kind": "advertised",
-   "last_date": "2026-07-02",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "NTPC Green Energy Limited",
-   "post": "Managing Director",
-   "scale": "Rs. 180000 \u2013 340000 (IDA)",
-   "schedule": "Schedule A",
-   "source_id": "pesb_advertised",
-   "source_name": "PESB - Advertised Vacancies",
-   "url": "https://pesb.gov.in/Home/AdvertisVacancy",
-   "vacancy_date": "2026-02-17"
   },
   "495a8f92c061e346": {
    "deadline_note": "",
@@ -2019,10 +2011,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "2026-08-07",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
    "organisation": "MRVC",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -2130,6 +2118,22 @@
    "source_id": "kmrl",
    "source_name": "KMRL (Kochi)",
    "url": "https://kochimetro.org/careers/site_media/notifications/210.pdf",
+   "vacancy_date": null
+  },
+  "6f1a3be318da6954": {
+   "deadline_note": "",
+   "first_seen": "2026-09-01",
+   "group": "Railway Board",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "Railway Board",
+   "post": "Notification for ex-cadre Level 16 posts",
+   "scale": "",
+   "schedule": "",
+   "source_id": "rb_home",
+   "source_name": "Railway Board",
+   "url": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,2703,3124",
    "vacancy_date": null
   },
   "6f1fd965389ce5a4": {
@@ -4304,6 +4308,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/Sr._Finance_Manage_20.02.2020.pdf",
    "vacancy_date": null
   },
+  "d08874d514696962": {
+   "deadline_note": "",
+   "first_seen": "2026-09-01",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "Coal India Limited Director (Personnel & IR) Vacancy 2026; Apply by 21 Sept",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/coal-india-limited-director-vacancy-2026-apply-by-21-sept",
+   "vacancy_date": null
+  },
   "d0ec91e16e3cf632": {
    "deadline_note": "",
    "first_seen": "2026-08-12",
@@ -5441,7 +5461,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-08-31",
+ "last_run": "2026-09-01",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6310,75 +6330,9 @@
    "text_hash": "6d1f389b22d58697b5fded3c06e2b46876192664"
   },
   "kmrcl": {
-   "doc_count": 65,
-   "docs": [
-    "http://kmrc.in/Annual-Procurement-Plan-FY-20.pdf",
-    "http://kmrc.in/admin/uploaded_news/List_of_Items_to_be_procured_during_2018-19.pdf",
-    "https://kmrc.in/admin/uploaded_career/22nd_feb_2019.pdf",
-    "https://kmrc.in/admin/uploaded_career/AAO.pdf",
-    "https://kmrc.in/admin/uploaded_career/ADDITIONAL_GENERAL_MANAGER_(CIVIL)-notification.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM(Operations_&_Maintenance).pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_(Civil)_Deputation_18.07.25.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_Civil-_Contractual_14.01.25.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_Civil_06_7_22.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_Civil_16_8_22.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_S&T.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_S&T_DEP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_S&T_EXP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/AM_S&T_Notice.pdf",
-    "https://kmrc.in/admin/uploaded_career/Accountant_-exp270324.pdf",
-    "https://kmrc.in/admin/uploaded_career/Advertisement_10.12.2020.pdf",
-    "https://kmrc.in/admin/uploaded_career/Advisor-_Contractual.pdf",
-    "https://kmrc.in/admin/uploaded_career/Advtt_Accounts_Officer_edited.pdf",
-    "https://kmrc.in/admin/uploaded_career/Application_for_CEE_POST_KMRC.pdf",
-    "https://kmrc.in/admin/uploaded_career/Assistant_Personal_Officer.pdf",
-    "https://kmrc.in/admin/uploaded_career/CEST_adv.pdf",
-    "https://kmrc.in/admin/uploaded_career/Contractual_DyCE_Arbn_Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/DGM_Finance.pdf",
-    "https://kmrc.in/admin/uploaded_career/GENERAL_MANAGER_(CIVIL)-_Expert.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM-Civil_29.11.2024.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM-Finance_Advertisement.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_(Civil)-Deputation_18.07.2025.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_(Finance)-KMRC.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_(Finance)-deputatuion.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Civil_01.08.22.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Civil_23.06.22.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Electrical-_revised.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Electrical.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_08.08.2024.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_DEP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_EXP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_KMRCL.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_ST_DEPUTATION.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_and_AGM_contractual.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_and_AGM_deputation.pdf",
-    "https://kmrc.in/admin/uploaded_career/GN-Finance_ADV2.pdf",
-    "https://kmrc.in/admin/uploaded_career/Manager_S&T_Deputation.pdf",
-    "https://kmrc.in/admin/uploaded_career/NOTIFICATION_FOR_GM_CIVIL_07052025.pdf",
-    "https://kmrc.in/admin/uploaded_career/NOTIFICATION_GM_ST_CONTRACT.pdf",
-    "https://kmrc.in/admin/uploaded_career/NOTIFICATION_revised.pdf",
-    "https://kmrc.in/admin/uploaded_career/Notice_on_fraud_recruitment_news.pdf",
-    "https://kmrc.in/admin/uploaded_career/SR._ADVISOR_(ARBITRATION).pdf",
-    "https://kmrc.in/admin/uploaded_career/SR._ADVISOR_(SAFETY_AND_PASSENGER_AMENITIES).pdf",
-    "https://kmrc.in/admin/uploaded_career/SSES&T_to_AMII.pdf",
-    "https://kmrc.in/admin/uploaded_career/Sr._Finance_Manage_20.02.2020.pdf",
-    "https://kmrc.in/admin/uploaded_career/VC_KMRCL_Revised.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_09.05.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_CS.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Noice_CLA.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice-Law_Exe.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_Exe_Engg-Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_GM-Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_GM-Civil__1_.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_Manager-Accounts-Exe_Engg-Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/appointment190224.pdf",
-    "https://kmrc.in/admin/uploaded_career/gm_civil_adv_corrigendum.pdf",
-    "https://kmrc.in/admin/uploaded_career/law_officer_230224.pdf",
-    "https://kmrc.in/admin/uploaded_career/notification_DyCE_Arbn_Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/notification_for_gm(s&t).pdf",
-    "https://kmrc.in/news_detail.php"
-   ],
-   "text_hash": "8ff235d33d4b8630019da80dbbd77f48f11b84f7"
+   "doc_count": 0,
+   "docs": [],
+   "text_hash": "7891a3ab2175c1dc720f5dda590766bce09ad231"
   },
   "kmrl": {
    "doc_count": 1,
@@ -6945,7 +6899,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "b89852dddd0f23c8dc44df9a0a06754a00829f4f"
+   "text_hash": "21b34371b460c2eb1e904690e4837aae53945c63"
   },
   "ncrtc": {
    "doc_count": 11,
@@ -6990,10 +6944,11 @@
    "docs": [
     "https://www.psuconnect.in/Jobs/ai-assets-holding-ltd-invites-applications-for-chairman-managing-director-post",
     "https://www.psuconnect.in/Jobs/bank-of-baroda-to-recruit-2482-local-bank-officers-deepening-banking-reach-across-india",
-    "https://www.psuconnect.in/Jobs/bhel-fta-supervisor-hse-recruitment-2026-10-posts",
     "https://www.psuconnect.in/Jobs/braithwaite-recruitment-2026-29-vacancies-apply-by-sept-10",
+    "https://www.psuconnect.in/Jobs/coal-india-limited-director-vacancy-2026-apply-by-21-sept",
     "https://www.psuconnect.in/Jobs/coal-india-limited-to-recruit-management-trainees-based-on-gate-2027-score",
     "https://www.psuconnect.in/Jobs/cochin-shipyard-recruitment-2026-assistant-manager-safety-vacancy",
+    "https://www.psuconnect.in/Jobs/container-corporation-of-india-director-project-services-vacancy-2026-apply-by-21-sept",
     "https://www.psuconnect.in/Jobs/irctc-recruitment-2026-group-general-manager-hrd-on-deputation",
     "https://www.psuconnect.in/Jobs/irfc-recruitment-2026-head-of-internal-audit-post-open-check-eligibility-and-deadline",
     "https://www.psuconnect.in/Jobs/nhsrcl-invites-applications-for-agm-new-dpr-on-deputation",
@@ -7002,11 +6957,10 @@
     "https://www.psuconnect.in/Jobs/railtel-recruitment-2026-executive-director-ggm-gm-technical-post-on-deputation",
     "https://www.psuconnect.in/Jobs/rlda-invites-applications-for-deputation-posts-vacancy-notice-21-2026",
     "https://www.psuconnect.in/Jobs/rvnl-invites-applications-for-general-manager-electrical-post-in-secunderabad",
-    "https://www.psuconnect.in/Jobs/rvnl-invites-applications-for-gm-agm-s-t-and-executive-director-mechanical-on-deputation",
     "https://www.psuconnect.in/Jobs/rvnl-recruitment-2026-gm-agm-jgm-civil-posts-in-goa-on-deputation",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "3c76821d75302439afb5e53b9979a282e108adf8"
+   "text_hash": "55e7f45554c16f7ce820fffce6fd96ecb27919f0"
   },
   "railtel": {
    "doc_count": 517,
@@ -7532,7 +7486,7 @@
    "text_hash": "87bf97db7a55dc8053a1f1da69126b9f74f17ab2"
   },
   "rb_home": {
-   "doc_count": 24,
+   "doc_count": 25,
    "docs": [
     "https://indianrailways.gov.in/railwayboard/hospital_list.jsp",
     "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,1,304,366,530,566",
@@ -7541,6 +7495,7 @@
     "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,1418,2433",
     "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,1749",
     "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,2703",
+    "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,2703,3124",
     "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,2703,3125",
     "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,3036,3038",
     "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,5,3135",
