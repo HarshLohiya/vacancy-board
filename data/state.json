@@ -1184,6 +1184,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/AGM_Civil_06_7_22.pdf",
    "vacancy_date": null
   },
+  "42704d0cbf6434e3": {
+   "deadline_note": "",
+   "first_seen": "2026-09-04",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "NSC CMD Recruitment 2026: PESB Invites Applications, Check Last Date",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/nsc-cmd-recruitment-2026-pesb-invites-applications-check-last-date",
+   "vacancy_date": null
+  },
   "44a7507f467deeeb": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -3224,6 +3240,22 @@
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/V_No_05_2026.pdf",
    "vacancy_date": null
   },
+  "9c938d1a539ff2ce": {
+   "deadline_note": "",
+   "first_seen": "2026-09-04",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "RailTel",
+   "post": "List of Provisionally Empanelled Candidates",
+   "scale": "",
+   "schedule": "",
+   "source_id": "railtel",
+   "source_name": "RailTel",
+   "url": "https://www.railtel.in/images/careers/Empanelment Order - Sr. Solution Architect  Solution Architect.pdf",
+   "vacancy_date": null
+  },
   "9d0e1566601ef452": {
    "deadline_note": "",
    "first_seen": "2026-08-27",
@@ -4064,6 +4096,22 @@
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/51%20civil.pdf",
    "vacancy_date": null
   },
+  "c806c7da46117dc8": {
+   "deadline_note": "",
+   "first_seen": "2026-09-04",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938, \u091a\u0947\u0928\u094d\u0928\u0908 \u092e\u0947\u0902 \u0938\u0939\u093e\u092f\u0915 \u092a\u094d\u0930\u092c\u0902\u0927\u0915/\u0938\u0940\u0913\u090f \u0915\u0947 \u090f\u0915 \u092a\u0926 \u0915\u0940 \u0930\u093f\u0915\u094d\u0924\u093f \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u092f\u0941\u0915\u094d\u0924\u093f \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 \u0939\u0948\u0964",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Non_Gazetted/document (56)_merged.pdf",
+   "vacancy_date": null
+  },
   "c8f8885d4e40b453": {
    "deadline_note": "",
    "first_seen": "2026-08-27",
@@ -4610,6 +4658,22 @@
    "source_id": "cris",
    "source_name": "CRIS",
    "url": "https://cris.org.in/PDF/Contact details of CRIS Officials (as on 06.08.26).pdf",
+   "vacancy_date": null
+  },
+  "dffabb5b3d60a3e7": {
+   "deadline_note": "",
+   "first_seen": "2026-09-04",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "organisation": "MMRC (Mumbai Metro 3)",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "mmrc",
+   "source_name": "MMRC (Mumbai Metro 3)",
+   "url": "https://www.mmrcl.com/en/career",
    "vacancy_date": null
   },
   "e03c50cd683baa0a": {
@@ -5289,7 +5353,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-09-03",
+ "last_run": "2026-09-04",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -5405,7 +5469,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 355,
+   "doc_count": 356,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -5524,6 +5588,7 @@
     "https://cris.org.in/PDF/Non_Gazetted/document (49)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (50)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (52)_merged.pdf",
+    "https://cris.org.in/PDF/Non_Gazetted/document (56)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (8)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (9)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/organized (18).pdf",
@@ -5763,7 +5828,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "9817b1480bec6524646f98758e62dc8f9096639e"
+   "text_hash": "3976e536b73ace0eef00287d567e1c040b501998"
   },
   "dfccil": {
    "doc_count": 28,
@@ -6490,7 +6555,7 @@
   "mmrc": {
    "doc_count": 0,
    "docs": [],
-   "text_hash": "e15d08dfd6286b218744e62edfe66a093f26d757"
+   "text_hash": "68947894c56ff922ca23c014b862d84af3523a6f"
   },
   "mmrda": {
    "doc_count": 273,
@@ -6794,7 +6859,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "21b34371b460c2eb1e904690e4837aae53945c63"
+   "text_hash": "25ed4ca2f3d1d11a3d8fad4cb60711ea2b9d1b9f"
   },
   "ncrtc": {
    "doc_count": 11,
@@ -6835,7 +6900,7 @@
    "text_hash": "16a1c2192646fd58623f4d379070afa9cad634b6"
   },
   "psuconnect": {
-   "doc_count": 16,
+   "doc_count": 15,
    "docs": [
     "https://www.psuconnect.in/Jobs/ai-assets-holding-ltd-invites-applications-for-chairman-managing-director-post",
     "https://www.psuconnect.in/Jobs/bank-of-baroda-to-recruit-2482-local-bank-officers-deepening-banking-reach-across-india",
@@ -6846,18 +6911,17 @@
     "https://www.psuconnect.in/Jobs/irctc-recruitment-2026-group-general-manager-hrd-on-deputation",
     "https://www.psuconnect.in/Jobs/irfc-recruitment-2026-head-of-internal-audit-post-open-check-eligibility-and-deadline",
     "https://www.psuconnect.in/Jobs/mecl-opens-doors-for-engineering-graduates-limited-e-1-posts-available",
-    "https://www.psuconnect.in/Jobs/nhsrcl-invites-applications-for-agm-new-dpr-on-deputation",
+    "https://www.psuconnect.in/Jobs/nsc-cmd-recruitment-2026-pesb-invites-applications-check-last-date",
     "https://www.psuconnect.in/Jobs/nspcl-announces-recruitment-of-engineering-executive-trainees-2027-through-gate-2027",
-    "https://www.psuconnect.in/Jobs/ntpc-recruitment-2026-apply-online-for-130-deputy-manager-posts",
     "https://www.psuconnect.in/Jobs/railtel-recruitment-2026-executive-director-ggm-gm-technical-post-on-deputation",
     "https://www.psuconnect.in/Jobs/rlda-invites-applications-for-deputation-posts-vacancy-notice-21-2026",
     "https://www.psuconnect.in/Jobs/rvnl-recruitment-2026-gm-agm-jgm-civil-posts-in-goa-on-deputation",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "b4744fe81836adef4f75be98c472867f5694c3e8"
+   "text_hash": "f302a4c2a09b4b760970bcc20df40409e45c3c94"
   },
   "railtel": {
-   "doc_count": 517,
+   "doc_count": 518,
    "docs": [
     "http://www.railtel.in/images/pdf/Terms of Use.pdf",
     "https://www.railtel.in/career.html",
@@ -6949,6 +7013,7 @@
     "https://www.railtel.in/images/careers/ED-WR.pdf",
     "https://www.railtel.in/images/careers/ER BH vacancy notice.pdf",
     "https://www.railtel.in/images/careers/ER VACANCY NOTICE 102026.pdf",
+    "https://www.railtel.in/images/careers/Empanelment Order - Sr. Solution Architect  Solution Architect.pdf",
     "https://www.railtel.in/images/careers/Extension notice.pdf",
     "https://www.railtel.in/images/careers/FINAL VACANCY NOTICE-48 POSTS.pdf",
     "https://www.railtel.in/images/careers/FINAL VACANCY NOTICE.pdf",
@@ -7377,7 +7442,7 @@
     "https://www.railtelindia.com/images/pdf/Software as a Serivce (SaaS)- Association with RailTel-NOTICE.pdf",
     "javascript:;"
    ],
-   "text_hash": "87bf97db7a55dc8053a1f1da69126b9f74f17ab2"
+   "text_hash": "e08b37da2f0781499dfae2fceab972110512af95"
   },
   "rb_home": {
    "doc_count": 25,
