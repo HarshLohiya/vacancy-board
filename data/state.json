@@ -2900,26 +2900,6 @@
    "url": "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Officer Posts 01.04.2026.pdf",
    "vacancy_date": null
   },
-  "89344b562b303a8b": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-06-09",
-   "kind": "advertised",
-   "last_date": "2026-07-08",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "IRCTC",
-   "post": "One (01) post of Group General Manager (E8) (Services) in IRCTC Corporate Office , New Delhi on deputation basis",
-   "scale": "",
-   "schedule": "Deputation",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/Vacancy%20Notice%20No_%20DEP-%2009-2026.pdf",
-   "vacancy_date": null
-  },
   "899cd1136ca34a39": {
    "deadline_note": "",
    "first_seen": "2026-08-02",
@@ -4363,10 +4343,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "PSU Connect - Jobs",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -5276,26 +5252,6 @@
    "url": "https://kmrc.in/admin/uploaded_career/ADDITIONAL_GENERAL_MANAGER_(CIVIL)-notification.pdf",
    "vacancy_date": null
   },
-  "f57e0e561f1a5518": {
-   "deadline_note": "",
-   "first_seen": "2026-08-30",
-   "group": "Railway Board",
-   "issue_date": "2026-06-09",
-   "kind": "advertised",
-   "last_date": "2026-07-08",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "IRCTC",
-   "post": "One (01) post of Group General Manager (E8) (Services) in IRCTC Corporate Office, New Delhi on deputation basis",
-   "scale": "",
-   "schedule": "Deputation",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/Vacancy%20Notice%20No_%20DEP-%2009-2026.pdf",
-   "vacancy_date": null
-  },
   "f711a18aacc071bb": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -5465,7 +5421,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-09-06",
+ "last_run": "2026-09-07",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -7016,7 +6972,7 @@
    "text_hash": "16a1c2192646fd58623f4d379070afa9cad634b6"
   },
   "psuconnect": {
-   "doc_count": 14,
+   "doc_count": 13,
    "docs": [
     "https://www.psuconnect.in/Jobs/bank-of-baroda-to-recruit-2482-local-bank-officers-deepening-banking-reach-across-india",
     "https://www.psuconnect.in/Jobs/bel-apprenticeship-recruitment-2026-iti-walk-in-test-stipend-up-to-11-040",
@@ -7025,7 +6981,6 @@
     "https://www.psuconnect.in/Jobs/container-corporation-of-india-director-project-services-vacancy-2026-apply-by-21-sept",
     "https://www.psuconnect.in/Jobs/engineers-india-limited-recruits-61-experienced-engineers",
     "https://www.psuconnect.in/Jobs/irctc-recruitment-2026-group-general-manager-hrd-on-deputation",
-    "https://www.psuconnect.in/Jobs/irfc-recruitment-2026-head-of-internal-audit-post-open-check-eligibility-and-deadline",
     "https://www.psuconnect.in/Jobs/mecl-opens-doors-for-engineering-graduates-limited-e-1-posts-available",
     "https://www.psuconnect.in/Jobs/nsc-cmd-recruitment-2026-pesb-invites-applications-check-last-date",
     "https://www.psuconnect.in/Jobs/nspcl-announces-recruitment-of-engineering-executive-trainees-2027-through-gate-2027",
@@ -7033,7 +6988,7 @@
     "https://www.psuconnect.in/Jobs/rvnl-manager-s-t-recruitment-2026-1-vacancy-in-rishikesh",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "7e5809a493b025328ec1e5e9a9355c6cec8b1343"
+   "text_hash": "6c98803a8d6cb7e531f97622e107f0de67f152f0"
   },
   "railtel": {
    "doc_count": 518,
