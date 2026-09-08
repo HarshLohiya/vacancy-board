@@ -3104,6 +3104,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/GM_S&T_DEP_PDF.pdf",
    "vacancy_date": null
   },
+  "91522f7f78ee23d9": {
+   "deadline_note": "",
+   "first_seen": "2026-09-08",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "NHSRCL Invites Applications for Multiple Deputation Posts; Apply Within 30 Days",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/nhsrcl-invites-applications-for-multiple-deputation-posts-apply-within-30-days",
+   "vacancy_date": null
+  },
   "91b5b2413da643cc": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -5421,7 +5437,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-09-07",
+ "last_run": "2026-09-08",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6931,7 +6947,7 @@
    "docs": [
     "https://indianrailways.gov.in/railwayboard/uploads/Media/BIODATA-of-Honourable-MR.pdf"
    ],
-   "text_hash": "8f9e6bd773505d0a6a2c88ba5311bab53dc44133"
+   "text_hash": "1466dc5f6e796a66f369e7fd7d7e7dcdbfe06263"
   },
   "ncrtc": {
    "doc_count": 11,
@@ -6982,13 +6998,13 @@
     "https://www.psuconnect.in/Jobs/engineers-india-limited-recruits-61-experienced-engineers",
     "https://www.psuconnect.in/Jobs/irctc-recruitment-2026-group-general-manager-hrd-on-deputation",
     "https://www.psuconnect.in/Jobs/mecl-opens-doors-for-engineering-graduates-limited-e-1-posts-available",
+    "https://www.psuconnect.in/Jobs/nhsrcl-invites-applications-for-multiple-deputation-posts-apply-within-30-days",
     "https://www.psuconnect.in/Jobs/nsc-cmd-recruitment-2026-pesb-invites-applications-check-last-date",
     "https://www.psuconnect.in/Jobs/nspcl-announces-recruitment-of-engineering-executive-trainees-2027-through-gate-2027",
-    "https://www.psuconnect.in/Jobs/rlda-invites-applications-for-deputation-posts-vacancy-notice-21-2026",
     "https://www.psuconnect.in/Jobs/rvnl-manager-s-t-recruitment-2026-1-vacancy-in-rishikesh",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "6c98803a8d6cb7e531f97622e107f0de67f152f0"
+   "text_hash": "ce561ae87a94022c60cc9f5039615844579e8551"
   },
   "railtel": {
    "doc_count": 518,
