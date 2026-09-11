@@ -376,6 +376,22 @@
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/2026/Vacancy%20Notice%20No%20DE-P-11-2026.pdf",
    "vacancy_date": null
   },
+  "0f7448636ce8b0fa": {
+   "deadline_note": "",
+   "first_seen": "2026-09-11",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "NCRTC (RRTS)",
+   "post": "Banned Firms",
+   "scale": "",
+   "schedule": "",
+   "source_id": "ncrtc",
+   "source_name": "NCRTC (RRTS)",
+   "url": "https://ncrtc.in/wp-content/uploads/2026/09/Debarment_list_07.09.26.pdf",
+   "vacancy_date": null
+  },
   "102cc7ba39e00804": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -3772,6 +3788,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/Notice_on_fraud_recruitment_news.pdf",
    "vacancy_date": null
   },
+  "b05965df01ee5a74": {
+   "deadline_note": "",
+   "first_seen": "2026-09-11",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938, \u0938\u093f\u0915\u0902\u0926\u0930\u093e\u092c\u093e\u0926 \u092e\u0947\u0902 \u0938\u0939\u093e\u092f\u0915 \u092a\u094d\u0930\u092c\u0902\u0927\u0915/\u0938\u0940\u0913\u090f \u0915\u0947 \u090f\u0915 \u092a\u0926 \u0915\u0940 \u0930\u093f\u0915\u094d\u0924\u093f \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u092f\u0941\u0915\u094d\u0924\u093f \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 \u0939\u0948\u0964",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Non_Gazetted/document (57)_merged.pdf",
+   "vacancy_date": null
+  },
   "b0e6dfbfc8fcb03d": {
    "deadline_note": "",
    "first_seen": "2026-08-27",
@@ -5485,7 +5517,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-09-10",
+ "last_run": "2026-09-11",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -5602,7 +5634,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 359,
+   "doc_count": 360,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -5722,6 +5754,7 @@
     "https://cris.org.in/PDF/Non_Gazetted/document (50)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (52)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (56)_merged.pdf",
+    "https://cris.org.in/PDF/Non_Gazetted/document (57)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (8)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (9)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/organized (18).pdf",
@@ -5964,7 +5997,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "cc83d7d62ba23988944c106c1317ab0ef5b565c1"
+   "text_hash": "281f7a079c1767f6c0f56c59cf4db99591198dac"
   },
   "dfccil": {
    "doc_count": 28,
@@ -6998,7 +7031,7 @@
    "text_hash": "1466dc5f6e796a66f369e7fd7d7e7dcdbfe06263"
   },
   "ncrtc": {
-   "doc_count": 11,
+   "doc_count": 10,
    "docs": [
     "http://ncrtc.in/wp-content/uploads/2022/08/NCRTC_Procurement-Projections_15012021_R1.pdf",
     "https://ncrtc.in/ars-commericial-development-in-parking-areas/",
@@ -7007,12 +7040,11 @@
     "https://ncrtc.in/wp-content/uploads/2023/03/Dispute-Resolution-Board-Member-EOI_30.12.2020-3.pdf",
     "https://ncrtc.in/wp-content/uploads/2023/04/MoHUA-website-Report-on-Electrical-and-Electromechanical-2-52.pdf",
     "https://ncrtc.in/wp-content/uploads/2024/07/Namo-Bharat-Inauguration-Coverage.pdf",
-    "https://ncrtc.in/wp-content/uploads/2024/08/EOI_27.08.2024.pdf",
     "https://ncrtc.in/wp-content/uploads/2024/10/Rolling-EoI-for-Arbitrators.pdf",
-    "https://ncrtc.in/wp-content/uploads/2026/03/List_Suspended_Debarred_19.02.26.pdf",
-    "https://ncrtc.in/wp-content/uploads/2026/06/EOI3_Feeder_services_Rolling-Namo-Bharat-16.06.2026.pdf"
+    "https://ncrtc.in/wp-content/uploads/2026/06/EOI3_Feeder_services_Rolling-Namo-Bharat-16.06.2026.pdf",
+    "https://ncrtc.in/wp-content/uploads/2026/09/Debarment_list_07.09.26.pdf"
    ],
-   "text_hash": "0efdd82d25bcbd3434bd7922b6b0b6b036a9c74c"
+   "text_hash": "be18de64d6d2129c140a2eeee18b4d7258851e58"
   },
   "nhsrcl": {
    "doc_count": 10,
