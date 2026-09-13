@@ -500,26 +500,6 @@
    "url": "https://www.irctc.com/recruitment.php",
    "vacancy_date": null
   },
-  "14b4ca5360de89a4": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-06-15",
-   "kind": "advertised",
-   "last_date": "2026-07-14",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "Rail Vikas Nigam Ltd.",
-   "post": "GM (Civil) at Waltair on deputation basi",
-   "scale": "",
-   "schedule": "IRSE / Civil Engg. Department",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/31%20CIVIL%20WAT.pdf",
-   "vacancy_date": null
-  },
   "15249a62b5755c0a": {
    "deadline_note": "",
    "first_seen": "2026-09-05",
@@ -4092,26 +4072,6 @@
    "url": "https://kochimetro.org/careers/kmrl_vacancy.php?vac_type=jobs&company=KMRL",
    "vacancy_date": null
   },
-  "be797652249f1d91": {
-   "deadline_note": "3:00PM",
-   "first_seen": "2026-08-07",
-   "group": "Board level (PESB)",
-   "issue_date": "2026-06-23",
-   "kind": "advertised",
-   "last_date": "2026-07-14",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "NTPC Limited",
-   "post": "Director (Projects)",
-   "scale": "Rs. 180000 \u2013 340000 (IDA)",
-   "schedule": "Schedule A",
-   "source_id": "pesb_advertised",
-   "source_name": "PESB - Advertised Vacancies",
-   "url": "https://pesb.gov.in/Home/AdvertisVacancy",
-   "vacancy_date": "2027-06-01"
-  },
   "bf5532874c59b070": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -5517,7 +5477,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-09-12",
+ "last_run": "2026-09-13",
  "pages": {
   "bbj": {
    "doc_count": 17,
