@@ -4284,6 +4284,22 @@
    "url": "https://transport.rajasthan.gov.in/content/transportportal/en/Recuritment_Status.html",
    "vacancy_date": null
   },
+  "c9efe2a653f82118": {
+   "deadline_note": "",
+   "first_seen": "2026-09-14",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "IRFC",
+   "post": "Sandesh.pdf",
+   "scale": "",
+   "schedule": "",
+   "source_id": "irfc",
+   "source_name": "IRFC",
+   "url": "https://irfc.co.in/themes/custom/silver/images/Sandesh.pdf",
+   "vacancy_date": null
+  },
   "cb10fe4662d5e1a0": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -5477,7 +5493,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-09-13",
+ "last_run": "2026-09-14",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6314,7 +6330,7 @@
    "text_hash": "d8495561150617cdd9f91cb854c1517b45505ec1"
   },
   "irfc": {
-   "doc_count": 19,
+   "doc_count": 20,
    "docs": [
     "https://irfc.co.in/hi/recruitment-2026",
     "https://irfc.co.in/recruitment-2026",
@@ -6334,6 +6350,7 @@
     "https://irfc.co.in/sites\\default\\files\\news\\IRFC gets nod.pdf",
     "https://irfc.co.in/sites\\default\\files\\news\\PTI.pdf",
     "https://irfc.co.in/sites\\default\\files\\news\\Whisperintheair.pdf",
+    "https://irfc.co.in/themes/custom/silver/images/Sandesh.pdf",
     "https://twitter.com/IRFC_1986"
    ],
    "text_hash": "7cc5b731ee28d881857df50b445c3f8e8d70caea"
@@ -7004,7 +7021,7 @@
     "https://ncrtc.in/wp-content/uploads/2026/06/EOI3_Feeder_services_Rolling-Namo-Bharat-16.06.2026.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/09/Debarment_list_07.09.26.pdf"
    ],
-   "text_hash": "be18de64d6d2129c140a2eeee18b4d7258851e58"
+   "text_hash": "ade9b95a97b0649b2f7561b8583dde803e0859b0"
   },
   "nhsrcl": {
    "doc_count": 10,
