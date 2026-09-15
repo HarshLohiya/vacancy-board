@@ -336,6 +336,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/AGM(Operations_&_Maintenance).pdf",
    "vacancy_date": null
   },
+  "0f33692e0713acae": {
+   "deadline_note": "",
+   "first_seen": "2026-09-15",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u092e\u0947\u0902 \u0938\u0939\u093e\u092f\u0915 \u092a\u094d\u0930\u092c\u0902\u0927\u0915/\u0938\u0940\u0928\u093f\u092f\u0930 \u090f\u0917\u094d\u091c\u0940\u0915\u094d\u092f\u0942\u091f\u093f\u0935/\u090f\u0917\u094d\u091c\u0940\u0915\u094d\u092f\u0942\u091f\u093f\u0935 (\u0932\u0940\u0917\u0932) \u0915\u0947 \u090f\u0915 \u092a\u0926 \u0915\u0940 \u0930\u093f\u0915\u094d\u0924\u093f \u092a\u094d\u0930\u0924\u093f\u0928\u093f\u092f\u0941\u0915\u094d\u0924\u093f \u0915\u0947 \u0906\u0927\u093e\u0930 \u092a\u0930 \u0939\u0948\u0964",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Non_Gazetted/document (61)_merged.pdf",
+   "vacancy_date": null
+  },
   "0f5eae14a1cee489": {
    "deadline_note": "",
    "first_seen": "2026-08-18",
@@ -1686,6 +1702,22 @@
    "source_id": "kmrl",
    "source_name": "KMRL (Kochi)",
    "url": "https://kochimetro.org/careers/kmrl_vacancy.php?vac_type=jobs&company=KMRL",
+   "vacancy_date": null
+  },
+  "5b82220f891d3310": {
+   "deadline_note": "",
+   "first_seen": "2026-09-15",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "IMPORTANT NOTICE for JE and Maintainer",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/IMPORTANT-NOTICE-for-JE-and-Maintainer.pdf",
    "vacancy_date": null
   },
   "5c6e2e2a0b6a955f": {
@@ -4112,6 +4144,22 @@
    "url": "https://nhsrcl.in/index.php/en/tenders/active-tenders",
    "vacancy_date": null
   },
+  "c09ca41615a74d31": {
+   "deadline_note": "",
+   "first_seen": "2026-09-15",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "IMPORTANT NOTICE for SCTO",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/IMPORTANT-NOTICE-for-SCTO.pdf",
+   "vacancy_date": null
+  },
   "c22aa37a3f66ea58": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -5493,7 +5541,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-09-14",
+ "last_run": "2026-09-15",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -5610,7 +5658,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 360,
+   "doc_count": 361,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -5731,6 +5779,7 @@
     "https://cris.org.in/PDF/Non_Gazetted/document (52)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (56)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (57)_merged.pdf",
+    "https://cris.org.in/PDF/Non_Gazetted/document (61)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (8)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/document (9)_merged.pdf",
     "https://cris.org.in/PDF/Non_Gazetted/organized (18).pdf",
@@ -5973,7 +6022,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "281f7a079c1767f6c0f56c59cf4db99591198dac"
+   "text_hash": "9f39383340d616596fb760ebb59f947e16c48956"
   },
   "dfccil": {
    "doc_count": 28,
@@ -6015,7 +6064,7 @@
    "text_hash": "4ba37f1675249091dbd2387dd68ea9d962a2b1f6"
   },
   "gmrc": {
-   "doc_count": 230,
+   "doc_count": 232,
    "docs": [
     "https://www.gujaratmetrorail.com/careers/",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2024/01/Corrigendum-to-recruitment-notification-dated-10.05.23.pdf",
@@ -6246,9 +6295,11 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/7.-Merit-List-Reserved-List-for-the-post-of-Maintainer-Electronics.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/Corrigendum-GMRCLHRRECTCivilJul-202622.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/Corrigendum-GMRCLHRRECTSysJul-202623.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/IMPORTANT-NOTICE-for-JE-and-Maintainer.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/IMPORTANT-NOTICE-for-SCTO.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "bf1f4f460aab412e72ecea63a9c6ea188c67e7a3"
+   "text_hash": "2438f1b0beecb34a3d4010cefb0202b18d5d4123"
   },
   "gride": {
    "doc_count": 4,
