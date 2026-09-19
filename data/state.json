@@ -1544,6 +1544,22 @@
    "url": "https://www.psuconnect.in/Jobs/rvnl-recruitment-2026-gm-agm-jgm-civil-posts-in-goa-on-deputation",
    "vacancy_date": null
   },
+  "52f7a76b915e6991": {
+   "deadline_note": "",
+   "first_seen": "2026-09-19",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "Click here for detailed recruitment notification",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Recruitment-notification-of-Civil-Posts-19.9.2026.pdf",
+   "vacancy_date": null
+  },
   "537d1aacfd60e81e": {
    "deadline_note": "",
    "first_seen": "2026-08-27",
@@ -4860,6 +4876,38 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/215.pdf",
    "vacancy_date": null
   },
+  "dcf808fac8fc0c93": {
+   "deadline_note": "",
+   "first_seen": "2026-09-19",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "Click here for detailed recruitment notification",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Notification-of-CGM-CP-1.pdf",
+   "vacancy_date": null
+  },
+  "dd6f7de11849f706": {
+   "deadline_note": "",
+   "first_seen": "2026-09-19",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "Click here for detailed recruitment notification",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Recruitment-notification-of-System-post-19.9.2026.pdf",
+   "vacancy_date": null
+  },
   "df4384276ccc7769": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -5573,7 +5621,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-09-18",
+ "last_run": "2026-09-19",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6096,7 +6144,7 @@
    "text_hash": "4ba37f1675249091dbd2387dd68ea9d962a2b1f6"
   },
   "gmrc": {
-   "doc_count": 233,
+   "doc_count": 236,
    "docs": [
     "https://www.gujaratmetrorail.com/careers/",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2024/01/Corrigendum-to-recruitment-notification-dated-10.05.23.pdf",
@@ -6330,9 +6378,12 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Corrigendum.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/IMPORTANT-NOTICE-for-JE-and-Maintainer.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/IMPORTANT-NOTICE-for-SCTO.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Notification-of-CGM-CP-1.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Recruitment-notification-of-Civil-Posts-19.9.2026.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Recruitment-notification-of-System-post-19.9.2026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "0a27859ddb5be90be59e4a2bfc4798434d06dc8f"
+   "text_hash": "ff2edbf16f18611267ad0262aad1c39938af13d9"
   },
   "gride": {
    "doc_count": 4,
@@ -7704,13 +7755,12 @@
    "text_hash": "d2dc1fef10d3ca80bd118959f9d459900f4ad079"
   },
   "rites": {
-   "doc_count": 10,
+   "doc_count": 9,
    "docs": [
     "https://rites.com/Airport",
     "https://rites.com/Career",
     "https://rites.com/Public/Theme1/assets/pdf/LIMBS-User-Manual.pdf",
     "https://rites.com/ShareholdersMeeting",
-    "https://rites.com/Upload/MediaGallery/PDF/3/CABE_CoC_218_rites_Signed_2025-09-18-2_pdf-2025-Nov-27-12-28-33.pdf",
     "https://rites.com/Upload/MediaGallery/PDF/3/GeM-EscalationMatrixAug24_pdf-2024-Sep-02-16-58-6.pdf",
     "https://rites.com/Upload/MediaGallery/PDF/3/Integrated_AR_pdf-2026-Jan-20-15-45-53.pdf",
     "https://rites.com/Upload/MediaGallery/PDF/3/OM-04-25_dated_17-02-2026_pdf-2026-Feb-18-09-39-58.pdf",
