@@ -2556,6 +2556,22 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/212.pdf",
    "vacancy_date": null
   },
+  "7a49fe659c63461a": {
+   "deadline_note": "",
+   "first_seen": "2026-09-23",
+   "group": "Metro",
+   "issue_date": "2026-08-10",
+   "kind": "document",
+   "last_date": null,
+   "organisation": "MahaMetro",
+   "post": "Corrigendum-2 to Advertisement No. MAHA-Metro/N/HR/05/2026, dated-10.08.2026",
+   "scale": "",
+   "schedule": "",
+   "source_id": "mahametro",
+   "source_name": "MahaMetro",
+   "url": "https://www.mahametro.org/pdf/Corrigendum_153.pdf",
+   "vacancy_date": null
+  },
   "7ab15a40dc89c837": {
    "deadline_note": "",
    "first_seen": "2026-08-27",
@@ -3550,6 +3566,22 @@
    "source_id": "psuconnect",
    "source_name": "PSU Connect - Jobs",
    "url": "https://www.psuconnect.in/Jobs/rlda-invites-applications-for-deputation-posts-vacancy-notice-21-2026",
+   "vacancy_date": null
+  },
+  "a1b5261361639f05": {
+   "deadline_note": "",
+   "first_seen": "2026-09-23",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "ANNEXURE-I",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Annexure-I.pdf",
    "vacancy_date": null
   },
   "a2f47ab3ce8f8f77": {
@@ -5633,7 +5665,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-09-22",
+ "last_run": "2026-09-23",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6156,7 +6188,7 @@
    "text_hash": "4ba37f1675249091dbd2387dd68ea9d962a2b1f6"
   },
   "gmrc": {
-   "doc_count": 236,
+   "doc_count": 237,
    "docs": [
     "https://www.gujaratmetrorail.com/careers/",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2024/01/Corrigendum-to-recruitment-notification-dated-10.05.23.pdf",
@@ -6387,6 +6419,7 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/7.-Merit-List-Reserved-List-for-the-post-of-Maintainer-Electronics.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/Corrigendum-GMRCLHRRECTCivilJul-202622.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/08/Corrigendum-GMRCLHRRECTSysJul-202623.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Annexure-I.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Corrigendum.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/IMPORTANT-NOTICE-for-JE-and-Maintainer.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/IMPORTANT-NOTICE-for-SCTO.pdf",
@@ -6395,7 +6428,7 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Recruitment-notification-of-System-post-19.9.2026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "ff2edbf16f18611267ad0262aad1c39938af13d9"
+   "text_hash": "7e3ad7207e43d535b721ec03b76bf1c22e47274a"
   },
   "gride": {
    "doc_count": 4,
@@ -6517,75 +6550,9 @@
    "text_hash": "6d1f389b22d58697b5fded3c06e2b46876192664"
   },
   "kmrcl": {
-   "doc_count": 65,
-   "docs": [
-    "http://kmrc.in/Annual-Procurement-Plan-FY-20.pdf",
-    "http://kmrc.in/admin/uploaded_news/List_of_Items_to_be_procured_during_2018-19.pdf",
-    "https://kmrc.in/admin/uploaded_career/22nd_feb_2019.pdf",
-    "https://kmrc.in/admin/uploaded_career/AAO.pdf",
-    "https://kmrc.in/admin/uploaded_career/ADDITIONAL_GENERAL_MANAGER_(CIVIL)-notification.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM(Operations_&_Maintenance).pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_(Civil)_Deputation_18.07.25.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_Civil-_Contractual_14.01.25.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_Civil_06_7_22.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_Civil_16_8_22.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_S&T.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_S&T_DEP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/AGM_S&T_EXP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/AM_S&T_Notice.pdf",
-    "https://kmrc.in/admin/uploaded_career/Accountant_-exp270324.pdf",
-    "https://kmrc.in/admin/uploaded_career/Advertisement_10.12.2020.pdf",
-    "https://kmrc.in/admin/uploaded_career/Advisor-_Contractual.pdf",
-    "https://kmrc.in/admin/uploaded_career/Advtt_Accounts_Officer_edited.pdf",
-    "https://kmrc.in/admin/uploaded_career/Application_for_CEE_POST_KMRC.pdf",
-    "https://kmrc.in/admin/uploaded_career/Assistant_Personal_Officer.pdf",
-    "https://kmrc.in/admin/uploaded_career/CEST_adv.pdf",
-    "https://kmrc.in/admin/uploaded_career/Contractual_DyCE_Arbn_Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/DGM_Finance.pdf",
-    "https://kmrc.in/admin/uploaded_career/GENERAL_MANAGER_(CIVIL)-_Expert.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM-Civil_29.11.2024.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM-Finance_Advertisement.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_(Civil)-Deputation_18.07.2025.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_(Finance)-KMRC.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_(Finance)-deputatuion.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Civil_01.08.22.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Civil_23.06.22.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Electrical-_revised.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_Electrical.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_08.08.2024.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_DEP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_EXP_PDF.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_S&T_KMRCL.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_ST_DEPUTATION.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_and_AGM_contractual.pdf",
-    "https://kmrc.in/admin/uploaded_career/GM_and_AGM_deputation.pdf",
-    "https://kmrc.in/admin/uploaded_career/GN-Finance_ADV2.pdf",
-    "https://kmrc.in/admin/uploaded_career/Manager_S&T_Deputation.pdf",
-    "https://kmrc.in/admin/uploaded_career/NOTIFICATION_FOR_GM_CIVIL_07052025.pdf",
-    "https://kmrc.in/admin/uploaded_career/NOTIFICATION_GM_ST_CONTRACT.pdf",
-    "https://kmrc.in/admin/uploaded_career/NOTIFICATION_revised.pdf",
-    "https://kmrc.in/admin/uploaded_career/Notice_on_fraud_recruitment_news.pdf",
-    "https://kmrc.in/admin/uploaded_career/SR._ADVISOR_(ARBITRATION).pdf",
-    "https://kmrc.in/admin/uploaded_career/SR._ADVISOR_(SAFETY_AND_PASSENGER_AMENITIES).pdf",
-    "https://kmrc.in/admin/uploaded_career/SSES&T_to_AMII.pdf",
-    "https://kmrc.in/admin/uploaded_career/Sr._Finance_Manage_20.02.2020.pdf",
-    "https://kmrc.in/admin/uploaded_career/VC_KMRCL_Revised.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_09.05.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_CS.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Noice_CLA.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice-Law_Exe.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_Exe_Engg-Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_GM-Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_GM-Civil__1_.pdf",
-    "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_Manager-Accounts-Exe_Engg-Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/appointment190224.pdf",
-    "https://kmrc.in/admin/uploaded_career/gm_civil_adv_corrigendum.pdf",
-    "https://kmrc.in/admin/uploaded_career/law_officer_230224.pdf",
-    "https://kmrc.in/admin/uploaded_career/notification_DyCE_Arbn_Civil.pdf",
-    "https://kmrc.in/admin/uploaded_career/notification_for_gm(s&t).pdf",
-    "https://kmrc.in/news_detail.php"
-   ],
-   "text_hash": "8ff235d33d4b8630019da80dbbd77f48f11b84f7"
+   "doc_count": 0,
+   "docs": [],
+   "text_hash": "7891a3ab2175c1dc720f5dda590766bce09ad231"
   },
   "kmrl": {
    "doc_count": 1,
@@ -6655,7 +6622,7 @@
    "text_hash": "2b1a490794227d341532b6772ef206e497643f9c"
   },
   "mahametro": {
-   "doc_count": 177,
+   "doc_count": 178,
    "docs": [
     "https://cdn3.digialm.com/EForms/configuredHtml/1709/65107/login.html",
     "https://g26.tcsion.com/OnlineAssessment/index.html?31582@@M212",
@@ -6731,6 +6698,7 @@
     "https://www.mahametro.org/pdf/CorrigendumMAHA-MetroPHRO&M06(NS)2020.pdf",
     "https://www.mahametro.org/pdf/CorrigendumMAHA-MetroPHRO&M06(S)2020.pdf",
     "https://www.mahametro.org/pdf/Corrigendum_152.pdf",
+    "https://www.mahametro.org/pdf/Corrigendum_153.pdf",
     "https://www.mahametro.org/pdf/Corrigendum_MAHA-MetroPHR052021.pdf",
     "https://www.mahametro.org/pdf/Corrigendum_Maha_Metro_P_HR_01_2020.pdf",
     "https://www.mahametro.org/pdf/Corrigendum_Maha_Metro_P_OM_02_2020.pdf",
@@ -6835,7 +6803,7 @@
     "https://www.mahametro.org/pdf/extension_MahaMetro_P_HR06_2021.pdf",
     "https://www.mahametro.org/pdf/maha-metro_hr_0228032021.pdf"
    ],
-   "text_hash": "fde93871c7cd203b31a3807c2717c67a70791124"
+   "text_hash": "9d0c2938cfc3335a30b5cbdf1d8fa49afbe1cbb1"
   },
   "maharail": {
    "doc_count": 3,
