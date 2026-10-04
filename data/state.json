@@ -1196,6 +1196,22 @@
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/GM(OM)-%20Railway%20Upload.pdf",
    "vacancy_date": null
   },
+  "3dbd4bbf81970304": {
+   "deadline_note": "",
+   "first_seen": "2026-10-04",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "Click here for detailed recruitment notification",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-LA-RR_3.10.2026.pdf",
+   "vacancy_date": null
+  },
   "3f165cb582bdb98e": {
    "deadline_note": "",
    "first_seen": "2026-09-05",
@@ -5837,7 +5853,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-03",
+ "last_run": "2026-10-04",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6367,7 +6383,7 @@
    "text_hash": "4ba37f1675249091dbd2387dd68ea9d962a2b1f6"
   },
   "gmrc": {
-   "doc_count": 239,
+   "doc_count": 240,
    "docs": [
     "https://www.gujaratmetrorail.com/careers/",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2024/01/Corrigendum-to-recruitment-notification-dated-10.05.23.pdf",
@@ -6606,10 +6622,11 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Notification-of-CGM-CP-1.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Recruitment-notification-of-Civil-Posts-19.9.2026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Recruitment-notification-of-System-post-19.9.2026.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-LA-RR_3.10.2026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-of-OM-1102026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "53ab46d4f98344e7d7c351153c9b5c479b9903b2"
+   "text_hash": "1c972d7143e1a444fb714d49ea64420cf110742c"
   },
   "gride": {
    "doc_count": 4,
