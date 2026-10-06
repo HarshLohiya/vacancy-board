@@ -88,26 +88,6 @@
    "url": "https://kmrc.in/admin/uploaded_career/NOTIFICATION_FOR_GM_CIVIL_07052025.pdf",
    "vacancy_date": null
   },
-  "077bb349ed455d9c": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-06-23",
-   "kind": "advertised",
-   "last_date": "2026-08-06",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "Kerala Rail Development Corporation Limited",
-   "post": "Director Project and Planning",
-   "scale": "",
-   "schedule": "IRSE",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/Vacancy%20Notice%2005-2026.PDF",
-   "vacancy_date": null
-  },
   "08f03d009c8dc4dd": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -3468,6 +3448,22 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/169.pdf",
    "vacancy_date": null
   },
+  "9961080da08fdbd7": {
+   "deadline_note": "",
+   "first_seen": "2026-10-06",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "E-Admit-Card-Psycho Aptitude Test- Download-Circular",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/E-Admit-Card-Psycho-Aptitude-Test-Download-Circular.pdf",
+   "vacancy_date": null
+  },
   "99ba97b5b84c7571": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -3506,6 +3502,22 @@
    "source_id": "kmrl",
    "source_name": "KMRL (Kochi)",
    "url": "https://kochimetro.org/careers/site_media/notifications/213.pdf",
+   "vacancy_date": null
+  },
+  "9b94a0ec3746bb8a": {
+   "deadline_note": "",
+   "first_seen": "2026-10-06",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "change",
+   "last_date": null,
+   "organisation": "RITES",
+   "post": "Page content changed - no new document link found",
+   "scale": "",
+   "schedule": "",
+   "source_id": "rites",
+   "source_name": "RITES",
+   "url": "https://rites.com/Careers",
    "vacancy_date": null
   },
   "9c3739aafe8eaf24": {
@@ -5853,7 +5865,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-05",
+ "last_run": "2026-10-06",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6383,7 +6395,7 @@
    "text_hash": "4ba37f1675249091dbd2387dd68ea9d962a2b1f6"
   },
   "gmrc": {
-   "doc_count": 240,
+   "doc_count": 241,
    "docs": [
     "https://www.gujaratmetrorail.com/careers/",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2024/01/Corrigendum-to-recruitment-notification-dated-10.05.23.pdf",
@@ -6622,11 +6634,12 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Notification-of-CGM-CP-1.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Recruitment-notification-of-Civil-Posts-19.9.2026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/09/Recruitment-notification-of-System-post-19.9.2026.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/E-Admit-Card-Psycho-Aptitude-Test-Download-Circular.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-LA-RR_3.10.2026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-of-OM-1102026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "1c972d7143e1a444fb714d49ea64420cf110742c"
+   "text_hash": "27ca2731539af041b5142dfc0b725cede6bc3962"
   },
   "gride": {
    "doc_count": 4,
@@ -8011,7 +8024,7 @@
     "https://rites.com/Upload/MediaGallery/PDF/3/PERS-FAQS-061119637518589065467402.pdf",
     "https://rites.com/Upload/MediaGallery/PDF/3/circular-on_Re-engagement_of_Consultant637518631950095997.pdf"
    ],
-   "text_hash": "61d2719ba876cfd431f3bc1e59697d5ef4be053a"
+   "text_hash": "147cc23bd244ed16d23a127e4e495fbbfef566fa"
   },
   "rvnl": {
    "doc_count": 0,
