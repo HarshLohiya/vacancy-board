@@ -4404,26 +4404,6 @@
    "url": "https://kmrc.in/admin/uploaded_career/GM-Civil_29.11.2024.pdf",
    "vacancy_date": null
   },
-  "c254425192e133ee": {
-   "deadline_note": "",
-   "first_seen": "2026-08-08",
-   "group": "Railway Board",
-   "issue_date": "2026-08-07",
-   "kind": "advertised",
-   "last_date": "2026-08-07",
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
-   "organisation": "Konkan Railway Corporation Ltd.",
-   "post": "Chief Project Manager/Chief Engineer// Corporate Office, Belapur",
-   "scale": "",
-   "schedule": "IRSE Officer",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/2026/Vacancy%20Notice%20No%20DE-P-11-2026.pdf",
-   "vacancy_date": null
-  },
   "c288a8bbbc2d0b6a": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -5865,7 +5845,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-06",
+ "last_run": "2026-10-07",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6722,7 +6702,7 @@
    "text_hash": "d8495561150617cdd9f91cb854c1517b45505ec1"
   },
   "irfc": {
-   "doc_count": 20,
+   "doc_count": 19,
    "docs": [
     "https://irfc.co.in/hi/recruitment-2026",
     "https://irfc.co.in/recruitment-2026",
@@ -6742,7 +6722,6 @@
     "https://irfc.co.in/sites\\default\\files\\news\\IRFC gets nod.pdf",
     "https://irfc.co.in/sites\\default\\files\\news\\PTI.pdf",
     "https://irfc.co.in/sites\\default\\files\\news\\Whisperintheair.pdf",
-    "https://irfc.co.in/themes/custom/silver/images/Sandesh.pdf",
     "https://twitter.com/IRFC_1986"
    ],
    "text_hash": "7cc5b731ee28d881857df50b445c3f8e8d70caea"
@@ -7412,7 +7391,7 @@
     "https://ncrtc.in/wp-content/uploads/2026/06/EOI3_Feeder_services_Rolling-Namo-Bharat-16.06.2026.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/09/Debarment_list_07.09.26.pdf"
    ],
-   "text_hash": "5da91aca6ac25e5546b6482f83257bfe32ff4347"
+   "text_hash": "cf45315a7cc04bc9c35f9bfb997b90743cabce49"
   },
   "nhsrcl": {
    "doc_count": 10,
