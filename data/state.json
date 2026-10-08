@@ -36,6 +36,22 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/194.pdf",
    "vacancy_date": null
   },
+  "0411687c4bb55a65": {
+   "deadline_note": "",
+   "first_seen": "2026-10-08",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u0915\u0947 \u0935\u093f\u0926\u094d\u092f\u0941\u0924\u0940\u092f \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0938\u0939\u093e\u092f\u0915 \u0915\u0940 \u090f\u0915 \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Assistants/VC 56 of 2026.pdf",
+   "vacancy_date": null
+  },
   "046e828be7d2689a": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -5845,7 +5861,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-07",
+ "last_run": "2026-10-08",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -5963,7 +5979,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 367,
+   "doc_count": 368,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -6199,6 +6215,7 @@
     "https://cris.org.in/PDF/Project_Assistants/VC 49 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 53 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 55 of 2026.pdf",
+    "https://cris.org.in/PDF/Project_Assistants/VC 56 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 9  2024 PA  DA GROUP.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 9R.pdf",
     "https://cris.org.in/PDF/Project_Assistants/Vac Notice 25 of2023_ Project Assitt_HRMS.pdf",
@@ -6333,7 +6350,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "5a05dce2baf57e2bfba0fe0de893056af449c26b"
+   "text_hash": "105dba87791f6873ceda09d11f1d5862d21a90c8"
   },
   "dfccil": {
    "doc_count": 28,
