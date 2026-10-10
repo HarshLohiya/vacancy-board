@@ -1807,10 +1807,6 @@
    "issue_date": null,
    "kind": "change",
    "last_date": null,
-   "link_checked": "",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": null,
    "organisation": "GMRC (Ahmedabad, Surat)",
    "post": "Page content changed - no new document link found",
    "scale": "",
@@ -3852,6 +3848,22 @@
    "url": "https://nhsrcl.in/index.php/en/career/vacancy-notice",
    "vacancy_date": null
   },
+  "a3be42dddc52f424": {
+   "deadline_note": "",
+   "first_seen": "2026-10-10",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CMRL (Chennai)",
+   "post": "Parking Facility at Stations",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cmrl",
+   "source_name": "CMRL (Chennai)",
+   "url": "https://chennaimetrorail.org/wp-content/uploads/2026/10/Parking-Facility-at-Stations.pdf",
+   "vacancy_date": null
+  },
   "a3c59881e20797d9": {
    "deadline_note": "15 days from issue on 07 Aug 2026",
    "first_seen": "2026-08-08",
@@ -4550,6 +4562,22 @@
    "source_id": "mmrda",
    "source_name": "MMRDA (Mumbai Metro)",
    "url": "https://mmrda.maharashtra.gov.in/en/recruitment-data",
+   "vacancy_date": null
+  },
+  "c4463328277acdbc": {
+   "deadline_note": "",
+   "first_seen": "2026-10-10",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CMRL (Chennai)",
+   "post": "Parking Tariff",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cmrl",
+   "source_name": "CMRL (Chennai)",
+   "url": "https://chennaimetrorail.org/wp-content/uploads/2026/10/Parking-Tariff.pdf",
    "vacancy_date": null
   },
   "c5ce4f96628dd715": {
@@ -5989,7 +6017,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-09",
+ "last_run": "2026-10-10",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6079,7 +6107,6 @@
     "https://chennaimetrorail.org/wp-content/uploads/2024/12/Detailed-Employment-Notification-No.-CMRL-HR-CON-15-2024-dated-18-12-2024-for-the-post-of-Director-S-O-on-contract-deputation-basis.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2025/01/Detailed-Employment-Notification-No.-CMRL-HR-CON-02-2025-dated-22-01-2025-for-the-posts-of-Mgr-VAC-TVS-AM-HR.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2025/01/Detailed-Employment-Notification-for-Emp-No.HR-CON-01-2025-dated-08-01-2025-Exclusively-for-Women-Candidates-only.pdf",
-    "https://chennaimetrorail.org/wp-content/uploads/2025/03/Approved-Parking-Tariff-Feb-2025-updated.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2025/03/Chennai-Metro-Rail-Carriage-and-Ticket-Rule-2014-and-Amendments.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2025/03/Phase-II-Map-Updated-Map-PHASE-2.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2025/05/Detailed-Emp-Notification-No.-CMRL-HR-CON-DEP-CON-03-2025-CGM-ST-GM-OM-on-Contract-Deputation-basis.pdf",
@@ -6090,16 +6117,17 @@
     "https://chennaimetrorail.org/wp-content/uploads/2026/02/Detailed-Employment-Notification-No.-CMRL-HR-CON-01-2026-Civil-2-2.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/02/Employment-Notification-No.-CMRL-HR-CON-02-2026-dated-11-02-2026.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/02/Selection-note-for-website-JGM-Arch-CMRL-HR-CON-04-2025-dated-26-11-2025.pdf",
-    "https://chennaimetrorail.org/wp-content/uploads/2026/03/Parking-Facilities-Availabilities-09-03-2025.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/09/Media-wise-Ridership-details_Apr_2023-to-August_2026.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Addendum-Extension-of-last-date-upto-31-07-2026-for-the-posts-of-DGM-MGR-AFC-alone-pub.-vide-Empl.-Notification-No.-CMRL-HR-REG-03-2026-dated-01.07.2026.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Emp-notification-No.CMRL-HR-REG-03-2026-dated-01-07-2026-for-GM-OpsDGM-AFC-other-posts-on-regular-basis-1.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Employment-Notification-No-CMRL-HR-CON-DEP-04-2026-dated-24-06-2026-for-CGM-GM-ES-RS-and-other-posts-on-Con-dep-basis.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Employment-Notification-No.-CMRL-HR-CON-DEP-05-2026-dated-23-09-2026-for-JGM-PMISRS-and-other-posts-on-Con-dep-basis.pdf",
+    "https://chennaimetrorail.org/wp-content/uploads/2026/10/Parking-Facility-at-Stations.pdf",
+    "https://chennaimetrorail.org/wp-content/uploads/2026/10/Parking-Tariff.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Selection-List-of-Candidates-against-Emp-Notification-No.-CMRL-HR-CON-02-2025-dated-22-01-2025-for-the-post-of-AM-HR-on-contract-basis.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Selection-List-of-candidates-against-Emp-Notification-No.CMRL-HR-CON-DEP-01-2026-for-the-post-of-CGM-GM-EC-UGC-on-con-dep-basis.pdf"
    ],
-   "text_hash": "d2dfdaa5151747408011cc0e2d245fe44bee09de"
+   "text_hash": "07e7e85014f20234a24a6959afbe3337cb43d92b"
   },
   "concor": {
    "doc_count": 0,
@@ -6764,7 +6792,7 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-of-OM-1102026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "27ca2731539af041b5142dfc0b725cede6bc3962"
+   "text_hash": "6054ed644f3b74e77b6bd3cc0f39bf9c96ab0ae7"
   },
   "gride": {
    "doc_count": 4,
@@ -7525,18 +7553,17 @@
    "text_hash": "0756f36752491adf310e1498a77c3e2c5dd6cbb0"
   },
   "ncrtc": {
-   "doc_count": 8,
+   "doc_count": 7,
    "docs": [
     "http://ncrtc.in/wp-content/uploads/2022/08/NCRTC_Procurement-Projections_15012021_R1.pdf",
     "https://ncrtc.in/ars-commericial-development-in-parking-areas/",
     "https://ncrtc.in/empanelment/",
     "https://ncrtc.in/wp-content/uploads/2023/02/Advocate-EOI-for-publication-1.pdf",
-    "https://ncrtc.in/wp-content/uploads/2023/04/MoHUA-website-Report-on-Electrical-and-Electromechanical-2-52.pdf",
     "https://ncrtc.in/wp-content/uploads/2024/07/Namo-Bharat-Inauguration-Coverage.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/06/EOI3_Feeder_services_Rolling-Namo-Bharat-16.06.2026.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/09/Debarment_list_07.09.26.pdf"
    ],
-   "text_hash": "cf152f8ebee8d76a42515b101aa07f47da0a31c4"
+   "text_hash": "e64dacf24ef4b042cd1861af89adaad8211f38e7"
   },
   "nhsrcl": {
    "doc_count": 10,
