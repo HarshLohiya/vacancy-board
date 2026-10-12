@@ -1412,26 +1412,6 @@
    "url": "https://www.psuconnect.in/Jobs/nsc-cmd-recruitment-2026-pesb-invites-applications-check-last-date",
    "vacancy_date": null
   },
-  "44a7507f467deeeb": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-07-27",
-   "kind": "advertised",
-   "last_date": "2026-08-12",
-   "link_checked": "2026-08-07",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "Gujarat Metro Rail Corporation Ltd",
-   "post": "Chief General Manager/ General Manager (Civil)",
-   "scale": "",
-   "schedule": "6 posts",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/Recruitment%20notification%20of%20CGM%20GM%20Civil%20dated%202772026.pdf",
-   "vacancy_date": null
-  },
   "4594f9a41ce703ca": {
    "deadline_note": "",
    "first_seen": "2026-08-11",
@@ -6033,7 +6013,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-11",
+ "last_run": "2026-10-12",
  "pages": {
   "bbj": {
    "doc_count": 17,
