@@ -4744,6 +4744,22 @@
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Promotion_Posting/2026/GM(OM)%20to%20Railway%20%20Metros.pdf",
    "vacancy_date": null
   },
+  "cc0471a4a7eb53fc": {
+   "deadline_note": "",
+   "first_seen": "2026-10-13",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "NCRTC (RRTS)",
+   "post": "Rolling EoI for Empanelment of Legal firms & Techno-Commercial Legal firms",
+   "scale": "",
+   "schedule": "",
+   "source_id": "ncrtc",
+   "source_name": "NCRTC (RRTS)",
+   "url": "https://ncrtc.in/wp-content/uploads/2026/10/Rolling-EOI-Legal-firms-and-Techno-Commercial-Legal-firms.pdf",
+   "vacancy_date": null
+  },
   "cd2ea5089cca7b7d": {
    "deadline_note": "",
    "first_seen": "2026-08-12",
@@ -6013,7 +6029,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-12",
+ "last_run": "2026-10-13",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6834,7 +6850,7 @@
    "text_hash": "56d90ce6e4f7745e5860da5d38634c8518b019fd"
   },
   "ircon": {
-   "doc_count": 15,
+   "doc_count": 14,
    "docs": [
     "http://ircon.org/sites/default/files/2025-09/MOAAOA.pdf",
     "https://ircon.1akal.in/staging/sites/default/files/2025-06/Public_Notice.pdf",
@@ -6848,7 +6864,6 @@
     "https://ircon.org/sites/default/files/2026-01/Case%20Study-Grew.pdf",
     "https://ircon.org/sites/default/files/2026-01/IRCON_Brief.pdf",
     "https://ircon.org/sites/default/files/2026-05/Financial%20Highilghts_0.pdf",
-    "https://ircon.org/sites/default/files/2026-07/Details-of-Familiarization-Programme-for-Directors.pdf",
     "https://ircon.org/sites/default/files/2026-09/Annual-Procurment-Plan-2026-27.pdf",
     "https://ircon.org/tender/tender-notice"
    ],
@@ -7549,7 +7564,7 @@
    "text_hash": "0756f36752491adf310e1498a77c3e2c5dd6cbb0"
   },
   "ncrtc": {
-   "doc_count": 7,
+   "doc_count": 8,
    "docs": [
     "http://ncrtc.in/wp-content/uploads/2022/08/NCRTC_Procurement-Projections_15012021_R1.pdf",
     "https://ncrtc.in/ars-commericial-development-in-parking-areas/",
@@ -7557,9 +7572,10 @@
     "https://ncrtc.in/wp-content/uploads/2023/02/Advocate-EOI-for-publication-1.pdf",
     "https://ncrtc.in/wp-content/uploads/2024/07/Namo-Bharat-Inauguration-Coverage.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/06/EOI3_Feeder_services_Rolling-Namo-Bharat-16.06.2026.pdf",
-    "https://ncrtc.in/wp-content/uploads/2026/09/Debarment_list_07.09.26.pdf"
+    "https://ncrtc.in/wp-content/uploads/2026/09/Debarment_list_07.09.26.pdf",
+    "https://ncrtc.in/wp-content/uploads/2026/10/Rolling-EOI-Legal-firms-and-Techno-Commercial-Legal-firms.pdf"
    ],
-   "text_hash": "e64dacf24ef4b042cd1861af89adaad8211f38e7"
+   "text_hash": "622755640876d6f902056d7e10eed4183395044c"
   },
   "nhsrcl": {
    "doc_count": 10,
