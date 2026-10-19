@@ -3088,26 +3088,6 @@
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/52%20CIVIL%20GOA.pdf",
    "vacancy_date": null
   },
-  "87589c0f4e797e10": {
-   "deadline_note": "",
-   "first_seen": "2026-08-18",
-   "group": "Railway Board",
-   "issue_date": "2026-07-27",
-   "kind": "advertised",
-   "last_date": "2026-08-19",
-   "link_checked": "2026-08-18",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "Gujarat Metro Rail Corporation Ltd",
-   "post": "Chief General Manager/ General Manager (Civil)",
-   "scale": "",
-   "schedule": "6 posts",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/Recruitment%20notification%20of%20CGM%20GM%20Civil%20dated%202772026.pdf",
-   "vacancy_date": null
-  },
   "8804c0a87e94eb06": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -6057,7 +6037,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-18",
+ "last_run": "2026-10-19",
  "pages": {
   "bbj": {
    "doc_count": 17,
