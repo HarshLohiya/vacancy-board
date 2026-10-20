@@ -4056,26 +4056,6 @@
    "url": "https://cris.org.in/PDF/Non_Gazetted/document (50)_merged.pdf",
    "vacancy_date": null
   },
-  "ad2556b15bc44d4b": {
-   "deadline_note": "date read from the notice title",
-   "first_seen": "2026-08-18",
-   "group": "Cross-check",
-   "issue_date": null,
-   "kind": "document",
-   "last_date": "2026-08-20",
-   "link_checked": "2026-08-18",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "PSU Connect - Jobs",
-   "post": "ONGC Karaikal Walk-in Interview 20 Aug 2026 | Retired Deputy Collector & Tahsildar Posts",
-   "scale": "",
-   "schedule": "",
-   "source_id": "psuconnect",
-   "source_name": "PSU Connect - Jobs",
-   "url": "https://www.psuconnect.in/Jobs/ongc-karaikal-walk-in-interview-20-aug-2026",
-   "vacancy_date": null
-  },
   "ad45a1576097b245": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -4854,26 +4834,6 @@
    "source_id": "psuconnect",
    "source_name": "PSU Connect - Jobs",
    "url": "https://www.psuconnect.in/Jobs",
-   "vacancy_date": null
-  },
-  "d1fe10d6b4330c25": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-07-31",
-   "kind": "advertised",
-   "last_date": "2026-08-20",
-   "link_checked": "2026-08-18",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "HASSAN MANGALORE RAIL DEVELOPMENT COMPANY LTD. (HMRDC)",
-   "post": "CHIEF EXECUTIVE OFFICER",
-   "scale": "",
-   "schedule": "AS PER ANNEXURE",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VACANCY%20NOTICE%20NO_%20292026.pdf",
    "vacancy_date": null
   },
   "d2031d30a0cd3b1c": {
@@ -6037,7 +5997,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-19",
+ "last_run": "2026-10-20",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6892,10 +6852,9 @@
    "text_hash": "d8495561150617cdd9f91cb854c1517b45505ec1"
   },
   "irfc": {
-   "doc_count": 19,
+   "doc_count": 18,
    "docs": [
     "https://irfc.co.in/hi/recruitment-2026",
-    "https://irfc.co.in/recruitment-2026",
     "https://irfc.co.in/sites/default/files/inline-files/posh_act_2025.pdf",
     "https://irfc.co.in/sites/default/files/inline-images/msme_annual_plan.pdf",
     "https://irfc.co.in/sites\\default\\files\\2022-07/IRFC celebrates International Women's Day Dainik Bhaskar March 21, 2022.pdf",
@@ -6914,7 +6873,7 @@
     "https://irfc.co.in/sites\\default\\files\\news\\Whisperintheair.pdf",
     "https://twitter.com/IRFC_1986"
    ],
-   "text_hash": "33a6ae3e539a0f4e7b04ebc76fd0206770848257"
+   "text_hash": "941900618ad0f69e0348925eed315d9e54ceebcd"
   },
   "jmrc": {
    "doc_count": 7,
