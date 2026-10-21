@@ -512,26 +512,6 @@
    "url": "https://kmrc.in/admin/uploaded_career/notification_for_gm(s&t).pdf",
    "vacancy_date": null
   },
-  "148951ca567f83fd": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-06-19",
-   "kind": "advertised",
-   "last_date": "2026-08-21",
-   "link_checked": "2026-08-18",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "RLDA",
-   "post": "Chief Project Manager",
-   "scale": "",
-   "schedule": "",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/V_No_18_2026.pdf",
-   "vacancy_date": null
-  },
   "149544efcb311f9d": {
    "deadline_note": "",
    "first_seen": "2026-08-21",
@@ -1754,26 +1734,6 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/SR._ADVISOR_(ARBITRATION).pdf",
-   "vacancy_date": null
-  },
-  "56ff5ceb0d9bbe9b": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-07-23",
-   "kind": "advertised",
-   "last_date": "2026-08-21",
-   "link_checked": "2026-08-18",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "DFCCIL",
-   "post": "General Manager (Technical)",
-   "scale": "",
-   "schedule": "IRSE/Officers of Engg. Deptt. Of Indian Railways/Central Govt./CPSU's etc.",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VN_30_2026_230726.pdf",
    "vacancy_date": null
   },
   "5715e254202f8409": {
@@ -5997,7 +5957,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-20",
+ "last_run": "2026-10-21",
  "pages": {
   "bbj": {
    "doc_count": 17,
