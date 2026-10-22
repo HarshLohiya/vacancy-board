@@ -1156,6 +1156,22 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/189.pdf",
    "vacancy_date": null
   },
+  "392cb21c9fd5eaf5": {
+   "deadline_note": "",
+   "first_seen": "2026-10-22",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CMRL (Chennai)",
+   "post": "Job Details",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cmrl",
+   "source_name": "CMRL (Chennai)",
+   "url": "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Employment-Notification-No.-CMRL-HR-CON-DEP-06-2026-dated-14-10-2026-for-the-posts-of-GM-STAGM-Safety-OM-other-posts-Last-Date-03-11-2026.pdf",
+   "vacancy_date": null
+  },
   "39eb984325c5a221": {
    "deadline_note": "",
    "first_seen": "2026-08-12",
@@ -1614,6 +1630,22 @@
    "source_id": "mahametro",
    "source_name": "MahaMetro",
    "url": "https://www.mahametro.org/pdf/Advt. N_HR_06_2026-new .pdf",
+   "vacancy_date": null
+  },
+  "50085c8f769e0c37": {
+   "deadline_note": "",
+   "first_seen": "2026-10-22",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u0915\u0947 \u0935\u093f\u0924\u094d\u0924 \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0938\u0939\u093e\u092f\u0915 \u0915\u0940 \u090f\u0915 \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Assistants/VC 28 2025 R 01 2026 R 25 2026 R 57 2026.pdf",
    "vacancy_date": null
   },
   "525ce5dd1932197c": {
@@ -3812,26 +3844,6 @@
    "url": "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Empl.-Notification-No.-CMRL-HR-CON-DEP-06-2026-dated-14-10-2026-for-the-posts-of-GM-STAGM-Safety-OM-other-posts-Last-Date-03-11-2026.pdf",
    "vacancy_date": null
   },
-  "a3c59881e20797d9": {
-   "deadline_note": "15 days from issue on 07 Aug 2026",
-   "first_seen": "2026-08-08",
-   "group": "Railway Board",
-   "issue_date": "2026-08-07",
-   "kind": "advertised",
-   "last_date": "2026-08-22",
-   "link_checked": "2026-08-18",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "INDIAN RAILWAY CATERING AND TOURISM CORPORATION LTD (IRCTC).",
-   "post": "CHAIRMAN & MANAGING DIRECTOR",
-   "scale": "",
-   "schedule": "AS PER ANNEXURE",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/Image_044.pdf",
-   "vacancy_date": null
-  },
   "a456d2fc22dec3a7": {
    "deadline_note": "",
    "first_seen": "2026-08-06",
@@ -5957,7 +5969,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-21",
+ "last_run": "2026-10-22",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6061,7 +6073,7 @@
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Emp-notification-No.CMRL-HR-REG-03-2026-dated-01-07-2026-for-GM-OpsDGM-AFC-other-posts-on-regular-basis-1.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Employment-Notification-No-CMRL-HR-CON-DEP-04-2026-dated-24-06-2026-for-CGM-GM-ES-RS-and-other-posts-on-Con-dep-basis.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Employment-Notification-No.-CMRL-HR-CON-DEP-05-2026-dated-23-09-2026-for-JGM-PMISRS-and-other-posts-on-Con-dep-basis.pdf",
-    "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Employment-Notification-No.-CMRL-HR-CON-DEP-06-2026-dated-14-10-2026-for-the-posts-of-GM-ST-AGM-Safety-OM-other-posts-Last-Date-03-11-2026.pdf",
+    "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Employment-Notification-No.-CMRL-HR-CON-DEP-06-2026-dated-14-10-2026-for-the-posts-of-GM-STAGM-Safety-OM-other-posts-Last-Date-03-11-2026.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/GESI-Newsletter-Issue-01-1.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Parking-Facility-at-Stations.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Parking-Tariff.pdf",
@@ -6076,7 +6088,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 368,
+   "doc_count": 369,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -6278,6 +6290,7 @@
     "https://cris.org.in/PDF/Project_Assistants/VC 27 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 27 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 28 2025 01 of 2026.pdf",
+    "https://cris.org.in/PDF/Project_Assistants/VC 28 2025 R 01 2026 R 25 2026 R 57 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 28 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 29 of 2024.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 30 of 2024.pdf",
@@ -6447,7 +6460,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "105dba87791f6873ceda09d11f1d5862d21a90c8"
+   "text_hash": "cfbaf4467d5e9170428118bc4395e4a0f9a5df39"
   },
   "dfccil": {
    "doc_count": 28,
@@ -6733,7 +6746,7 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-of-OM-1102026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "6054ed644f3b74e77b6bd3cc0f39bf9c96ab0ae7"
+   "text_hash": "8ae610e906c569761c6114e56313f417e0e10aa4"
   },
   "gride": {
    "doc_count": 4,
