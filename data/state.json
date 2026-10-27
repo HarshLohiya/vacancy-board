@@ -1000,26 +1000,6 @@
    "url": "https://mpmetrorail.com/uploads/media/Bhopal_Metro_Sunday_Holiday_Timetable.pdf",
    "vacancy_date": null
   },
-  "2d85fa03752df67f": {
-   "deadline_note": "3:00PM",
-   "first_seen": "2026-08-06",
-   "group": "Board level (PESB)",
-   "issue_date": "2026-08-06",
-   "kind": "advertised",
-   "last_date": "2026-08-27",
-   "link_checked": "2026-08-27",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "Indian Railway Catering and Tourism Corporation Limited (IRCTC)",
-   "post": "Chairman & Managing Director",
-   "scale": "Rs. 200000 \u2013 370000 (IDA)",
-   "schedule": "Schedule A",
-   "source_id": "pesb_advertised",
-   "source_name": "PESB - Advertised Vacancies",
-   "url": "https://pesb.gov.in/Home/AdvertisVacancy",
-   "vacancy_date": "2026-07-20"
-  },
   "2e4482ea4c841690": {
    "deadline_note": "",
    "first_seen": "2026-09-17",
@@ -1322,26 +1302,6 @@
    "source_id": "railtel",
    "source_name": "RailTel",
    "url": "https://www.railtel.in/images/pdf/Result Published for KSWAN Proj List3.pdf",
-   "vacancy_date": null
-  },
-  "3d446658b4e3f907": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-08-05",
-   "kind": "advertised",
-   "last_date": "2026-08-27",
-   "link_checked": "2026-08-27",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "KOCHI METRO RAIL LIMITED",
-   "post": "General Manager (Operations & Maintenance)",
-   "scale": "",
-   "schedule": "IRTS/IRSE/IRSSE/IRSEE/IRSME",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/GM(OM)-%20Railway%20Upload.pdf",
    "vacancy_date": null
   },
   "3dbd4bbf81970304": {
@@ -5016,6 +4976,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/law_officer_230224.pdf",
    "vacancy_date": null
   },
+  "d738f5b675acaa78": {
+   "deadline_note": "",
+   "first_seen": "2026-10-27",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u0915\u0947 \u092a\u0940\u0906\u0930\u090f\u0938 \u0938\u092e\u0942\u0939 \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0905\u0927\u093f\u0915\u093e\u0930\u0940 \u0915\u0940 \u0926\u094b \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Officers/VC 40 2026 R 58 2026.pdf",
+   "vacancy_date": null
+  },
   "d7c98dbae3cc208a": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -6065,7 +6041,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-26",
+ "last_run": "2026-10-27",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6184,7 +6160,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 369,
+   "doc_count": 370,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -6500,6 +6476,7 @@
     "https://cris.org.in/PDF/Project_Officers/VC 33 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 36 of 2024.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 38 of 2026.pdf",
+    "https://cris.org.in/PDF/Project_Officers/VC 40 2026 R 58 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 40 of 2024.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 40 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 41 of 2025.pdf",
@@ -6556,7 +6533,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "cfbaf4467d5e9170428118bc4395e4a0f9a5df39"
+   "text_hash": "0aad9ed3b4f735de2ffbdac34cd5a604391abdd4"
   },
   "dfccil": {
    "doc_count": 28,
