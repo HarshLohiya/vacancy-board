@@ -2988,6 +2988,22 @@
    "url": "https://www.nmrcnoida.com/Upload/CareersRecentItems/46/Application Form.pdf",
    "vacancy_date": null
   },
+  "8104c53172afc5e4": {
+   "deadline_note": "",
+   "first_seen": "2026-10-29",
+   "group": "Railway Board",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "Railway Board",
+   "post": "Press Release",
+   "scale": "",
+   "schedule": "",
+   "source_id": "rb_home",
+   "source_name": "Railway Board",
+   "url": "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1502/27OCT2026-1.pdf",
+   "vacancy_date": null
+  },
   "81132627fa8d6d46": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -6057,7 +6073,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-28",
+ "last_run": "2026-10-29",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -8173,10 +8189,10 @@
    "docs": [
     "https://indianrailways.gov.in/connect/citizen-engagement",
     "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1392/ANNUAL_STATISTICAL_STATEMENTS_Bilingual_2024-25_(1).pdf",
-    "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1497/23OCT2026-1.pdf",
+    "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1502/27OCT2026-1.pdf",
     "https://rb.indianrailways.gov.in/show-directorate/view/795"
    ],
-   "text_hash": "130a30b4e02ac34023a766315404df4fccb97ba7"
+   "text_hash": "7afa0e9a827d6e6b93ebbbf3b03b2c7f94ca4976"
   },
   "rites": {
    "doc_count": 9,
