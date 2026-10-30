@@ -2308,26 +2308,6 @@
    "url": "https://mrvc.indianrailways.gov.in/",
    "vacancy_date": null
   },
-  "6b74129e14d968c1": {
-   "deadline_note": "45 days from issue on 16 Jul 2026",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-07-16",
-   "kind": "advertised",
-   "last_date": "2026-08-30",
-   "link_checked": "2026-08-27",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "KERALA RAIL DEVELOPMENT CORPORATION LTD. (KRDCL)",
-   "post": "MANAGING DIRECTOR",
-   "scale": "",
-   "schedule": "AS PER ANNEXURES",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VACANCY%20NOTICE%20NO_%20262026.pdf",
-   "vacancy_date": null
-  },
   "6c80f5701be92ccb": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -3370,26 +3350,6 @@
    "source_id": "ircon",
    "source_name": "IRCON International",
    "url": "https://ircon.org/tender/tender-notice",
-   "vacancy_date": null
-  },
-  "8f9cb7435c59d2ea": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-07-02",
-   "kind": "advertised",
-   "last_date": "2026-08-30",
-   "link_checked": "2026-08-27",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "Rail Vikas Nigam Ltd.",
-   "post": "GM (Civil) at Bhopal/Indore on deputation basis",
-   "scale": "",
-   "schedule": "IRSE/Civil Engg. Deptt.",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/38%20CIVIL%20(1).pdf",
    "vacancy_date": null
   },
   "902077b0446d018f": {
@@ -6073,7 +6033,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-29",
+ "last_run": "2026-10-30",
  "pages": {
   "bbj": {
    "doc_count": 17,
