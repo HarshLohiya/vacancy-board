@@ -1036,6 +1036,22 @@
    "url": "https://kochimetro.org/careers/site_media/news/SCTO-Psychometric.pdf",
    "vacancy_date": null
   },
+  "31240a5e17d4dd35": {
+   "deadline_note": "",
+   "first_seen": "2026-10-31",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u0915\u0947 \u0938\u0940\u092a\u0940\u092a\u0940\u091c\u0940 \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0938\u0939\u093e\u092f\u0915 \u0915\u0940 \u0926\u094b \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Assistants/VC 30 2026 R 59 2026.pdf",
+   "vacancy_date": null
+  },
   "31b8d958180c1a28": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -1930,26 +1946,6 @@
    "source_id": "kmrl",
    "source_name": "KMRL (Kochi)",
    "url": "https://kochimetro.org/careers/site_media/notifications/171.pdf",
-   "vacancy_date": null
-  },
-  "5d0e9c28508cf71c": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-08-06",
-   "kind": "advertised",
-   "last_date": "2026-08-31",
-   "link_checked": "2026-08-27",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "BHARUCH DAHEJ RAILWAY COMPANY LTD. (BDRCL)",
-   "post": "MANAGING DIRECTOR",
-   "scale": "",
-   "schedule": "AS PER ANNEXURE",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VACANCY%20NOTICE%20NO_%20312026.pdf",
    "vacancy_date": null
   },
   "5d392d391b54f433": {
@@ -6033,7 +6029,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-30",
+ "last_run": "2026-10-31",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6152,7 +6148,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 370,
+   "doc_count": 371,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -6357,6 +6353,7 @@
     "https://cris.org.in/PDF/Project_Assistants/VC 28 2025 R 01 2026 R 25 2026 R 57 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 28 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 29 of 2024.pdf",
+    "https://cris.org.in/PDF/Project_Assistants/VC 30 2026 R 59 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 30 of 2024.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 30 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 30 of 2026.pdf",
@@ -6525,7 +6522,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "0aad9ed3b4f735de2ffbdac34cd5a604391abdd4"
+   "text_hash": "9cedf8147e63d9d9081a46bc87daebfda1e01f80"
   },
   "dfccil": {
    "doc_count": 28,
@@ -8167,7 +8164,7 @@
     "https://rites.com/Upload/MediaGallery/PDF/3/PERS-FAQS-061119637518589065467402.pdf",
     "https://rites.com/Upload/MediaGallery/PDF/3/circular-on_Re-engagement_of_Consultant637518631950095997.pdf"
    ],
-   "text_hash": "147cc23bd244ed16d23a127e4e495fbbfef566fa"
+   "text_hash": "d6120c38139ebadca97d87527d9add3a052d150a"
   },
   "rvnl": {
    "doc_count": 0,
