@@ -5564,26 +5564,6 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/183.pdf",
    "vacancy_date": null
   },
-  "e3d66d95749232d2": {
-   "deadline_note": "date read from the notice title",
-   "first_seen": "2026-08-21",
-   "group": "Cross-check",
-   "issue_date": null,
-   "kind": "document",
-   "last_date": "2026-09-01",
-   "link_checked": "2026-08-30",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "PSU Connect - Jobs",
-   "post": "NHSRCL Invites Applications for AGM (New DPR) on Deputation | Closing 1 Sept 2026",
-   "scale": "",
-   "schedule": "",
-   "source_id": "psuconnect",
-   "source_name": "PSU Connect - Jobs",
-   "url": "https://www.psuconnect.in/Jobs/nhsrcl-invites-applications-for-agm-new-dpr-on-deputation",
-   "vacancy_date": null
-  },
   "e8c818fadc5f861f": {
    "deadline_note": "30 days from issue on 27 Aug 2026",
    "first_seen": "2026-08-30",
@@ -6029,7 +6009,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-10-31",
+ "last_run": "2026-11-01",
  "pages": {
   "bbj": {
    "doc_count": 17,
