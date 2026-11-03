@@ -1336,6 +1336,22 @@
    "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-LA-RR_3.10.2026.pdf",
    "vacancy_date": null
   },
+  "3dfbabe72fdf2c03": {
+   "deadline_note": "",
+   "first_seen": "2026-11-03",
+   "group": "Railway Board",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "Railway Board",
+   "post": "Press Release",
+   "scale": "",
+   "schedule": "",
+   "source_id": "rb_home",
+   "source_name": "Railway Board",
+   "url": "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1508/02Nov2026.pdf",
+   "vacancy_date": null
+  },
   "3f165cb582bdb98e": {
    "deadline_note": "",
    "first_seen": "2026-09-05",
@@ -6025,7 +6041,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-11-02",
+ "last_run": "2026-11-03",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -8142,10 +8158,10 @@
    "docs": [
     "https://indianrailways.gov.in/connect/citizen-engagement",
     "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1392/ANNUAL_STATISTICAL_STATEMENTS_Bilingual_2024-25_(1).pdf",
-    "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1506/30oct2026-1.pdf",
+    "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1508/02Nov2026.pdf",
     "https://rb.indianrailways.gov.in/show-directorate/view/795"
    ],
-   "text_hash": "85d035e7b308523c207a5b31b9838690cd844608"
+   "text_hash": "7ea9e3681a9498085ee9948c4dde4bcadae593c2"
   },
   "rites": {
    "doc_count": 9,
