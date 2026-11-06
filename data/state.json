@@ -3628,6 +3628,22 @@
    "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/E-Admit-Card-Psycho-Aptitude-Test-Download-Circular.pdf",
    "vacancy_date": null
   },
+  "99ba3456bdabf718": {
+   "deadline_note": "",
+   "first_seen": "2026-11-06",
+   "group": "Railway Board",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "Railway Board",
+   "post": "Press Release",
+   "scale": "",
+   "schedule": "",
+   "source_id": "rb_home",
+   "source_name": "Railway Board",
+   "url": "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1511/05NOV2026-2.pdf",
+   "vacancy_date": null
+  },
   "99ba97b5b84c7571": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -6073,7 +6089,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-11-05",
+ "last_run": "2026-11-06",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -8191,10 +8207,10 @@
    "docs": [
     "https://indianrailways.gov.in/connect/citizen-engagement",
     "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1392/ANNUAL_STATISTICAL_STATEMENTS_Bilingual_2024-25_(1).pdf",
-    "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1509/04NOV2026-1.pdf",
+    "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1511/05NOV2026-2.pdf",
     "https://rb.indianrailways.gov.in/show-directorate/view/795"
    ],
-   "text_hash": "767baed183298c0edbc27c8cccab4e311e9a7f64"
+   "text_hash": "c4bc23f083ab46a9a81085138d929cad96829f72"
   },
   "rites": {
    "doc_count": 9,
