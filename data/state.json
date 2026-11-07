@@ -428,26 +428,6 @@
    "url": "https://mpmetrorail.com/uploads/media/Departure_-_TT_4T_SIG_1130-1930_WeekDay_SBNG_to_ASMB.pdf",
    "vacancy_date": null
   },
-  "0f61cf4972212caa": {
-   "deadline_note": "",
-   "first_seen": "2026-08-12",
-   "group": "Railway Board",
-   "issue_date": "2026-08-07",
-   "kind": "advertised",
-   "last_date": "2026-09-07",
-   "link_checked": "2026-08-30",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "Konkan Railway Corporation Ltd.",
-   "post": "Chief Project Manager/Chief Engineer// Corporate Office, Belapur",
-   "scale": "",
-   "schedule": "IRSE Officer",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/2026/Vacancy%20Notice%20No%20DE-P-11-2026.pdf",
-   "vacancy_date": null
-  },
   "0f7448636ce8b0fa": {
    "deadline_note": "",
    "first_seen": "2026-09-11",
@@ -1318,6 +1298,22 @@
    "source_id": "railtel",
    "source_name": "RailTel",
    "url": "https://www.railtel.in/images/pdf/Result Published for KSWAN Proj List3.pdf",
+   "vacancy_date": null
+  },
+  "3d792612f27bbb45": {
+   "deadline_note": "",
+   "first_seen": "2026-11-07",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u0915\u0947 \u0938\u093f\u0935\u093f\u0932 \u0938\u092e\u0942\u0939 \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0905\u0927\u093f\u0915\u093e\u0930\u0940 \u0915\u0940 \u090f\u0915 \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Officers/VC 48 2026 R 61 2026.pdf",
    "vacancy_date": null
   },
   "3dbd4bbf81970304": {
@@ -3500,6 +3496,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/GM_S&T_KMRCL.pdf",
    "vacancy_date": null
   },
+  "958654379b1d4244": {
+   "deadline_note": "",
+   "first_seen": "2026-11-07",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "Declaration result of Psychometric Test_SCTO",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/11/Declaration-result-of-Psychometric-Test_SCTO.pdf",
+   "vacancy_date": null
+  },
   "96660128a338215f": {
    "deadline_note": "",
    "first_seen": "2026-08-30",
@@ -5044,6 +5056,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/law_officer_230224.pdf",
    "vacancy_date": null
   },
+  "d6f4200b75e3dc64": {
+   "deadline_note": "",
+   "first_seen": "2026-11-07",
+   "group": "Railway PSU",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CRIS",
+   "post": "\u0915\u094d\u0930\u093f\u0938 \u0915\u093e\u0930\u094d\u092f\u093e\u0932\u092f, \u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940 \u0915\u0947 \u0906\u0908\u090f\u0938\u091c\u0940 \u0917\u094d\u0930\u0941\u092a \u092e\u0947\u0902 \u092a\u0930\u093f\u092f\u094b\u091c\u0928\u093e \u0938\u0939\u093e\u092f\u0915 \u0915\u0940 \u090f\u0915 \u0930\u093f\u0915\u094d\u0924\u093f",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cris",
+   "source_name": "CRIS",
+   "url": "https://cris.org.in/PDF/Project_Assistants/VC 60 of 2026.pdf",
+   "vacancy_date": null
+  },
   "d738f5b675acaa78": {
    "deadline_note": "",
    "first_seen": "2026-10-27",
@@ -6089,7 +6117,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-11-06",
+ "last_run": "2026-11-07",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6208,7 +6236,7 @@
    "text_hash": "b51d535da3c9508c36e4c2b449567a83de512479"
   },
   "cris": {
-   "doc_count": 371,
+   "doc_count": 373,
    "docs": [
     "https://cris.org.in/PDF/10th Select Panel for the Post of ASE-2019.pdf",
     "https://cris.org.in/PDF/9th select panel for the post of ASE-2019.pdf",
@@ -6447,6 +6475,7 @@
     "https://cris.org.in/PDF/Project_Assistants/VC 53 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 55 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 56 of 2026.pdf",
+    "https://cris.org.in/PDF/Project_Assistants/VC 60 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 9  2024 PA  DA GROUP.pdf",
     "https://cris.org.in/PDF/Project_Assistants/VC 9R.pdf",
     "https://cris.org.in/PDF/Project_Assistants/Vac Notice 25 of2023_ Project Assitt_HRMS.pdf",
@@ -6535,6 +6564,7 @@
     "https://cris.org.in/PDF/Project_Officers/VC 43 of 2025.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 44 R of 2024.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 44 of 2026.pdf",
+    "https://cris.org.in/PDF/Project_Officers/VC 48 2026 R 61 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 48 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 49 of 2026.pdf",
     "https://cris.org.in/PDF/Project_Officers/VC 51 2026 R 25 n 46 of 2025.pdf",
@@ -6582,7 +6612,7 @@
     "https://cris.org.in/PDF/V_SELECT_PANEL_ASE_2019.pdf",
     "https://cris.org.in/loadpage?page=indexcareer"
    ],
-   "text_hash": "9cedf8147e63d9d9081a46bc87daebfda1e01f80"
+   "text_hash": "5e773c586cb80161377c1075402206476ca61ba6"
   },
   "dfccil": {
    "doc_count": 28,
@@ -6624,7 +6654,7 @@
    "text_hash": "4ba37f1675249091dbd2387dd68ea9d962a2b1f6"
   },
   "gmrc": {
-   "doc_count": 242,
+   "doc_count": 243,
    "docs": [
     "https://www.gujaratmetrorail.com/careers/",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2024/01/Corrigendum-to-recruitment-notification-dated-10.05.23.pdf",
@@ -6866,10 +6896,11 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/E-Admit-Card-Psycho-Aptitude-Test-Download-Circular.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-LA-RR_3.10.2026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-of-OM-1102026.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/11/Declaration-result-of-Psychometric-Test_SCTO.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/11/Recruitment-notification-dated-3.11.2026-2.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "93e866cf5098bb5be62ba5e891e0fa87cd28c407"
+   "text_hash": "2284336ca09980999f6c3611760d2694ee614c11"
   },
   "gride": {
    "doc_count": 4,
