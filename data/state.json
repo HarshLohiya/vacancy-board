@@ -288,26 +288,6 @@
    "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/Vacation%20Notice%20No_%20DEP-15-2026.pdf",
    "vacancy_date": null
   },
-  "0ceab23af31db522": {
-   "deadline_note": "",
-   "first_seen": "2026-08-21",
-   "group": "Railway Board",
-   "issue_date": "2026-07-31",
-   "kind": "advertised",
-   "last_date": "2026-09-10",
-   "link_checked": "2026-08-30",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "HASSAN MANGALORE RAIL DEVELOPMENT COMPANY LTD. (HMRDC)",
-   "post": "CHIEF EXECUTIVE OFFICER",
-   "scale": "",
-   "schedule": "AS PER ANNEXURE",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/VACANCY%20NOTICE%20NO_%20292026.pdf",
-   "vacancy_date": null
-  },
   "0d6484ce8b84088c": {
    "deadline_note": "",
    "first_seen": "2026-09-05",
@@ -1506,26 +1486,6 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/GM_Civil_01.08.22.pdf",
-   "vacancy_date": null
-  },
-  "46341fbfad81475b": {
-   "deadline_note": "",
-   "first_seen": "2026-08-27",
-   "group": "Railway Board",
-   "issue_date": "2026-07-31",
-   "kind": "advertised",
-   "last_date": "2026-09-10",
-   "link_checked": "2026-08-27",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "HASSAN MANGALORE RAIL DEVELOPMENT COMPANY LTD. (HMRDC)",
-   "post": "CHIEF EXECUTIVE OFFICER- 01 POST",
-   "scale": "",
-   "schedule": "AS PER ANNEXURE",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/20260824150228.pdf",
    "vacancy_date": null
   },
   "46376b8798430f7d": {
@@ -4180,6 +4140,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/Vacancy_Notice_for_GM-Civil.pdf",
    "vacancy_date": null
   },
+  "ad79b38c3ae0d231": {
+   "deadline_note": "",
+   "first_seen": "2026-11-10",
+   "group": "Railway Board",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "Railway Board",
+   "post": "Press Release",
+   "scale": "",
+   "schedule": "",
+   "source_id": "rb_home",
+   "source_name": "Railway Board",
+   "url": "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1512/06NOV2026-1.pdf",
+   "vacancy_date": null
+  },
   "af7f65086a972808": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -6117,7 +6093,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-11-09",
+ "last_run": "2026-11-10",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6228,7 +6204,7 @@
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Selection-List-of-Candidates-against-Emp-Notification-No.-CMRL-HR-CON-02-2025-dated-22-01-2025-for-the-post-of-AM-HR-on-contract-basis.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Selection-List-of-candidates-against-Emp-Notification-No.CMRL-HR-CON-DEP-01-2026-for-the-post-of-CGM-GM-EC-UGC-on-con-dep-basis.pdf"
    ],
-   "text_hash": "ff60d25c99679878458155d0201705e1503e20e0"
+   "text_hash": "70e70cd89138cabeb10f82270d03d6aa59e55b4e"
   },
   "concor": {
    "doc_count": 0,
@@ -7667,7 +7643,7 @@
     "https://ncrtc.in/wp-content/uploads/2026/09/Debarment_list_07.09.26.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/10/Rolling-EOI-Legal-firms-and-Techno-Commercial-Legal-firms.pdf"
    ],
-   "text_hash": "622755640876d6f902056d7e10eed4183395044c"
+   "text_hash": "569601b8a2561c20838ed24d3567e02664fde6aa"
   },
   "nhsrcl": {
    "doc_count": 10,
@@ -8238,10 +8214,10 @@
    "docs": [
     "https://indianrailways.gov.in/connect/citizen-engagement",
     "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1392/ANNUAL_STATISTICAL_STATEMENTS_Bilingual_2024-25_(1).pdf",
-    "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1511/05NOV2026-2.pdf",
+    "https://indianrailways.gov.in/public/cms/downloadCommonCmsDocMst/1512/06NOV2026-1.pdf",
     "https://rb.indianrailways.gov.in/show-directorate/view/795"
    ],
-   "text_hash": "c4bc23f083ab46a9a81085138d929cad96829f72"
+   "text_hash": "39c170c38535725dc5b5ccbf9ebf93c22aef4f82"
   },
   "rites": {
    "doc_count": 9,
