@@ -3544,6 +3544,22 @@
    "url": "https://gride.org.in/wp-content/uploads/2025/05/POSH-Act-Committee-Details.pdf",
    "vacancy_date": null
   },
+  "975488458c571991": {
+   "deadline_note": "",
+   "first_seen": "2026-11-12",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "GMRC (Ahmedabad, Surat)",
+   "post": "Notice for Psychometric test marks for the post of SCTO",
+   "scale": "",
+   "schedule": "",
+   "source_id": "gmrc",
+   "source_name": "GMRC (Ahmedabad, Surat)",
+   "url": "https://www.gujaratmetrorail.com/wp-content/uploads/2026/11/Notice-for-Psychometric-test-marks-for-the-post-of-SCTO.pdf",
+   "vacancy_date": null
+  },
   "98498ad3fb3ece36": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -6125,7 +6141,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-11-11",
+ "last_run": "2026-11-12",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6662,7 +6678,7 @@
    "text_hash": "4ba37f1675249091dbd2387dd68ea9d962a2b1f6"
   },
   "gmrc": {
-   "doc_count": 243,
+   "doc_count": 244,
    "docs": [
     "https://www.gujaratmetrorail.com/careers/",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2024/01/Corrigendum-to-recruitment-notification-dated-10.05.23.pdf",
@@ -6905,10 +6921,11 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-LA-RR_3.10.2026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/10/Recruitment-notification-of-OM-1102026.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/11/Declaration-result-of-Psychometric-Test_SCTO.pdf",
+    "https://www.gujaratmetrorail.com/wp-content/uploads/2026/11/Notice-for-Psychometric-test-marks-for-the-post-of-SCTO.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/11/Recruitment-notification-dated-3.11.2026-2.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "2284336ca09980999f6c3611760d2694ee614c11"
+   "text_hash": "4855a1cc3e488cc9e3ba48d09255118bf05f5d8e"
   },
   "gride": {
    "doc_count": 4,
@@ -7675,7 +7692,7 @@
     "https://ncrtc.in/wp-content/uploads/2026/09/Debarment_list_07.09.26.pdf",
     "https://ncrtc.in/wp-content/uploads/2026/10/Rolling-EOI-Legal-firms-and-Techno-Commercial-Legal-firms.pdf"
    ],
-   "text_hash": "569601b8a2561c20838ed24d3567e02664fde6aa"
+   "text_hash": "f08ec2d3bec3ba65677fb88ec2c0688da7cad5f2"
   },
   "nhsrcl": {
    "doc_count": 10,
