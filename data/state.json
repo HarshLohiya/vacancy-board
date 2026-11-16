@@ -1592,6 +1592,22 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/214.pdf",
    "vacancy_date": null
   },
+  "47c911d08839e75f": {
+   "deadline_note": "",
+   "first_seen": "2026-11-16",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "RRB CEN 09/2025 PET Shortlist Out \u2013 7450 Candidates for Level-1 Posts",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/rrb-cen-09-2025-pet-shortlist-out-7450-candidates-for-level-1-posts",
+   "vacancy_date": null
+  },
   "48ee82ffe49f8811": {
    "deadline_note": "",
    "first_seen": "2026-10-23",
@@ -4944,26 +4960,6 @@
    "url": "https://kochimetro.org/careers/site_media/news/Executive Trainee - Website.pdf",
    "vacancy_date": null
   },
-  "c7fa629a812b12e1": {
-   "deadline_note": "",
-   "first_seen": "2026-08-21",
-   "group": "Railway Board",
-   "issue_date": "2026-08-18",
-   "kind": "advertised",
-   "last_date": "2026-09-16",
-   "link_checked": "2026-08-30",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "Rail Vikas Nigam Ltd.",
-   "post": "CPM (Civil) at Bhopal on deputation basis",
-   "scale": "",
-   "schedule": "IRSE / Civil Engg. Department",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/51%20civil.pdf",
-   "vacancy_date": null
-  },
   "c806c7da46117dc8": {
    "deadline_note": "",
    "first_seen": "2026-09-04",
@@ -6276,6 +6272,22 @@
    "url": "https://kmrc.in/admin/uploaded_career/GM-Finance_Advertisement.pdf",
    "vacancy_date": null
   },
+  "f3ff600c84746322": {
+   "deadline_note": "",
+   "first_seen": "2026-11-16",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "Indian Bank Recruitment 2026: 5 AI-Cybersecurity Specialist Officer Vacancies",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/indian-bank-recruitment-2026-5-ai-cybersecurity-specialist-officer-vacancies",
+   "vacancy_date": null
+  },
   "f5150fdce3de0e63": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -6461,7 +6473,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-11-15",
+ "last_run": "2026-11-16",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -8049,17 +8061,17 @@
     "https://www.psuconnect.in/Jobs/bel-kotdwar-recruitment-2026-trainee-engineer-i-vacancies",
     "https://www.psuconnect.in/Jobs/cochin-shipyard-recruitment-2026-applications-open-for-2-assistant-engineer-posts-in-civil-and-mechanical-disciplines",
     "https://www.psuconnect.in/Jobs/gail-recruitment-2026-chief-general-manager-law-vacancy",
+    "https://www.psuconnect.in/Jobs/indian-bank-recruitment-2026-5-ai-cybersecurity-specialist-officer-vacancies",
     "https://www.psuconnect.in/Jobs/moil-recruitment-2026-6-sap-s-4hana-consultant-vacancies-apply-by-november-28",
     "https://www.psuconnect.in/Jobs/nhpc-walk-in-interview-2026-medical-officer-posts-on-fixed-tenure-basis",
     "https://www.psuconnect.in/Jobs/northern-railway-apprentice-recruitment-2026-4-651-vacancies",
-    "https://www.psuconnect.in/Jobs/northern-railway-debars-71-candidates-from-cen-08-2024-dv",
     "https://www.psuconnect.in/Jobs/northern-railway-debars-71-candidates-from-level-1-recruitment-document-verification-cancelled",
-    "https://www.psuconnect.in/Jobs/ongc-apprentice-recruitment-2026-3-047-vacancies-apply-online-by-20-november",
     "https://www.psuconnect.in/Jobs/rites-recruitment-2026-31-senior-technical-assistant-posts",
+    "https://www.psuconnect.in/Jobs/rrb-cen-09-2025-pet-shortlist-out-7450-candidates-for-level-1-posts",
     "https://www.psuconnect.in/Jobs/rvnl-vacancy-2026-gm-s-t-dgm-electrical-cpm-civil-posts-on-deputation",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "511ece99481eb8601644f55a538adf34ecb9dd59"
+   "text_hash": "2832acbabaffd50a3c385b4472cadf6fbe16f07a"
   },
   "railtel": {
    "doc_count": 518,
