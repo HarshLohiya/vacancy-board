@@ -1988,6 +1988,22 @@
    "url": "https://www.psuconnect.in/Jobs/moil-recruitment-2026-6-sap-s-4hana-consultant-vacancies-apply-by-november-28",
    "vacancy_date": null
   },
+  "59f958cb6e248465": {
+   "deadline_note": "",
+   "first_seen": "2026-11-18",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "PESB Invites Applications for Director (Commercial) Post at SECI",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/pesb-invites-applications-for-director-commercial-post-at-seci",
+   "vacancy_date": null
+  },
   "5a89be4ae0e00f25": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -3304,26 +3320,6 @@
    "url": "https://kmrc.in/admin/uploaded_career/notification_DyCE_Arbn_Civil.pdf",
    "vacancy_date": null
   },
-  "86c67bb0a1fac9a3": {
-   "deadline_note": "",
-   "first_seen": "2026-08-21",
-   "group": "Railway Board",
-   "issue_date": "2026-08-20",
-   "kind": "advertised",
-   "last_date": "2026-09-18",
-   "link_checked": "2026-08-30",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "Rail Vikas Nigam Ltd.",
-   "post": "GM (Civil) at Goa on deputation basis",
-   "scale": "",
-   "schedule": "IRSE / Civil Engg. Department",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/52%20CIVIL%20GOA.pdf",
-   "vacancy_date": null
-  },
   "8804c0a87e94eb06": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -4274,6 +4270,22 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/SR._ADVISOR_(SAFETY_AND_PASSENGER_AMENITIES).pdf",
+   "vacancy_date": null
+  },
+  "a9f668bd7ebb7bfd": {
+   "deadline_note": "",
+   "first_seen": "2026-11-18",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "FSIB Recruits CMD for Agriculture Insurance Company of India Limited (AICIL)",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/fsib-recruits-cmd-for-agriculture-insurance-company-of-india-limited-aicil",
    "vacancy_date": null
   },
   "ab5dbcc70aa5ccd5": {
@@ -6473,7 +6485,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-11-17",
+ "last_run": "2026-11-18",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -8056,21 +8068,21 @@
   "psuconnect": {
    "doc_count": 13,
    "docs": [
-    "https://www.psuconnect.in/Jobs/bccl-recruitment-2026-advisor-excavation-vacancy-salary-up-to-1-5-lakh",
     "https://www.psuconnect.in/Jobs/bel-educational-institutions-recruitment-2026-10-vacancies",
     "https://www.psuconnect.in/Jobs/bel-kotdwar-recruitment-2026-trainee-engineer-i-vacancies",
     "https://www.psuconnect.in/Jobs/cochin-shipyard-recruitment-2026-applications-open-for-2-assistant-engineer-posts-in-civil-and-mechanical-disciplines",
+    "https://www.psuconnect.in/Jobs/fsib-recruits-cmd-for-agriculture-insurance-company-of-india-limited-aicil",
     "https://www.psuconnect.in/Jobs/gail-recruitment-2026-chief-general-manager-law-vacancy",
     "https://www.psuconnect.in/Jobs/indian-bank-recruitment-2026-5-ai-cybersecurity-specialist-officer-vacancies",
     "https://www.psuconnect.in/Jobs/moil-recruitment-2026-6-sap-s-4hana-consultant-vacancies-apply-by-november-28",
     "https://www.psuconnect.in/Jobs/nhpc-walk-in-interview-2026-medical-officer-posts-on-fixed-tenure-basis",
     "https://www.psuconnect.in/Jobs/northern-railway-apprentice-recruitment-2026-4-651-vacancies",
-    "https://www.psuconnect.in/Jobs/northern-railway-debars-71-candidates-from-level-1-recruitment-document-verification-cancelled",
+    "https://www.psuconnect.in/Jobs/pesb-invites-applications-for-director-commercial-post-at-seci",
     "https://www.psuconnect.in/Jobs/rrb-cen-09-2025-pet-shortlist-out-7450-candidates-for-level-1-posts",
     "https://www.psuconnect.in/Jobs/rvnl-vacancy-2026-gm-s-t-dgm-electrical-cpm-civil-posts-on-deputation",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "6a9e31897806b1bfa9d14ddab286fa45892ef1ee"
+   "text_hash": "5e08f89ce5879db6974ccf1a634db8ece1839fee"
   },
   "railtel": {
    "doc_count": 518,
