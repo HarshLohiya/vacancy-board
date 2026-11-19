@@ -6336,6 +6336,22 @@
    "url": "https://www.nmrcnoida.com/Upload/CareersRecentItems/44/Application Form.pdf",
    "vacancy_date": null
   },
+  "f7a99c17519ccab1": {
+   "deadline_note": "",
+   "first_seen": "2026-11-19",
+   "group": "Metro",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "CMRL (Chennai)",
+   "post": "Monthly Ridership",
+   "scale": "",
+   "schedule": "",
+   "source_id": "cmrl",
+   "source_name": "CMRL (Chennai)",
+   "url": "https://chennaimetrorail.org/wp-content/uploads/2026/11/Media-wise-Ridership-details_April_2023-to-October_2026new.pdf",
+   "vacancy_date": null
+  },
   "f7f53c0050fb1ba8": {
    "deadline_note": "",
    "first_seen": "2026-08-01",
@@ -6485,7 +6501,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-11-18",
+ "last_run": "2026-11-19",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -6590,11 +6606,11 @@
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Employment-Notification-No.-CMRL-HR-CON-DEP-05-2026-dated-23-09-2026-for-JGM-PMISRS-and-other-posts-on-Con-dep-basis.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Detailed-Employment-Notification-No.-CMRL-HR-CON-DEP-06-2026-dated-14-10-2026-for-the-posts-of-GM-STAGM-Safety-OM-other-posts-Last-Date-03-11-2026.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/GESI-Newsletter-Issue-01-1.pdf",
-    "https://chennaimetrorail.org/wp-content/uploads/2026/10/Media-wise-Ridership-details_Apr_2023-to-September_2026.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Parking-Facility-at-Stations.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Parking-Tariff.pdf",
     "https://chennaimetrorail.org/wp-content/uploads/2026/10/Selection-List-of-Candidates-against-Emp-Notification-No.-CMRL-HR-CON-02-2025-dated-22-01-2025-for-the-post-of-AM-HR-on-contract-basis.pdf",
-    "https://chennaimetrorail.org/wp-content/uploads/2026/10/Selection-List-of-candidates-against-Emp-Notification-No.CMRL-HR-CON-DEP-01-2026-for-the-post-of-CGM-GM-EC-UGC-on-con-dep-basis.pdf"
+    "https://chennaimetrorail.org/wp-content/uploads/2026/10/Selection-List-of-candidates-against-Emp-Notification-No.CMRL-HR-CON-DEP-01-2026-for-the-post-of-CGM-GM-EC-UGC-on-con-dep-basis.pdf",
+    "https://chennaimetrorail.org/wp-content/uploads/2026/11/Media-wise-Ridership-details_April_2023-to-October_2026new.pdf"
    ],
    "text_hash": "55c873feaca5b5e64fd71606897dfad9be5e8b08"
   },
@@ -7275,7 +7291,7 @@
     "https://www.gujaratmetrorail.com/wp-content/uploads/2026/11/Recruitment-notification-dated-3.11.2026-2.pdf",
     "https://www.gujaratmetrorail.com/wp-content/uploads/Others/Application-Format-GMRC.pdf"
    ],
-   "text_hash": "bb6c6796538c0badbb3c69dfb821a950b0262644"
+   "text_hash": "859737427172ab4db37c6fd29fbc4e0ae381376a"
   },
   "gride": {
    "doc_count": 4,
