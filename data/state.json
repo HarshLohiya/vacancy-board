@@ -3900,6 +3900,22 @@
    "url": "https://kochimetro.org/careers/site_media/notifications/213.pdf",
    "vacancy_date": null
   },
+  "9b1e351841a31bf7": {
+   "deadline_note": "",
+   "first_seen": "2026-11-23",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": null,
+   "organisation": "PSU Connect - Jobs",
+   "post": "FSIB Invites Applications for Managing Director Post in EXIM Bank of India",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/fsib-invites-applications-for-managing-director-post-in-exim-bank-of-india",
+   "vacancy_date": null
+  },
   "9b94a0ec3746bb8a": {
    "deadline_note": "",
    "first_seen": "2026-10-06",
@@ -6585,7 +6601,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-11-22",
+ "last_run": "2026-11-23",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -8167,9 +8183,10 @@
    "text_hash": "758c5fba63010e366692134546e76ae1ffa23788"
   },
   "psuconnect": {
-   "doc_count": 11,
+   "doc_count": 12,
    "docs": [
     "https://www.psuconnect.in/Jobs/cochin-shipyard-recruitment-2026-general-worker-canteen-walk-in-on-november-24",
+    "https://www.psuconnect.in/Jobs/fsib-invites-applications-for-managing-director-post-in-exim-bank-of-india",
     "https://www.psuconnect.in/Jobs/fsib-recruits-cmd-for-agriculture-insurance-company-of-india-limited-aicil",
     "https://www.psuconnect.in/Jobs/nlc-india-ltd-director-finance-vacancy-pesb-recruitment",
     "https://www.psuconnect.in/Jobs/pesb-invites-applications-for-director-commercial-post-at-seci",
@@ -8181,7 +8198,7 @@
     "https://www.psuconnect.in/Jobs/sidbi-dmd-recruitment-2026-eligibility-pay-last-date-dec-16",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "41b82c04656dd859943bf2bc618cf2ad0d6a9636"
+   "text_hash": "690e4ac3dede7305d1c93517950b2d5e75fa00ef"
   },
   "railtel": {
    "doc_count": 518,
