@@ -1000,6 +1000,22 @@
    "url": "https://nhsrcl.in/index.php/en/career/archive-latest-updates",
    "vacancy_date": null
   },
+  "2d0d38de1ac90042": {
+   "deadline_note": "date read from the notice title",
+   "first_seen": "2026-11-24",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": "2026-12-14",
+   "organisation": "PSU Connect - Jobs",
+   "post": "NTPC Director (Operations) Vacancy Out: \u20b91.80\u20133.40 Lakh Salary, Apply Before 14 Dec 2026",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/ntpc-director-operations-vacancy-out-1-80-3-40-lakh-salary-apply-before-14-dec-2026",
+   "vacancy_date": null
+  },
   "2d776072c6618e0b": {
    "deadline_note": "",
    "first_seen": "2026-08-10",
@@ -4788,26 +4804,6 @@
    "url": "https://nhsrcl.in/en/project/grievance-redressal-committee-notices",
    "vacancy_date": null
   },
-  "bc053212db0680cd": {
-   "deadline_note": "",
-   "first_seen": "2026-08-07",
-   "group": "Railway Board",
-   "issue_date": "2026-07-27",
-   "kind": "advertised",
-   "last_date": "2026-09-24",
-   "link_checked": "2026-08-27",
-   "link_dead_since": "",
-   "link_note": "",
-   "link_ok": true,
-   "organisation": "Rail Vikas Nigam Ltd.",
-   "post": "GM (Civil) at Kolkata on deputation basis",
-   "scale": "",
-   "schedule": "IRSE / Civil Engg. \u00b7 2 posts",
-   "source_id": "rb_vacancy_circulars",
-   "source_name": "Railway Board - Vacancy Circulars",
-   "url": "https://indianrailways.gov.in/railwayboard/uploads/irpersonel/Vacancy_Circular/2026/46%20CIVIL.pdf",
-   "vacancy_date": null
-  },
   "bddfa99a945fb654": {
    "deadline_note": "",
    "first_seen": "2026-08-07",
@@ -5566,6 +5562,22 @@
    "source_id": "kmrcl",
    "source_name": "KMRCL (Kolkata)",
    "url": "https://kmrc.in/admin/uploaded_career/Vacancy_09.05.pdf",
+   "vacancy_date": null
+  },
+  "d912595f6f48cec7": {
+   "deadline_note": "date read from the notice title",
+   "first_seen": "2026-11-24",
+   "group": "Cross-check",
+   "issue_date": null,
+   "kind": "document",
+   "last_date": "2026-12-06",
+   "organisation": "PSU Connect - Jobs",
+   "post": "BEML Limited Invites Applications for 44 ITI Trainee Posts; Last Date 6 December 2026",
+   "scale": "",
+   "schedule": "",
+   "source_id": "psuconnect",
+   "source_name": "PSU Connect - Jobs",
+   "url": "https://www.psuconnect.in/Jobs/beml-recruitment-2026-iti-trainee-vacancies-for-fitter-electrician",
    "vacancy_date": null
   },
   "d99254b34b56ad84": {
@@ -6601,7 +6613,7 @@
    "vacancy_date": null
   }
  },
- "last_run": "2026-11-23",
+ "last_run": "2026-11-24",
  "pages": {
   "bbj": {
    "doc_count": 17,
@@ -8183,12 +8195,13 @@
    "text_hash": "758c5fba63010e366692134546e76ae1ffa23788"
   },
   "psuconnect": {
-   "doc_count": 12,
+   "doc_count": 13,
    "docs": [
+    "https://www.psuconnect.in/Jobs/beml-recruitment-2026-iti-trainee-vacancies-for-fitter-electrician",
     "https://www.psuconnect.in/Jobs/cochin-shipyard-recruitment-2026-general-worker-canteen-walk-in-on-november-24",
     "https://www.psuconnect.in/Jobs/fsib-invites-applications-for-managing-director-post-in-exim-bank-of-india",
-    "https://www.psuconnect.in/Jobs/fsib-recruits-cmd-for-agriculture-insurance-company-of-india-limited-aicil",
     "https://www.psuconnect.in/Jobs/nlc-india-ltd-director-finance-vacancy-pesb-recruitment",
+    "https://www.psuconnect.in/Jobs/ntpc-director-operations-vacancy-out-1-80-3-40-lakh-salary-apply-before-14-dec-2026",
     "https://www.psuconnect.in/Jobs/pesb-invites-applications-for-director-commercial-post-at-seci",
     "https://www.psuconnect.in/Jobs/pesb-invites-applications-for-rcf-director-finance-post",
     "https://www.psuconnect.in/Jobs/rites-cmd-vacancy-2026-tenure-pay-eligibility-last-date",
@@ -8198,7 +8211,7 @@
     "https://www.psuconnect.in/Jobs/sidbi-dmd-recruitment-2026-eligibility-pay-last-date-dec-16",
     "https://www.psuconnect.in/advertise-with-psuconnect"
    ],
-   "text_hash": "690e4ac3dede7305d1c93517950b2d5e75fa00ef"
+   "text_hash": "3e38d1ab749d99cf820620caff0d878907ce98d5"
   },
   "railtel": {
    "doc_count": 518,
